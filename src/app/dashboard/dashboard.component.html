@@ -1,10 +1,26 @@
-<img [routerLink]="['/card', 33]" />
-<!-- <ng-container *ngFor="let value of cards">
-  <img
-    [src]="value.imageUrl"
-    [alt]="value.name"
-    *ngIf="value.imageUrl"
-    [routerLink]="['/card', value.id]"
-    height="223"
-  />
-</ng-container> -->
+<mat-toolbar>
+  <h1 color="primary">Browse the cards</h1>
+</mat-toolbar>
+<!-- <app-sidenav></app-sidenav> -->
+<!-- <mat-spinner></mat-spinner> -->
+<mat-tab-group mat-align-tabs="center">
+  <mat-tab>
+    <ng-template mat-tab-label>
+      <mat-icon aria-label="Dashboard">dashboard</mat-icon><br />
+    </ng-template>
+    <!-- dashboard -->
+    <app-card-grid></app-card-grid>
+  </mat-tab>
+  <mat-tab>
+    <ng-template mat-tab-label>
+      <mat-icon aria-label="Random">all_inclusive</mat-icon><br />
+    </ng-template>
+    <!-- random -->
+  </mat-tab>
+  <mat-tab>
+    <ng-template mat-tab-label>
+      <mat-icon aria-label="Deck">collections</mat-icon><br />
+    </ng-template>
+    <!-- deck -->
+  </mat-tab>
+</mat-tab-group>

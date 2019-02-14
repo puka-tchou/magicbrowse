@@ -1,0 +1,9 @@
+<ng-container *ngFor="let value of cards">
+  <img
+    [src]="value.imageUrl"
+    [alt]="value.name"
+    *ngIf="value.imageUrl"
+    [routerLink]="['/card', value.id]"
+    height="223"
+  />
+</ng-container>
