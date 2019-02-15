@@ -5,6 +5,7 @@ import { AppComponent } from "./app.component";
 import { SharedModule } from "./shared/shared.module";
 import { DashboardModule } from "./dashboard/dashboard.module";
 import { AppRoutingModule } from "./app-routing.module";
+import { CardSingleModule } from "./dashboard/card-single/card-single.module";
 
 @NgModule({
   declarations: [AppComponent],
@@ -13,6 +14,7 @@ import { AppRoutingModule } from "./app-routing.module";
     BrowserAnimationsModule,
     SharedModule,
     DashboardModule,
+    CardSingleModule,
     AppRoutingModule
   ],
   providers: [],

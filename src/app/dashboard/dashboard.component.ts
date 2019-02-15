@@ -1,4 +1,5 @@
 import { Component, OnInit } from "@angular/core";
+import { ActivatedRoute } from "@angular/router";
 
 @Component({
   selector: "app-dashboard",
@@ -6,7 +7,15 @@ import { Component, OnInit } from "@angular/core";
   styleUrls: ["./dashboard.component.scss"]
 })
 export class DashboardComponent implements OnInit {
-  constructor() {}
+  public query: string;
 
-  ngOnInit() {}
+  constructor(private activeRoute: ActivatedRoute) {
+    this.query = null;
+  }
+
+  ngOnInit() {
+    this.activeRoute.url.subscribe(
+      () => (this.query = this.activeRoute.snapshot.params["query"])
+    );
+  }
 }
