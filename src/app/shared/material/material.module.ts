@@ -1,5 +1,5 @@
-import { NgModule } from "@angular/core";
-import { CommonModule } from "@angular/common";
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
 import {
   MatToolbarModule,
   MatSidenavModule,
@@ -7,7 +7,7 @@ import {
   MatIconModule,
   MatProgressSpinnerModule,
   MatTabsModule
-} from "@angular/material";
+} from '@angular/material';
 
 @NgModule({
   declarations: [],

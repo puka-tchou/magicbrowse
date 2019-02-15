@@ -6,7 +6,9 @@ describe('MagicTheGatheringService', () => {
   beforeEach(() => TestBed.configureTestingModule({}));
 
   it('should be created', () => {
-    const service: MagicTheGatheringService = TestBed.get(MagicTheGatheringService);
+    const service: MagicTheGatheringService = TestBed.get(
+      MagicTheGatheringService
+    );
     expect(service).toBeTruthy();
   });
 });
