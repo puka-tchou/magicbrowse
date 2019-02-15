@@ -1,7 +1,8 @@
 import { Component, OnInit } from "@angular/core";
-import { CardModel } from "src/app/shared/models/magicthegathering/card-list/card.model";
 import { HttpClient } from "@angular/common/http";
+import { CardModel } from "src/app/shared/models/magicthegathering/card-list/card.model";
 import { CardListModel } from "src/app/shared/models/magicthegathering/card-list/card-list.model";
+import { MagicTheGatheringService } from "src/app/shared/services/magic-the-gathering.service";
 
 @Component({
   selector: "app-card-grid",
@@ -10,12 +11,12 @@ import { CardListModel } from "src/app/shared/models/magicthegathering/card-list
 })
 export class CardGridComponent implements OnInit {
   public cards: CardModel[];
-  constructor(private http: HttpClient) {
+  constructor(private card: MagicTheGatheringService) {
     this.cards = [];
   }
 
   ngOnInit() {
-    this.http.get("https://api.magicthegathering.io/v1/cards").subscribe(
+    this.card.getCards().subscribe(
       (data: CardListModel) => {
         this.cards = data.cards;
       },
