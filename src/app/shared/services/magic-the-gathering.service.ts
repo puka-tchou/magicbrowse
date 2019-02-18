@@ -1,8 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { CardListModel } from '../models/magicthegathering/card-list/card-list.model';
-import { SingleCardModel } from '../models/magicthegathering/card-list/single-card.model';
+import { MagicTheGatheringModel } from '../models/magicthegathering/magic-the-gathering.model';
 
 @Injectable({
   providedIn: 'root'
@@ -10,17 +9,9 @@ import { SingleCardModel } from '../models/magicthegathering/card-list/single-ca
 export class MagicTheGatheringService {
   constructor(private http: HttpClient) {}
 
-  getCardsById(id: string): Observable<SingleCardModel> {
-    return this.http.get<SingleCardModel>(
-      `https://api.magicthegathering.io/v1/cards/${id}`
-    );
-  }
-
-  getCardsByType(type: string) {}
-
-  getCards(): Observable<CardListModel> {
-    return this.http.get<CardListModel>(
-      'https://api.magicthegathering.io/v1/cards'
+  getCards(): Observable<MagicTheGatheringModel> {
+    return this.http.get<MagicTheGatheringModel>(
+      'https://api.scryfall.com/cards'
     );
   }
 }
