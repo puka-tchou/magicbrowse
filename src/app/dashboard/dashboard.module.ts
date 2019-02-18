@@ -5,6 +5,7 @@ import { SharedModule } from '../shared/shared.module';
 import { CardGridModule } from './card-grid/card-grid.module';
 import { CardSingleModule } from './card-single/card-single.module';
 import { DashboardRoutingModule } from './dashboard-routing.module';
+import { SearchModule } from './search/search.module';
 
 @NgModule({
   declarations: [DashboardComponent],
@@ -13,6 +14,7 @@ import { DashboardRoutingModule } from './dashboard-routing.module';
     SharedModule,
     CardGridModule,
     CardSingleModule,
+    SearchModule,
     DashboardRoutingModule
   ],
   exports: [DashboardComponent]

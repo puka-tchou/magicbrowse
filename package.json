@@ -9,7 +9,7 @@
     "lint": "ng lint",
     "lint:write": "prettier --check 'src/**/*.{js, ts}' --write",
     "e2e": "ng e2e",
-    "doc": "compodoc -p tsconfig.json -d doc"
+    "doc": "compodoc -p tsconfig.json -d doc -s"
   },
   "private": true,
   "husky": {

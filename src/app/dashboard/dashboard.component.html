@@ -1,12 +1,14 @@
-<mat-toolbar>
-  <h1 color="primary">Browse the cards</h1>
+<mat-toolbar color="primary">
+  <h1>Browse the cards</h1>
+  <span class="spacer"></span>
+  <mat-icon>search</mat-icon>
 </mat-toolbar>
 <!-- <app-sidenav></app-sidenav> -->
 <!-- <mat-spinner></mat-spinner> -->
 <mat-tab-group mat-align-tabs="center">
   <mat-tab>
     <ng-template mat-tab-label>
-      <mat-icon aria-label="Dashboard">dashboard</mat-icon><br />
+      <mat-icon aria-label="Dashboard">view_module</mat-icon><br />
     </ng-template>
     <!-- dashboard -->
     <ng-container *ngIf="undefined == query; else single">
@@ -15,9 +17,10 @@
   </mat-tab>
   <mat-tab>
     <ng-template mat-tab-label>
-      <mat-icon aria-label="Random">all_inclusive</mat-icon><br />
+      <mat-icon aria-label="Dashboard">dashboard</mat-icon><br />
     </ng-template>
     <!-- random -->
+    <app-search></app-search>
   </mat-tab>
   <mat-tab>
     <ng-template mat-tab-label>
@@ -28,5 +31,5 @@
 </mat-tab-group>
 
 <ng-template #single>
-  <app-card-single></app-card-single>
+  <app-card-single [id]="query"></app-card-single>
 </ng-template>
