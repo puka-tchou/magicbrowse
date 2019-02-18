@@ -1,2 +1,5 @@
 <!-- <h1 mat-dialog-title>{{ data.name }}</h1> -->
-<app-card-single [image]="data.image_uris"></app-card-single>
+<app-card-single
+  [image]="data.image_uris"
+  (click)="closeDialog()"
+></app-card-single>

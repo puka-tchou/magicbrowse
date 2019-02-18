@@ -37,11 +37,15 @@ export class CardSingleComponent implements OnInit, OnChanges {
   }
 
   createScene(container: HTMLElement, image: string) {
-    console.log(typeof this.div);
+    const size =
+      window.innerWidth < window.innerHeight
+        ? window.innerWidth
+        : window.innerHeight;
+    console.log(size);
     //Create a scene
     const scene = new Scene();
     // Create a camera
-    const camera = new PerspectiveCamera(45, 1, 1, 1000);
+    const camera = new PerspectiveCamera(45);
     // Setup Orbit controls
     const controls = new OrbitControls(camera);
     // Tweaks renderer options
@@ -49,12 +53,12 @@ export class CardSingleComponent implements OnInit, OnChanges {
       antialias: true,
       alpha: true
     });
-    renderer.setSize(window.innerWidth / 2, window.innerHeight / 2);
+    renderer.setSize(size, size);
     renderer.setClearColor(0xff0000, 0);
     container.appendChild(renderer.domElement);
     // Create both sides of a a plane
-    const geometryFront = new PlaneGeometry();
-    const geometryBack = new PlaneGeometry();
+    const geometryFront = new PlaneGeometry(0.715668161, 1);
+    const geometryBack = new PlaneGeometry(0.715668161, 1);
     // Rotate backside 180deg
     geometryBack.applyMatrix(new Matrix4().makeRotationY(Math.PI));
     // Define front and back texture
@@ -86,5 +90,15 @@ export class CardSingleComponent implements OnInit, OnChanges {
     };
 
     animate();
+  }
+
+  clearScene() {
+    cancelAnimationFrame(this.id); // Stop the animation
+    this.renderer.domElement.addEventListener('dblclick', null, false); //remove listener to render
+    this.scene = null;
+    this.projector = null;
+    this.camera = null;
+    this.controls = null;
+    empty(this.modelContainer);
   }
 }
