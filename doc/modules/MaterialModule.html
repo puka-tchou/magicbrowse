@@ -70,16 +70,21 @@
 
 
     <div class="tab-pane fade  tab-source-code" id="c-source">
-        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { NgModule } from &quot;@angular/core&quot;;
-import { CommonModule } from &quot;@angular/common&quot;;
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { NgModule } from &#x27;@angular/core&#x27;;
+import { CommonModule } from &#x27;@angular/common&#x27;;
 import {
   MatToolbarModule,
   MatSidenavModule,
   MatButtonModule,
   MatIconModule,
   MatProgressSpinnerModule,
-  MatTabsModule
-} from &quot;@angular/material&quot;;
+  MatTabsModule,
+  MatDialogModule,
+  MatFormFieldModule,
+  MatInputModule,
+  MatCardModule,
+  MatGridListModule
+} from &#x27;@angular/material&#x27;;
 
 @NgModule({
   declarations: [],
@@ -90,7 +95,12 @@ import {
     MatButtonModule,
     MatIconModule,
     MatProgressSpinnerModule,
-    MatTabsModule
+    MatTabsModule,
+    MatDialogModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatCardModule,
+    MatGridListModule
   ],
   exports: [
     MatSidenavModule,
@@ -98,7 +108,12 @@ import {
     MatButtonModule,
     MatIconModule,
     MatProgressSpinnerModule,
-    MatTabsModule
+    MatTabsModule,
+    MatDialogModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatCardModule,
+    MatGridListModule
   ]
 })
 export class MaterialModule {}

@@ -4,7 +4,20 @@
   flex-flow: row wrap;
   justify-content: space-around;
 }
-img {
-  margin: 0.5em;
-  cursor: pointer;
+.card-container {
+  perspective: 23rem;
+  img {
+    margin: 0.5em;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+  }
+}
+
+.card-container:hover,
+.card-container:focus,
+.card-container:active {
+  img {
+    transform: rotateX(5deg);
+    transition: all 0.2s ease-out;
+  }
 }
