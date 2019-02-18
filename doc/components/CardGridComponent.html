@@ -148,6 +148,9 @@
                             <li>
                                 <a href="#ngOnInit">ngOnInit</a>
                             </li>
+                            <li>
+                                <a href="#openDialog">openDialog</a>
+                            </li>
                         </ul>
                     </td>
                 </tr>
@@ -166,12 +169,12 @@
             <tbody>
                 <tr>
                     <td class="col-md-4">
-<code>constructor(card: <a href="../injectables/MagicTheGatheringService.html">MagicTheGatheringService</a>)</code>
+<code>constructor(card: <a href="../injectables/MagicTheGatheringService.html">MagicTheGatheringService</a>, dialog: MatDialog)</code>
                     </td>
                 </tr>
                         <tr>
                             <td class="col-md-4">
-                                <div class="io-line">Defined in <a href="" data-line="13" class="link-to-prism">src/app/dashboard/card-grid/card-grid.component.ts:13</a></div>
+                                <div class="io-line">Defined in <a href="" data-line="15" class="link-to-prism">src/app/dashboard/card-grid/card-grid.component.ts:15</a></div>
                             </td>
                         </tr>
 
@@ -193,6 +196,18 @@
                                                   
                                                         <td>
                                                                     <code><a href="../injectables/MagicTheGatheringService.html" target="_self" >MagicTheGatheringService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>dialog</td>
+                                                  
+                                                        <td>
+                                                                    <code>MatDialog</code>
                                                         </td>
                                                   
                                                     <td>
@@ -240,7 +255,45 @@
 
                         <tr>
                             <td class="col-md-4">
-                                    <div class="io-line">Defined in <a href="" data-line="18" class="link-to-prism">src/app/dashboard/card-grid/card-grid.component.ts:18</a></div>
+                                    <div class="io-line">Defined in <a href="" data-line="23" class="link-to-prism">src/app/dashboard/card-grid/card-grid.component.ts:23</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="openDialog"></a>
+                        <span class="name">
+                            <b>
+                            openDialog
+                            </b>
+                            <a href="#openDialog"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>openDialog()</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="34" class="link-to-prism">src/app/dashboard/card-grid/card-grid.component.ts:34</a></div>
                             </td>
                         </tr>
 
@@ -284,7 +337,7 @@
                     </tr>
                         <tr>
                             <td class="col-md-4">
-                                    <div class="io-line">Defined in <a href="" data-line="13" class="link-to-prism">src/app/dashboard/card-grid/card-grid.component.ts:13</a></div>
+                                    <div class="io-line">Defined in <a href="" data-line="15" class="link-to-prism">src/app/dashboard/card-grid/card-grid.component.ts:15</a></div>
                             </td>
                         </tr>
 
@@ -297,20 +350,25 @@
 
 
     <div class="tab-pane fade  tab-source-code" id="c-source">
-        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, OnInit } from &quot;@angular/core&quot;;
-import { HttpClient } from &quot;@angular/common/http&quot;;
-import { CardModel } from &quot;src/app/shared/models/magicthegathering/card-list/card.model&quot;;
-import { CardListModel } from &quot;src/app/shared/models/magicthegathering/card-list/card-list.model&quot;;
-import { MagicTheGatheringService } from &quot;src/app/shared/services/magic-the-gathering.service&quot;;
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, OnInit } from &#x27;@angular/core&#x27;;
+import { HttpClient } from &#x27;@angular/common/http&#x27;;
+import { CardModel } from &#x27;src/app/shared/models/magicthegathering/card-list/card.model&#x27;;
+import { CardListModel } from &#x27;src/app/shared/models/magicthegathering/card-list/card-list.model&#x27;;
+import { MagicTheGatheringService } from &#x27;src/app/shared/services/magic-the-gathering.service&#x27;;
+import { MatDialog } from &#x27;@angular/material&#x27;;
+import { CardPopupComponent } from &#x27;./card-popup/card-popup.component&#x27;;
 
 @Component({
-  selector: &quot;app-card-grid&quot;,
-  templateUrl: &quot;./card-grid.component.html&quot;,
-  styleUrls: [&quot;./card-grid.component.scss&quot;]
+  selector: &#x27;app-card-grid&#x27;,
+  templateUrl: &#x27;./card-grid.component.html&#x27;,
+  styleUrls: [&#x27;./card-grid.component.scss&#x27;]
 })
 export class CardGridComponent implements OnInit {
   public cards: CardModel[];
-  constructor(private card: MagicTheGatheringService) {
+  constructor(
+    private card: MagicTheGatheringService,
+    private dialog: MatDialog
+  ) {
     this.cards &#x3D; [];
   }
 
@@ -324,20 +382,33 @@ export class CardGridComponent implements OnInit {
       }
     );
   }
+
+  openDialog(): void {
+    this.dialog.open(CardPopupComponent, {
+      height: &#x27;400px&#x27;,
+      width: &#x27;600px&#x27;,
+      data: {
+        name: this.cards
+      }
+    });
+  }
 }
 </code></pre>
     </div>
 
     <div class="tab-pane fade " id="c-templateData">
         <pre class="line-numbers"><code class="language-html">&lt;ng-container *ngFor&#x3D;&quot;let value of cards&quot;&gt;
-  &lt;img
-    [src]&#x3D;&quot;value.imageUrl&quot;
-    [alt]&#x3D;&quot;value.name&quot;
-    *ngIf&#x3D;&quot;value.imageUrl&quot;
-    [routerLink]&#x3D;&quot;[&#x27;/card&#x27;, value.id]&quot;
-    height&#x3D;&quot;223&quot;
-  /&gt;
+  &lt;div class&#x3D;&quot;card-container&quot;&gt;
+    &lt;img
+      [src]&#x3D;&quot;value.imageUrl&quot;
+      [alt]&#x3D;&quot;value.name&quot;
+      *ngIf&#x3D;&quot;value.imageUrl&quot;
+      (click)&#x3D;&quot;openDialog()&quot;
+      height&#x3D;&quot;223&quot;
+    /&gt;
+  &lt;/div&gt;
 &lt;/ng-container&gt;
+&lt;!-- [routerLink]&#x3D;&quot;[&#x27;/card&#x27;, value.id]&quot; --&gt;
 </code></pre>
     </div>
 
@@ -351,9 +422,22 @@ export class CardGridComponent implements OnInit {
   flex-flow: row wrap;
   justify-content: space-around;
 }
-img {
-  margin: 0.5em;
-  cursor: pointer;
+.card-container {
+  perspective: 23rem;
+  img {
+    margin: 0.5em;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+  }
+}
+
+.card-container:hover,
+.card-container:focus,
+.card-container:active {
+  img {
+    transform: rotateX(5deg);
+    transition: all 0.2s ease-out;
+  }
 }
 </code></pre>
     </div>
@@ -383,8 +467,8 @@ img {
 <script src="../js/libs/htmlparser.js"></script>
 <script src="../js/libs/deep-iterator.js"></script>
 <script>
-        var COMPONENT_TEMPLATE = '<div><ng-container *ngFor="let value of cards">  <img    [src]="value.imageUrl"    [alt]="value.name"    *ngIf="value.imageUrl"    [routerLink]="[\'/card\', value.id]"    height="223"  /></ng-container></div>'
-    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'CardGridComponent', 'selector': 'app-card-grid'},{'name': 'CardSingleComponent', 'selector': 'app-card-single'},{'name': 'DashboardComponent', 'selector': 'app-dashboard'}];
+        var COMPONENT_TEMPLATE = '<div><ng-container *ngFor="let value of cards">  <div class="card-container">    <img      [src]="value.imageUrl"      [alt]="value.name"      *ngIf="value.imageUrl"      (click)="openDialog()"      height="223"    />  </div></ng-container><!-- [routerLink]="[\'/card\', value.id]" --></div>'
+    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'CardGridComponent', 'selector': 'app-card-grid'},{'name': 'CardPopupComponent', 'selector': 'app-card-popup'},{'name': 'CardSingleComponent', 'selector': 'app-card-single'},{'name': 'DashboardComponent', 'selector': 'app-dashboard'},{'name': 'SearchComponent', 'selector': 'app-search'}];
     var DIRECTIVES = [];
     var ACTUAL_COMPONENT = {'name': 'CardGridComponent'};
 </script>

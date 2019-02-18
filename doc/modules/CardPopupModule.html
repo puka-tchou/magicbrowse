@@ -34,7 +34,7 @@
 
 <ol class="breadcrumb">
     <li>Modules</li>
-    <li>AppRoutingModule</li>
+    <li>CardPopupModule</li>
 </ol>
 
 <div class="text-center module-graph-container">
@@ -62,30 +62,46 @@
 <polygon fill="#fb8072" stroke="transparent" points="406,-10 406,-30 426,-30 426,-10 406,-10"/>
 <text text-anchor="start" x="429.7258" y="-15.4" font-family="sans-serif" font-size="14.00" fill="#000000"> &#160;Exports</text>
 <g id="clust1" class="cluster">
-<title>cluster_AppRoutingModule</title>
-<polygon fill="none" stroke="#000000" stroke-dasharray="1,5" points="172,-70 172,-195 324,-195 324,-70 172,-70"/>
+<title>cluster_CardPopupModule</title>
+<polygon fill="none" stroke="#000000" stroke-dasharray="1,5" points="87,-70 87,-195 409,-195 409,-70 87,-70"/>
 </g>
-<g id="clust3" class="cluster">
-<title>cluster_AppRoutingModule_imports</title>
-<polygon fill="none" stroke="#000000" points="180,-78 180,-130 316,-130 316,-78 180,-78"/>
+<g id="clust2" class="cluster">
+<title>cluster_CardPopupModule_declarations</title>
+<polygon fill="none" stroke="#000000" points="241,-78 241,-130 401,-130 401,-78 241,-78"/>
 </g>
-<!-- DashboardModule -->
+<g id="clust4" class="cluster">
+<title>cluster_CardPopupModule_imports</title>
+<polygon fill="none" stroke="#000000" points="95,-78 95,-130 233,-130 233,-78 95,-78"/>
+</g>
+<!-- CardPopupComponent -->
 <g id="node1" class="node">
-<title>DashboardModule</title>
-<polygon fill="#8dd3c7" stroke="#000000" points="308.191,-122 305.191,-126 284.191,-126 281.191,-122 187.809,-122 187.809,-86 308.191,-86 308.191,-122"/>
-<text text-anchor="middle" x="248" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">DashboardModule</text>
+<title>CardPopupComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="393.3272,-122 248.6728,-122 248.6728,-86 393.3272,-86 393.3272,-122"/>
+<text text-anchor="middle" x="321" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">CardPopupComponent</text>
 </g>
-<!-- AppRoutingModule -->
+<!-- CardPopupModule -->
 <g id="node2" class="node">
-<title>AppRoutingModule</title>
-<polygon fill="#8dd3c7" stroke="#000000" points="312.2744,-187 309.2744,-191 288.2744,-191 285.2744,-187 183.7256,-187 183.7256,-151 312.2744,-151 312.2744,-187"/>
-<text text-anchor="middle" x="248" y="-164.8" font-family="Times,serif" font-size="14.00" fill="#000000">AppRoutingModule</text>
+<title>CardPopupModule</title>
+<polygon fill="#8dd3c7" stroke="#000000" points="303.045,-187 300.045,-191 279.045,-191 276.045,-187 180.955,-187 180.955,-151 303.045,-151 303.045,-187"/>
+<text text-anchor="middle" x="242" y="-164.8" font-family="Times,serif" font-size="14.00" fill="#000000">CardPopupModule</text>
 </g>
-<!-- DashboardModule&#45;&gt;AppRoutingModule -->
+<!-- CardPopupComponent&#45;&gt;CardPopupModule -->
 <g id="edge1" class="edge">
-<title>DashboardModule&#45;&gt;AppRoutingModule</title>
-<path fill="none" stroke="#000000" d="M248,-122.1061C248,-122.1061 248,-140.991 248,-140.991"/>
-<polygon fill="#000000" stroke="#000000" points="244.5001,-140.9909 248,-150.991 251.5001,-140.991 244.5001,-140.9909"/>
+<title>CardPopupComponent&#45;&gt;CardPopupModule</title>
+<path fill="none" stroke="#000000" d="M276.0544,-122.1061C276.0544,-122.1061 276.0544,-140.991 276.0544,-140.991"/>
+<polygon fill="#000000" stroke="#000000" points="272.5544,-140.9909 276.0544,-150.991 279.5544,-140.991 272.5544,-140.9909"/>
+</g>
+<!-- CardSingleModule -->
+<g id="node3" class="node">
+<title>CardSingleModule</title>
+<polygon fill="#8dd3c7" stroke="#000000" points="225.0409,-122 222.0409,-126 201.0409,-126 198.0409,-122 102.9591,-122 102.9591,-86 225.0409,-86 225.0409,-122"/>
+<text text-anchor="middle" x="164" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">CardSingleModule</text>
+</g>
+<!-- CardSingleModule&#45;&gt;CardPopupModule -->
+<g id="edge2" class="edge">
+<title>CardSingleModule&#45;&gt;CardPopupModule</title>
+<path fill="none" stroke="#000000" d="M202.9989,-122.1061C202.9989,-122.1061 202.9989,-140.991 202.9989,-140.991"/>
+<polygon fill="#000000" stroke="#000000" points="199.499,-140.9909 202.9989,-150.991 206.499,-140.991 199.499,-140.9909"/>
 </g>
 </g>
 </svg>
@@ -117,7 +133,7 @@
             <h3>File</h3>
         </p>
         <p class="comment">
-            <code>src/app/app-routing.module.ts</code>
+            <code>src/app/dashboard/card-grid/card-popup/card-popup.module.ts</code>
         </p>
 
 
@@ -126,11 +142,20 @@
         <div class="container-fluid module">
             <div class="row">
                 <div class="col-sm-3">
+                    <h3>Declarations<a href="https://angular.io/api/core/NgModule#declarations" target="_blank"
+                            title="Official documentation about module declarations"><span class="icon ion-ios-information-circle-outline"></span></a></h3>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <a href="../components/CardPopupComponent.html">CardPopupComponent</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
                     <h3>Imports<a href="https://angular.io/api/core/NgModule#imports" target="_blank" title="Official documentation about module imports"><span
                                 class="icon ion-ios-information-circle-outline"></a></h3>
                     <ul class="list-group">
                         <li class="list-group-item">
-                            <a href="../modules/DashboardModule.html">DashboardModule</a>
+                            <a href="../modules/CardSingleModule.html">CardSingleModule</a>
                         </li>
                     </ul>
                 </div>
@@ -144,18 +169,14 @@
     <div class="tab-pane fade  tab-source-code" id="c-source">
         <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { NgModule } from &#x27;@angular/core&#x27;;
 import { CommonModule } from &#x27;@angular/common&#x27;;
-import { RouterModule, Routes } from &#x27;@angular/router&#x27;;
-import { DashboardComponent } from &#x27;./dashboard/dashboard.component&#x27;;
-import { DashboardModule } from &#x27;./dashboard/dashboard.module&#x27;;
-
-const routes: Routes &#x3D; [{ path: &#x27;**&#x27;, component: DashboardComponent }];
+import { CardPopupComponent } from &#x27;./card-popup.component&#x27;;
+import { CardSingleModule } from &#x27;../../card-single/card-single.module&#x27;;
 
 @NgModule({
-  declarations: [],
-  imports: [CommonModule, RouterModule.forRoot(routes), DashboardModule],
-  exports: [RouterModule]
+  declarations: [CardPopupComponent],
+  imports: [CommonModule, CardSingleModule]
 })
-export class AppRoutingModule {}
+export class CardPopupModule {}
 </code></pre>
     </div>
 </div>
@@ -190,7 +211,7 @@ export class AppRoutingModule {}
        <script>
             var COMPODOC_CURRENT_PAGE_DEPTH = 1;
             var COMPODOC_CURRENT_PAGE_CONTEXT = 'module';
-            var COMPODOC_CURRENT_PAGE_URL = 'AppRoutingModule.html';
+            var COMPODOC_CURRENT_PAGE_URL = 'CardPopupModule.html';
        </script>
 
        <script src="../js/libs/custom-elements.min.js"></script>

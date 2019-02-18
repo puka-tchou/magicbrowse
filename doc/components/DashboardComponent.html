@@ -121,6 +121,21 @@
     <h3 id="index">Index</h3>
     <table class="table table-sm table-bordered index-table">
         <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#query">query</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
 
                 <tr>
                     <td class="col-md-4">
@@ -151,15 +166,45 @@
             <tbody>
                 <tr>
                     <td class="col-md-4">
-<code>constructor()</code>
+<code>constructor(activeRoute: <a href="https://angular.io/api/router/ActivatedRoute" target="_blank">ActivatedRoute</a>)</code>
                     </td>
                 </tr>
                         <tr>
                             <td class="col-md-4">
-                                <div class="io-line">Defined in <a href="" data-line="8" class="link-to-prism">src/app/dashboard/dashboard.component.ts:8</a></div>
+                                <div class="io-line">Defined in <a href="" data-line="10" class="link-to-prism">src/app/dashboard/dashboard.component.ts:10</a></div>
                             </td>
                         </tr>
 
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>activeRoute</td>
+                                                  
+                                                        <td>
+                                                                    <code><a href="https://angular.io/api/router/ActivatedRoute" target="_blank" >ActivatedRoute</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
             </tbody>
         </table>
 </section>
@@ -195,7 +240,7 @@
 
                         <tr>
                             <td class="col-md-4">
-                                    <div class="io-line">Defined in <a href="" data-line="11" class="link-to-prism">src/app/dashboard/dashboard.component.ts:11</a></div>
+                                    <div class="io-line">Defined in <a href="" data-line="16" class="link-to-prism">src/app/dashboard/dashboard.component.ts:16</a></div>
                             </td>
                         </tr>
 
@@ -213,36 +258,81 @@
         </table>
 </section>
 
+    <section>
+    
+        <h3 id="inputs">
+            Properties
+        </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="query"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Public</span>
+                            query</b>
+                            <a href="#query"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="10" class="link-to-prism">src/app/dashboard/dashboard.component.ts:10</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+</section>
 
 </div>
 
 
     <div class="tab-pane fade  tab-source-code" id="c-source">
-        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, OnInit } from &quot;@angular/core&quot;;
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, OnInit } from &#x27;@angular/core&#x27;;
+import { ActivatedRoute } from &#x27;@angular/router&#x27;;
 
 @Component({
-  selector: &quot;app-dashboard&quot;,
-  templateUrl: &quot;./dashboard.component.html&quot;,
-  styleUrls: [&quot;./dashboard.component.scss&quot;]
+  selector: &#x27;app-dashboard&#x27;,
+  templateUrl: &#x27;./dashboard.component.html&#x27;,
+  styleUrls: [&#x27;./dashboard.component.scss&#x27;]
 })
 export class DashboardComponent implements OnInit {
-  constructor() {}
+  public query: string;
 
-  ngOnInit() {}
+  constructor(private activeRoute: ActivatedRoute) {
+    this.query &#x3D; null;
+  }
+
+  ngOnInit() {
+    this.activeRoute.url.subscribe(
+      () &#x3D;&gt; (this.query &#x3D; this.activeRoute.snapshot.params[&#x27;query&#x27;])
+    );
+  }
 }
 </code></pre>
     </div>
 
     <div class="tab-pane fade " id="c-templateData">
-        <pre class="line-numbers"><code class="language-html">&lt;mat-toolbar&gt;
-  &lt;h1 color&#x3D;&quot;primary&quot;&gt;Browse the cards&lt;/h1&gt;
+        <pre class="line-numbers"><code class="language-html">&lt;mat-toolbar color&#x3D;&quot;primary&quot;&gt;
+  &lt;h1&gt;Browse the cards&lt;/h1&gt;
+  &lt;span class&#x3D;&quot;spacer&quot;&gt;&lt;/span&gt;
+  &lt;mat-icon&gt;search&lt;/mat-icon&gt;
 &lt;/mat-toolbar&gt;
 &lt;!-- &lt;app-sidenav&gt;&lt;/app-sidenav&gt; --&gt;
 &lt;!-- &lt;mat-spinner&gt;&lt;/mat-spinner&gt; --&gt;
-&lt;mat-tab-group mat-align-tabs&#x3D;&quot;center&quot;&gt;
+&lt;mat-tab-group mat-align-tabs&#x3D;&quot;center&quot; [selectedIndex]&#x3D;&quot;1&quot;&gt;
   &lt;mat-tab&gt;
     &lt;ng-template mat-tab-label&gt;
-      &lt;mat-icon aria-label&#x3D;&quot;Dashboard&quot;&gt;dashboard&lt;/mat-icon&gt;&lt;br /&gt;
+      &lt;mat-icon aria-label&#x3D;&quot;Dashboard&quot;&gt;view_module&lt;/mat-icon&gt;&lt;br /&gt;
     &lt;/ng-template&gt;
     &lt;!-- dashboard --&gt;
     &lt;ng-container *ngIf&#x3D;&quot;undefined &#x3D;&#x3D; query; else single&quot;&gt;
@@ -251,9 +341,10 @@ export class DashboardComponent implements OnInit {
   &lt;/mat-tab&gt;
   &lt;mat-tab&gt;
     &lt;ng-template mat-tab-label&gt;
-      &lt;mat-icon aria-label&#x3D;&quot;Random&quot;&gt;all_inclusive&lt;/mat-icon&gt;&lt;br /&gt;
+      &lt;mat-icon aria-label&#x3D;&quot;Dashboard&quot;&gt;dashboard&lt;/mat-icon&gt;&lt;br /&gt;
     &lt;/ng-template&gt;
     &lt;!-- random --&gt;
+    &lt;app-search&gt;&lt;/app-search&gt;
   &lt;/mat-tab&gt;
   &lt;mat-tab&gt;
     &lt;ng-template mat-tab-label&gt;
@@ -264,7 +355,7 @@ export class DashboardComponent implements OnInit {
 &lt;/mat-tab-group&gt;
 
 &lt;ng-template #single&gt;
-  &lt;app-card-single&gt;&lt;/app-card-single&gt;
+  &lt;app-card-single [id]&#x3D;&quot;query&quot;&gt;&lt;/app-card-single&gt;
 &lt;/ng-template&gt;
 </code></pre>
     </div>
@@ -273,10 +364,7 @@ export class DashboardComponent implements OnInit {
                 <p class="comment">
                     <code>./dashboard.component.scss</code>
                 </p>
-                <pre class="line-numbers"><code class="language-scss">mat-toolbar {
-  justify-content: center;
-}
-</code></pre>
+                <pre class="line-numbers"><code class="language-scss"></code></pre>
     </div>
 
     <div class="tab-pane fade " id="c-tree">
@@ -304,8 +392,8 @@ export class DashboardComponent implements OnInit {
 <script src="../js/libs/htmlparser.js"></script>
 <script src="../js/libs/deep-iterator.js"></script>
 <script>
-        var COMPONENT_TEMPLATE = '<div><mat-toolbar>  <h1 color="primary">Browse the cards</h1></mat-toolbar><!-- <app-sidenav></app-sidenav> --><!-- <mat-spinner></mat-spinner> --><mat-tab-group mat-align-tabs="center">  <mat-tab>    <ng-template mat-tab-label>      <mat-icon aria-label="Dashboard">dashboard</mat-icon><br />    </ng-template>    <!-- dashboard -->    <ng-container *ngIf="undefined == query; else single">      <app-card-grid></app-card-grid>    </ng-container>  </mat-tab>  <mat-tab>    <ng-template mat-tab-label>      <mat-icon aria-label="Random">all_inclusive</mat-icon><br />    </ng-template>    <!-- random -->  </mat-tab>  <mat-tab>    <ng-template mat-tab-label>      <mat-icon aria-label="Deck">collections</mat-icon><br />    </ng-template>    <!-- deck -->  </mat-tab></mat-tab-group><ng-template #single>  <app-card-single></app-card-single></ng-template></div>'
-    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'CardGridComponent', 'selector': 'app-card-grid'},{'name': 'CardSingleComponent', 'selector': 'app-card-single'},{'name': 'DashboardComponent', 'selector': 'app-dashboard'}];
+        var COMPONENT_TEMPLATE = '<div><mat-toolbar color="primary">  <h1>Browse the cards</h1>  <span class="spacer"></span>  <mat-icon>search</mat-icon></mat-toolbar><!-- <app-sidenav></app-sidenav> --><!-- <mat-spinner></mat-spinner> --><mat-tab-group mat-align-tabs="center" [selectedIndex]="1">  <mat-tab>    <ng-template mat-tab-label>      <mat-icon aria-label="Dashboard">view_module</mat-icon><br />    </ng-template>    <!-- dashboard -->    <ng-container *ngIf="undefined == query; else single">      <app-card-grid></app-card-grid>    </ng-container>  </mat-tab>  <mat-tab>    <ng-template mat-tab-label>      <mat-icon aria-label="Dashboard">dashboard</mat-icon><br />    </ng-template>    <!-- random -->    <app-search></app-search>  </mat-tab>  <mat-tab>    <ng-template mat-tab-label>      <mat-icon aria-label="Deck">collections</mat-icon><br />    </ng-template>    <!-- deck -->  </mat-tab></mat-tab-group><ng-template #single>  <app-card-single [id]="query"></app-card-single></ng-template></div>'
+    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'CardGridComponent', 'selector': 'app-card-grid'},{'name': 'CardPopupComponent', 'selector': 'app-card-popup'},{'name': 'CardSingleComponent', 'selector': 'app-card-single'},{'name': 'DashboardComponent', 'selector': 'app-dashboard'},{'name': 'SearchComponent', 'selector': 'app-search'}];
     var DIRECTIVES = [];
     var ACTUAL_COMPONENT = {'name': 'DashboardComponent'};
 </script>

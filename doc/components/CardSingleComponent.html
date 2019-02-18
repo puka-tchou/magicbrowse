@@ -71,6 +71,7 @@
     </p>
     <p class="comment">
                 <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+                <code><a href="https://angular.io/api/core/OnChanges" target="_blank" >OnChanges</a></code>
     </p>
 
 
@@ -121,6 +122,21 @@
     <h3 id="index">Index</h3>
     <table class="table table-sm table-bordered index-table">
         <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#card">card</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
 
                 <tr>
                     <td class="col-md-4">
@@ -131,12 +147,29 @@
                     <td class="col-md-4">
                         <ul class="index-list">
                             <li>
+                                <a href="#ngOnChanges">ngOnChanges</a>
+                            </li>
+                            <li>
                                 <a href="#ngOnInit">ngOnInit</a>
                             </li>
                         </ul>
                     </td>
                 </tr>
 
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Inputs</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#id">id</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
 
 
 
@@ -151,20 +184,73 @@
             <tbody>
                 <tr>
                     <td class="col-md-4">
-<code>constructor()</code>
+<code>constructor(magicTheGatheringService: <a href="../injectables/MagicTheGatheringService.html">MagicTheGatheringService</a>)</code>
                     </td>
                 </tr>
                         <tr>
                             <td class="col-md-4">
-                                <div class="io-line">Defined in <a href="" data-line="8" class="link-to-prism">src/app/dashboard/card-single/card-single.component.ts:8</a></div>
+                                <div class="io-line">Defined in <a href="" data-line="13" class="link-to-prism">src/app/dashboard/card-single/card-single.component.ts:13</a></div>
                             </td>
                         </tr>
 
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>magicTheGatheringService</td>
+                                                  
+                                                        <td>
+                                                                    <code><a href="../injectables/MagicTheGatheringService.html" target="_self" >MagicTheGatheringService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
             </tbody>
         </table>
 </section>
 
+    <section>
+    <h3 id="inputs">Inputs</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="id"></a>
+                        <b>id</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
 
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="12" class="link-to-prism">src/app/dashboard/card-single/card-single.component.ts:12</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+</section>
 
 
 
@@ -173,6 +259,44 @@
         <h3 id="methods">
             Methods
         </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="ngOnChanges"></a>
+                        <span class="name">
+                            <b>
+                            ngOnChanges
+                            </b>
+                            <a href="#ngOnChanges"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>ngOnChanges()</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="31" class="link-to-prism">src/app/dashboard/card-single/card-single.component.ts:31</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
         <table class="table table-sm table-bordered">
             <tbody>
                 <tr>
@@ -195,7 +319,7 @@
 
                         <tr>
                             <td class="col-md-4">
-                                    <div class="io-line">Defined in <a href="" data-line="11" class="link-to-prism">src/app/dashboard/card-single/card-single.component.ts:11</a></div>
+                                    <div class="io-line">Defined in <a href="" data-line="17" class="link-to-prism">src/app/dashboard/card-single/card-single.component.ts:17</a></div>
                             </td>
                         </tr>
 
@@ -213,28 +337,82 @@
         </table>
 </section>
 
+    <section>
+    
+        <h3 id="inputs">
+            Properties
+        </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="card"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Public</span>
+                            card</b>
+                            <a href="#card"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code><a href="../classes/CardModel.html" target="_self" >CardModel</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="13" class="link-to-prism">src/app/dashboard/card-single/card-single.component.ts:13</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+</section>
 
 </div>
 
 
     <div class="tab-pane fade  tab-source-code" id="c-source">
-        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, OnInit } from &quot;@angular/core&quot;;
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, OnInit, Input, OnChanges } from &#x27;@angular/core&#x27;;
+import { MagicTheGatheringService } from &#x27;src/app/shared/services/magic-the-gathering.service&#x27;;
+import { SingleCardModel } from &#x27;src/app/shared/models/magicthegathering/card-list/single-card.model&#x27;;
+import { CardModel } from &#x27;src/app/shared/models/magicthegathering/card-list/card.model&#x27;;
 
 @Component({
-  selector: &quot;app-card-single&quot;,
-  templateUrl: &quot;./card-single.component.html&quot;,
-  styleUrls: [&quot;./card-single.component.scss&quot;]
+  selector: &#x27;app-card-single&#x27;,
+  templateUrl: &#x27;./card-single.component.html&#x27;,
+  styleUrls: [&#x27;./card-single.component.scss&#x27;]
 })
-export class CardSingleComponent implements OnInit {
-  constructor() {}
+export class CardSingleComponent implements OnInit, OnChanges {
+  @Input() id: string;
+  public card: CardModel;
 
-  ngOnInit() {}
+  constructor(private magicTheGatheringService: MagicTheGatheringService) {}
+
+  ngOnInit() {
+    if (this.id) {
+      this.magicTheGatheringService.getCardsById(this.id).subscribe(
+        (data: SingleCardModel) &#x3D;&gt; {
+          this.card &#x3D; data.card;
+          console.log(this.card);
+        },
+        err &#x3D;&gt; {
+          console.error(err);
+        }
+      );
+    }
+  }
+
+  ngOnChanges() {}
 }
 </code></pre>
     </div>
 
     <div class="tab-pane fade " id="c-templateData">
-        <pre class="line-numbers"><code class="language-html">&lt;p&gt;Card single works&lt;/p&gt;
+        <pre class="line-numbers"><code class="language-html">&lt;img [src]&#x3D;&quot;[card.imageUrl]&quot; [alt]&#x3D;&quot;[name]&quot; [id]&#x3D;&quot;[id]&quot; *ngIf&#x3D;&quot;card&quot; /&gt;
 </code></pre>
     </div>
 
@@ -270,8 +448,8 @@ export class CardSingleComponent implements OnInit {
 <script src="../js/libs/htmlparser.js"></script>
 <script src="../js/libs/deep-iterator.js"></script>
 <script>
-        var COMPONENT_TEMPLATE = '<div><p>Card single works</p></div>'
-    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'CardGridComponent', 'selector': 'app-card-grid'},{'name': 'CardSingleComponent', 'selector': 'app-card-single'},{'name': 'DashboardComponent', 'selector': 'app-dashboard'}];
+        var COMPONENT_TEMPLATE = '<div><img [src]="[card.imageUrl]" [alt]="[name]" [id]="[id]" *ngIf="card" /></div>'
+    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'CardGridComponent', 'selector': 'app-card-grid'},{'name': 'CardPopupComponent', 'selector': 'app-card-popup'},{'name': 'CardSingleComponent', 'selector': 'app-card-single'},{'name': 'DashboardComponent', 'selector': 'app-dashboard'},{'name': 'SearchComponent', 'selector': 'app-search'}];
     var DIRECTIVES = [];
     var ACTUAL_COMPONENT = {'name': 'CardSingleComponent'};
 </script>

@@ -27,106 +27,129 @@
                    <compodoc-menu mode="normal"></compodoc-menu>
                </div>
                <!-- START CONTENT -->
-               <div class="content module">
+               <div class="content class">
                    <div class="content-data">
 
 
 
+
+
+
+
+
+
+
+
 <ol class="breadcrumb">
-    <li>Modules</li>
-    <li>MaterialModule</li>
+  <li>Classes</li>
+  <li>SingleCardModel</li>
 </ol>
 
-
 <ul class="nav nav-tabs" role="tablist">
-    <li  class="active" >
-        <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
-    </li>
-    <li >
-        <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
-    </li>
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
 </ul>
 
 <div class="tab-content">
     <div class="tab-pane fade active in" id="c-info">
-
         <p class="comment">
             <h3>File</h3>
         </p>
         <p class="comment">
-            <code>src/app/shared/material/material.module.ts</code>
+            <code>src/app/shared/models/magicthegathering/card-list/single-card.model.ts</code>
         </p>
 
 
 
 
-        <div class="container-fluid module">
-            <div class="row">
-            </div>
-        </div>
+
+            <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#card">card</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+
+            <section>
+    
+        <h3 id="inputs">
+            Properties
+        </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="card"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Public</span>
+                            card</b>
+                            <a href="#card"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code><a href="../classes/CardModel.html" target="_self" >CardModel</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="4" class="link-to-prism">src/app/shared/models/magicthegathering/card-list/single-card.model.ts:4</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+</section>
+
+
+
+
+
 
 
     </div>
 
 
     <div class="tab-pane fade  tab-source-code" id="c-source">
-        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { NgModule } from &#x27;@angular/core&#x27;;
-import { CommonModule } from &#x27;@angular/common&#x27;;
-import {
-  MatToolbarModule,
-  MatSidenavModule,
-  MatButtonModule,
-  MatIconModule,
-  MatProgressSpinnerModule,
-  MatTabsModule,
-  MatDialogModule,
-  MatFormFieldModule,
-  MatInputModule,
-  MatCardModule,
-  MatGridListModule
-} from &#x27;@angular/material&#x27;;
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { CardModel } from &#x27;./card.model&#x27;;
 
-@NgModule({
-  declarations: [],
-  imports: [
-    CommonModule,
-    MatToolbarModule,
-    MatSidenavModule,
-    MatButtonModule,
-    MatIconModule,
-    MatProgressSpinnerModule,
-    MatTabsModule,
-    MatDialogModule,
-    MatFormFieldModule,
-    MatInputModule,
-    MatCardModule,
-    MatGridListModule
-  ],
-  exports: [
-    MatSidenavModule,
-    MatToolbarModule,
-    MatButtonModule,
-    MatIconModule,
-    MatProgressSpinnerModule,
-    MatTabsModule,
-    MatDialogModule,
-    MatFormFieldModule,
-    MatInputModule,
-    MatCardModule,
-    MatGridListModule
-  ]
-})
-export class MaterialModule {}
+export class SingleCardModel {
+  public card: CardModel;
+}
 </code></pre>
     </div>
 </div>
-
-
-
-
-
-
-
 
 
 
@@ -150,8 +173,8 @@ export class MaterialModule {}
 
        <script>
             var COMPODOC_CURRENT_PAGE_DEPTH = 1;
-            var COMPODOC_CURRENT_PAGE_CONTEXT = 'module';
-            var COMPODOC_CURRENT_PAGE_URL = 'MaterialModule.html';
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'class';
+            var COMPODOC_CURRENT_PAGE_URL = 'SingleCardModel.html';
        </script>
 
        <script src="../js/libs/custom-elements.min.js"></script>
