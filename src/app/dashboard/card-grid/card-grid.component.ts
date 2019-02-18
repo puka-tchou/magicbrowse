@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
-import { CardModel } from 'src/app/shared/models/magicthegathering/card-list/card.model';
-import { CardListModel } from 'src/app/shared/models/magicthegathering/card-list/card-list.model';
+import { MagicTheGatheringModel } from 'src/app/shared/models/magicthegathering/magic-the-gathering.model';
 import { MagicTheGatheringService } from 'src/app/shared/services/magic-the-gathering.service';
 import { MatDialog } from '@angular/material';
 import { CardPopupComponent } from './card-popup/card-popup.component';
@@ -12,7 +10,8 @@ import { CardPopupComponent } from './card-popup/card-popup.component';
   styleUrls: ['./card-grid.component.scss']
 })
 export class CardGridComponent implements OnInit {
-  public cards: CardModel[];
+  public cards: MagicTheGatheringModel[];
+
   constructor(
     private card: MagicTheGatheringService,
     private dialog: MatDialog
@@ -26,8 +25,9 @@ export class CardGridComponent implements OnInit {
 
   getCards() {
     this.card.getCards().subscribe(
-      (data: CardListModel) => {
-        this.cards = data.cards;
+      (response: MagicTheGatheringModel) => {
+        console.log(response.data);
+        this.cards = response.data;
       },
       err => {
         console.log(err);
@@ -35,14 +35,11 @@ export class CardGridComponent implements OnInit {
     );
   }
 
-  openDialog(id: string, name: string, imageUrl: string): void {
+  openDialog(id: string, name: string, image_uris: string): void {
     this.dialog.open(CardPopupComponent, {
-      // height: '400px',
-      // width: '600px',
       data: {
-        id,
         name,
-        imageUrl
+        image_uris
       }
     });
   }
