@@ -92,13 +92,13 @@ export class CardSingleComponent implements OnInit, OnChanges {
     animate();
   }
 
-  clearScene() {
-    cancelAnimationFrame(this.id); // Stop the animation
-    this.renderer.domElement.addEventListener('dblclick', null, false); //remove listener to render
-    this.scene = null;
-    this.projector = null;
-    this.camera = null;
-    this.controls = null;
-    empty(this.modelContainer);
-  }
+  // clearScene() {
+  //   cancelAnimationFrame(this.id); // Stop the animation
+  //   this.renderer.domElement.addEventListener('dblclick', null, false); //remove listener to render
+  //   this.scene = null;
+  //   this.projector = null;
+  //   this.camera = null;
+  //   this.controls = null;
+  //   empty(this.modelContainer);
+  // }
 }
