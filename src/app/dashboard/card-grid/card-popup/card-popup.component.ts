@@ -12,6 +12,7 @@ import {
   Mesh
 } from 'three';
 import { OrbitControls } from 'three-orbitcontrols-ts';
+import { empty } from 'rxjs';
 
 @Component({
   selector: 'app-card-popup',
@@ -30,88 +31,76 @@ export class CardPopupComponent implements OnInit {
   ngOnInit() {}
 
   ngAfterViewInit() {
-    this.scene(
-      'create'
-      // createScene(this.div.nativeElement, this.data.image_uris)
-    );
+    this.scene('create');
   }
 
-  scene(manage) {
+  scene(manage: string) {
     if ('create' === manage) {
-      function createScene(container: HTMLElement, image: string) {
-        console.log(image);
-        const size =
-          window.innerWidth < window.innerHeight
-            ? window.innerWidth
-            : window.innerHeight;
-        console.log(size);
-        //Create a scene
-        const scene = new Scene();
-        // Create a camera
-        const camera = new PerspectiveCamera(45);
-        // Setup Orbit controls
-        const controls = new OrbitControls(camera);
-        // Tweaks renderer options
-        const renderer = new WebGLRenderer({
-          antialias: true,
-          alpha: true
-        });
-        renderer.setSize(size, size);
-        renderer.setClearColor(0xff0000, 0);
-        container.appendChild(renderer.domElement);
-        // Create both sides of a a plane
-        const geometryFront = new PlaneGeometry(0.715668161, 1);
-        const geometryBack = new PlaneGeometry(0.715668161, 1);
-        // Rotate backside 180deg
-        geometryBack.applyMatrix(new Matrix4().makeRotationY(Math.PI));
-        // Define front and back texture
-        const textureFront = new TextureLoader().load(image);
-        const textureBack = new TextureLoader().load('assets/back.png');
-        // Asign textures to the fontside and the backside of the plane
-        const materialFront = new MeshBasicMaterial({
-          map: textureFront
-        });
-        const materialBack = new MeshBasicMaterial({
-          map: textureBack
-        });
-        // Create a 3D object
-        const card = new Object3D();
-        // And add it to the scene
-        scene.add(card);
-        // Create meshes and add them to the card
-        const meshFront = new Mesh(geometryFront, materialFront);
-        card.add(meshFront);
-        const meshBack = new Mesh(geometryBack, materialBack);
-        card.add(meshBack);
-        // Set camera position and update it on user interaction
-        camera.position.z = 2;
-        controls.update();
+      const container = this.div.nativeElement;
+      const image = this.data.image_uris;
+      const size =
+        window.innerWidth < window.innerHeight
+          ? window.innerWidth
+          : window.innerHeight;
+      console.log(size);
+      //Create a scene
+      const scene = new Scene();
+      // Create a camera
+      const camera = new PerspectiveCamera(45);
+      // Setup Orbit controls
+      const controls = new OrbitControls(camera);
+      // Tweaks renderer options
+      const renderer = new WebGLRenderer({
+        antialias: true,
+        alpha: true
+      });
+      renderer.setSize(size, size);
+      renderer.setClearColor(0xff0000, 0);
+      container.appendChild(renderer.domElement);
+      // Create both sides of a a plane
+      const geometryFront = new PlaneGeometry(0.715668161, 1);
+      const geometryBack = new PlaneGeometry(0.715668161, 1);
+      // Rotate backside 180deg
+      geometryBack.applyMatrix(new Matrix4().makeRotationY(Math.PI));
+      // Define front and back texture
+      const textureFront = new TextureLoader().load(image);
+      const textureBack = new TextureLoader().load('assets/back.png');
+      // Asign textures to the fontside and the backside of the plane
+      const materialFront = new MeshBasicMaterial({
+        map: textureFront
+      });
+      const materialBack = new MeshBasicMaterial({
+        map: textureBack
+      });
+      // Create a 3D object
+      const card = new Object3D();
+      // And add it to the scene
+      scene.add(card);
+      // Create meshes and add them to the card
+      const meshFront = new Mesh(geometryFront, materialFront);
+      card.add(meshFront);
+      const meshBack = new Mesh(geometryBack, materialBack);
+      card.add(meshBack);
+      // Set camera position and update it on user interaction
+      camera.position.z = 2;
+      controls.update();
 
-        const animate = function() {
-          requestAnimationFrame(animate);
-          renderer.render(scene, camera);
-        };
+      const animate = function() {
+        requestAnimationFrame(animate);
+        renderer.render(scene, camera);
+      };
 
-        animate();
-      }
-      createScene(this.div.nativeElement, this.data.image_uris);
+      animate();
     }
-    // this.clearScene()
-  }
-
-  clearScene(div) {
-    // const
-    cancelAnimationFrame(this.div); // Stop the animation
-    this.div.renderer.domElement.addEventListener('dblclick', null, false); //remove listener to render
-    this.div.scene = null;
-    this.div.projector = null;
-    this.div.camera = null;
-    this.div.controls = null;
-    // empty(this.div.modelContainer);
+    if ('delete' === manage) {
+      while (this.scene.children > 0) {
+        this.scene.remove(this.scene.children[0]);
+      }
+    }
   }
 
   closeDialog() {
-    this.clearScene(this.div.nativeElement);
-    this.dialogRef.close('Closed dialog');
+    this.scene('delete');
+    this.dialogRef.close('Closed dialog and cleared scene');
   }
 }
