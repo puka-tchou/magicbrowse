@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { MagicTheGatheringModel } from 'src/app/shared/models/magicthegathering/magic-the-gathering.model';
+import { Cards } from 'src/app/shared/models/magicthegathering/magic-the-gathering.model';
 import { MagicTheGatheringService } from 'src/app/shared/services/magic-the-gathering.service';
 import { MatDialog } from '@angular/material';
 import { CardPopupComponent } from './card-popup/card-popup.component';
@@ -10,7 +10,7 @@ import { CardPopupComponent } from './card-popup/card-popup.component';
   styleUrls: ['./card-grid.component.scss']
 })
 export class CardGridComponent implements OnInit {
-  public cards: MagicTheGatheringModel[];
+  public cards: Cards['data'];
 
   constructor(
     private card: MagicTheGatheringService,
@@ -25,8 +25,7 @@ export class CardGridComponent implements OnInit {
 
   getCards() {
     this.card.getCards().subscribe(
-      (response: MagicTheGatheringModel) => {
-        // console.log(response.data);
+      (response: Cards) => {
         this.cards = response.data;
       },
       err => {
@@ -35,11 +34,11 @@ export class CardGridComponent implements OnInit {
     );
   }
 
-  openDialog(id: string, name: string, image_uris: string): void {
-    let dialogRef = this.dialog.open(CardPopupComponent, {
+  openDialog(name: string, imageUris: string): void {
+    const dialogRef = this.dialog.open(CardPopupComponent, {
       data: {
         name,
-        image_uris
+        imageUris
       }
     });
     dialogRef.afterClosed().subscribe(result => {

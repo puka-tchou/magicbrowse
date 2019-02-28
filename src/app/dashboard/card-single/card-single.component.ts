@@ -42,7 +42,7 @@ export class CardSingleComponent implements OnInit, OnChanges {
         ? window.innerWidth
         : window.innerHeight;
     console.log(size);
-    //Create a scene
+    // Create a scene
     const scene = new Scene();
     // Create a camera
     const camera = new PerspectiveCamera(45);
@@ -84,7 +84,7 @@ export class CardSingleComponent implements OnInit, OnChanges {
     camera.position.z = 2;
     controls.update();
 
-    const animate = function() {
+    const animate = () => {
       requestAnimationFrame(animate);
       renderer.render(scene, camera);
     };

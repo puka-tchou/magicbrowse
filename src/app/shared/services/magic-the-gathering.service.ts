@@ -1,7 +1,10 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { MagicTheGatheringModel } from '../models/magicthegathering/magic-the-gathering.model';
+import {
+  Cards,
+  CardsAutocomplete
+} from '../models/magicthegathering/magic-the-gathering.model';
 
 @Injectable({
   providedIn: 'root'
@@ -9,9 +12,13 @@ import { MagicTheGatheringModel } from '../models/magicthegathering/magic-the-ga
 export class MagicTheGatheringService {
   constructor(private http: HttpClient) {}
 
-  getCards(): Observable<MagicTheGatheringModel> {
-    return this.http.get<MagicTheGatheringModel>(
-      'https://api.scryfall.com/cards'
+  getCards(): Observable<Cards> {
+    return this.http.get<Cards>('https://api.scryfall.com/cards');
+  }
+
+  searchCard(): Observable<CardsAutocomplete> {
+    return this.http.get<CardsAutocomplete>(
+      'https://api.scryfall.com/cards/autocomplete?q='
     );
   }
 }
