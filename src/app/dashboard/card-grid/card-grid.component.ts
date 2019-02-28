@@ -26,7 +26,7 @@ export class CardGridComponent implements OnInit {
   getCards() {
     this.card.getCards().subscribe(
       (response: MagicTheGatheringModel) => {
-        console.log(response.data);
+        // console.log(response.data);
         this.cards = response.data;
       },
       err => {
@@ -36,11 +36,14 @@ export class CardGridComponent implements OnInit {
   }
 
   openDialog(id: string, name: string, image_uris: string): void {
-    this.dialog.open(CardPopupComponent, {
+    let dialogRef = this.dialog.open(CardPopupComponent, {
       data: {
         name,
         image_uris
       }
+    });
+    dialogRef.afterClosed().subscribe(result => {
+      console.log(`Dialog result: ${result}`);
     });
   }
 }
