@@ -37,13 +37,12 @@ export class CardPopupComponent implements OnInit {
   scene(manage: string) {
     if ('create' === manage) {
       const container = this.div.nativeElement;
-      const image = this.data.image_uris;
+      const image = this.data.imageUris;
       const size =
         window.innerWidth < window.innerHeight
           ? window.innerWidth
           : window.innerHeight;
-      console.log(size);
-      //Create a scene
+      // Create a scene
       const scene = new Scene();
       // Create a camera
       const camera = new PerspectiveCamera(45);
@@ -85,7 +84,7 @@ export class CardPopupComponent implements OnInit {
       camera.position.z = 2;
       controls.update();
 
-      const animate = function() {
+      const animate = () => {
         requestAnimationFrame(animate);
         renderer.render(scene, camera);
       };
@@ -93,14 +92,15 @@ export class CardPopupComponent implements OnInit {
       animate();
     }
     if ('delete' === manage) {
-      while (this.scene.children > 0) {
-        this.scene.remove(this.scene.children[0]);
-      }
+      this.closeDialog();
+      // TODO: properly clear the scene
+      // while (this.scene.children > 0) {
+      // this.scene.remove(this.scene.children[0]);
+      // }
     }
   }
 
   closeDialog() {
-    this.scene('delete');
     this.dialogRef.close('Closed dialog and cleared scene');
   }
 }

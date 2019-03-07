@@ -2,34 +2,11 @@
   <h1>Browse the cards</h1>
   <span class="spacer"></span>
   <mat-icon>search</mat-icon>
+  <form>
+    <mat-form-field>
+      <input matInput placeholder="Card name" (keyup)="search($event)" />
+    </mat-form-field>
+  </form>
 </mat-toolbar>
-<!-- <app-sidenav></app-sidenav> -->
-<!-- <mat-spinner></mat-spinner> -->
-<mat-tab-group mat-align-tabs="center">
-  <mat-tab>
-    <ng-template mat-tab-label>
-      <mat-icon aria-label="Dashboard">view_module</mat-icon><br />
-    </ng-template>
-    <!-- dashboard -->
-    <ng-container *ngIf="undefined == query; else single">
-      <app-card-grid></app-card-grid>
-    </ng-container>
-  </mat-tab>
-  <!-- <mat-tab>
-    <ng-template mat-tab-label>
-      <mat-icon aria-label="Dashboard">dashboard</mat-icon><br />
-    </ng-template>
-    random
-    <app-search></app-search>
-  </mat-tab> -->
-  <mat-tab>
-    <ng-template mat-tab-label>
-      <mat-icon aria-label="Deck">collections</mat-icon><br />
-    </ng-template>
-    <!-- deck -->
-  </mat-tab>
-</mat-tab-group>
 
-<ng-template #single>
-  <app-card-single [id]="query"></app-card-single>
-</ng-template>
+<app-card-grid></app-card-grid>
