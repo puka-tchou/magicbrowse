@@ -92,14 +92,15 @@ export class CardPopupComponent implements OnInit {
       animate();
     }
     if ('delete' === manage) {
-      while (this.scene.children > 0) {
-        this.scene.remove(this.scene.children[0]);
-      }
+      this.closeDialog();
+      // TODO: properly clear the scene
+      // while (this.scene.children > 0) {
+      // this.scene.remove(this.scene.children[0]);
+      // }
     }
   }
 
   closeDialog() {
-    this.scene('delete');
     this.dialogRef.close('Closed dialog and cleared scene');
   }
 }

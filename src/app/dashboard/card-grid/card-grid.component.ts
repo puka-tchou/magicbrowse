@@ -23,24 +23,43 @@ export class CardGridComponent implements OnInit {
     this.getCards();
   }
 
+  /**
+   * Query the API to get an array containing a list of cards
+   */
   getCards() {
+    // Query the service to get the cards and subscribe to its response
     this.card.getCards().subscribe(
+      // If we get a response
       (response: Cards) => {
-        this.cards = response.data;
+        // Display only the cards in english lang to avoid duplicates
+        response.data.forEach(card => {
+          if (card.lang === 'en') {
+            // Populates the card array
+            this.cards.push(card);
+          }
+        });
       },
-      err => {
-        console.log(err);
+      // If we get an error, log it to the console
+      (err: Error) => {
+        console.error(err);
       }
     );
   }
 
+  /**
+   * Open a popup showing the card
+   * @param name string
+   * @param imageUris string
+   */
   openDialog(name: string, imageUris: string): void {
+    // Open a dialog and give it some data to display
     const dialogRef = this.dialog.open(CardPopupComponent, {
       data: {
         name,
         imageUris
       }
     });
+    // Wait for it to be closed
     dialogRef.afterClosed().subscribe(result => {
       console.log(`Dialog result: ${result}`);
     });
