@@ -1,6 +1,8 @@
 # MagicBrowse
 
-> A Webgl + three.j + Angular (typescript) demo project.
+[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=Gaspacchio/magicbrowse)](https://dependabot.com)
+
+> A Webgl + three.js + Angular (typescript) experiment.
 
 ## What this is about
 
