@@ -34,7 +34,7 @@
     "normalize.css": "^8.0.1",
     "roboto-fontface": "^0.10.0",
     "rxjs": "~6.5.2",
-    "three": "^0.107.0",
+    "three": "^0.108.0",
     "three-orbitcontrols-ts": "^0.1.2",
     "tslib": "^1.10.0",
     "zone.js": "~0.8.26"
