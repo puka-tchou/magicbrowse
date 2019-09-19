@@ -1,4 +1,11 @@
-import { Component, OnInit, Input, OnChanges, ViewChild } from '@angular/core';
+import {
+  Component,
+  OnInit,
+  Input,
+  OnChanges,
+  ViewChild,
+  AfterViewInit
+} from '@angular/core';
 import { MagicTheGatheringService } from 'src/app/shared/services/magic-the-gathering.service';
 import {
   Scene,
@@ -22,9 +29,9 @@ import { OrbitControls } from 'three-orbitcontrols-ts';
   templateUrl: './card-single.component.html',
   styleUrls: ['./card-single.component.scss']
 })
-export class CardSingleComponent implements OnInit, OnChanges {
+export class CardSingleComponent implements OnInit, OnChanges, AfterViewInit {
   @Input() image: string;
-  @ViewChild('container') div;
+  @ViewChild('container', { static: false }) div;
 
   constructor() {}
 

@@ -32,7 +32,7 @@ export class DashboardComponent implements OnInit {
   search(event: KeyboardEvent) {
     // Check if the event comes from the user
     if (event.isTrusted) {
-      const searchedCard: String = (<HTMLTextAreaElement>event.target).value;
+      const searchedCard: string = (<HTMLTextAreaElement>event.target).value;
       // If the query is not empty
       if (searchedCard.length !== 0) {
         // Subscribe to the API answer
@@ -44,7 +44,7 @@ export class DashboardComponent implements OnInit {
               // Populate the Array
               this.cards = response.data;
               // Log the answer
-              console.info(this.cards);
+              // console.info(this.cards);
             }
           },
           // If the answer is an error

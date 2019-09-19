@@ -1,4 +1,11 @@
-import { Component, OnInit, Inject, Input, ViewChild } from '@angular/core';
+import {
+  Component,
+  OnInit,
+  Inject,
+  Input,
+  ViewChild,
+  AfterViewInit
+} from '@angular/core';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material';
 import {
   Scene,
@@ -19,9 +26,9 @@ import { empty } from 'rxjs';
   templateUrl: './card-popup.component.html',
   styleUrls: ['./card-popup.component.scss']
 })
-export class CardPopupComponent implements OnInit {
+export class CardPopupComponent implements OnInit, AfterViewInit {
   // @Input() image: string;
-  @ViewChild('container') div;
+  @ViewChild('container', { static: false }) div;
 
   constructor(
     @Inject(MAT_DIALOG_DATA) public data,

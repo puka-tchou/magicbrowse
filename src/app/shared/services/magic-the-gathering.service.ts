@@ -16,7 +16,7 @@ export class MagicTheGatheringService {
     return this.http.get<Cards>('https://api.scryfall.com/cards');
   }
 
-  searchCard(query: String): Observable<CardsAutocomplete> {
+  searchCard(query: string): Observable<CardsAutocomplete> {
     return this.http.get<CardsAutocomplete>(
       `https://api.scryfall.com/cards/autocomplete?q=${query}`
     );
