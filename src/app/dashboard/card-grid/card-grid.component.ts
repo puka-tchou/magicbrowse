@@ -1,13 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import { Cards } from 'src/app/shared/models/magicthegathering/magic-the-gathering.model';
 import { MagicTheGatheringService } from 'src/app/shared/services/magic-the-gathering.service';
-import { MatDialog } from '@angular/material';
+import { MatDialog } from '@angular/material/dialog';
 import { CardPopupComponent } from './card-popup/card-popup.component';
 
 @Component({
   selector: 'app-card-grid',
   templateUrl: './card-grid.component.html',
-  styleUrls: ['./card-grid.component.scss']
+  styleUrls: ['./card-grid.component.scss'],
 })
 export class CardGridComponent implements OnInit {
   public cards: Cards['data'];
@@ -32,7 +32,7 @@ export class CardGridComponent implements OnInit {
       // If we get a response
       (response: Cards) => {
         // Display only the cards in english lang to avoid duplicates
-        response.data.forEach(card => {
+        response.data.forEach((card) => {
           if (card.lang === 'en') {
             // Populates the card array
             this.cards.push(card);
@@ -56,11 +56,11 @@ export class CardGridComponent implements OnInit {
     const dialogRef = this.dialog.open(CardPopupComponent, {
       data: {
         name,
-        imageUris
-      }
+        imageUris,
+      },
     });
     // Wait for it to be closed
-    dialogRef.afterClosed().subscribe(result => {
+    dialogRef.afterClosed().subscribe((result) => {
       console.log(`Dialog result: ${result}`);
     });
   }
