@@ -7,7 +7,7 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "lint:write": "prettier --check '**/*.{js, ts}' --write",
+    "style": "prettier --write **/*.{js,ts,md,json}",
     "e2e": "ng e2e",
     "doc": "compodoc -p tsconfig.json -d doc -s"
   },

@@ -72,10 +72,11 @@
               ) {
                 var a = this.strings[o];
                 r += a;
-                var s = (void 0,
-                void 0,
-                (t = (e = a).lastIndexOf('>')),
-                e.indexOf('<', t + 1) > -1 ? e.length : t);
+                var s =
+                  (void 0,
+                  void 0,
+                  (t = (e = a).lastIndexOf('>')),
+                  e.indexOf('<', t + 1) > -1 ? e.length : t);
                 r += (i = s > -1 ? s < a.length : i) ? c : u;
               }
               return (r += this.strings[n]);
