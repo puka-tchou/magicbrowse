@@ -4,7 +4,7 @@ import {
   Inject,
   Input,
   ViewChild,
-  AfterViewInit
+  AfterViewInit,
 } from '@angular/core';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material';
 import {
@@ -16,7 +16,7 @@ import {
   TextureLoader,
   MeshBasicMaterial,
   Object3D,
-  Mesh
+  Mesh,
 } from 'three';
 import { OrbitControls } from 'three-orbitcontrols-ts';
 import { empty } from 'rxjs';
@@ -24,11 +24,11 @@ import { empty } from 'rxjs';
 @Component({
   selector: 'app-card-popup',
   templateUrl: './card-popup.component.html',
-  styleUrls: ['./card-popup.component.scss']
+  styleUrls: ['./card-popup.component.scss'],
 })
 export class CardPopupComponent implements OnInit, AfterViewInit {
   // @Input() image: string;
-  @ViewChild('container', { static: false }) div;
+  @ViewChild('container') div;
 
   constructor(
     @Inject(MAT_DIALOG_DATA) public data,
@@ -58,7 +58,7 @@ export class CardPopupComponent implements OnInit, AfterViewInit {
       // Tweaks renderer options
       const renderer = new WebGLRenderer({
         antialias: true,
-        alpha: true
+        alpha: true,
       });
       renderer.setSize(size, size);
       renderer.setClearColor(0xff0000, 0);
@@ -73,10 +73,10 @@ export class CardPopupComponent implements OnInit, AfterViewInit {
       const textureBack = new TextureLoader().load('assets/back.png');
       // Asign textures to the fontside and the backside of the plane
       const materialFront = new MeshBasicMaterial({
-        map: textureFront
+        map: textureFront,
       });
       const materialBack = new MeshBasicMaterial({
-        map: textureBack
+        map: textureBack,
       });
       // Create a 3D object
       const card = new Object3D();

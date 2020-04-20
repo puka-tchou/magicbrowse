@@ -4,7 +4,7 @@ import {
   Input,
   OnChanges,
   ViewChild,
-  AfterViewInit
+  AfterViewInit,
 } from '@angular/core';
 import { MagicTheGatheringService } from 'src/app/shared/services/magic-the-gathering.service';
 import {
@@ -20,18 +20,18 @@ import {
   FrontSide,
   BackSide,
   Object3D,
-  Matrix4
+  Matrix4,
 } from 'three';
 import { OrbitControls } from 'three-orbitcontrols-ts';
 
 @Component({
   selector: 'app-card-single',
   templateUrl: './card-single.component.html',
-  styleUrls: ['./card-single.component.scss']
+  styleUrls: ['./card-single.component.scss'],
 })
 export class CardSingleComponent implements OnInit, OnChanges, AfterViewInit {
   @Input() image: string;
-  @ViewChild('container', { static: false }) div;
+  @ViewChild('container') div;
 
   constructor() {}
 
@@ -58,7 +58,7 @@ export class CardSingleComponent implements OnInit, OnChanges, AfterViewInit {
     // Tweaks renderer options
     const renderer = new WebGLRenderer({
       antialias: true,
-      alpha: true
+      alpha: true,
     });
     renderer.setSize(size, size);
     renderer.setClearColor(0xff0000, 0);
@@ -73,10 +73,10 @@ export class CardSingleComponent implements OnInit, OnChanges, AfterViewInit {
     const textureBack = new TextureLoader().load('assets/back.png');
     // Asign textures to the fontside and the backside of the plane
     const materialFront = new MeshBasicMaterial({
-      map: textureFront
+      map: textureFront,
     });
     const materialBack = new MeshBasicMaterial({
-      map: textureBack
+      map: textureBack,
     });
     // Create a 3D object
     const card = new Object3D();
