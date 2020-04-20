@@ -1,5 +1,5 @@
 {
   "extends": ["config:base"],
-  "assignees": "Gaspacchio",
+  "assignees": ["Gaspacchio"],
   "masterIssue": true
 }
