@@ -5,6 +5,6 @@ import { OverlayModule } from '@angular/cdk/overlay';
 @NgModule({
   declarations: [],
   imports: [CommonModule, OverlayModule, MaterialCdkModule],
-  exports: [OverlayModule, MaterialCdkModule]
+  exports: [OverlayModule, MaterialCdkModule],
 })
 export class MaterialCdkModule {}

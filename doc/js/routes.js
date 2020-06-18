@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
   function htmlEntities(str) {
     return String(str)
       .replace(/&/g, '&amp;')
@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   function getBB(selection) {
-    selection.each(function(d) {
+    selection.each(function (d) {
       d.bbox = this.getBBox();
     });
   }
@@ -45,14 +45,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
   engine = d3.layout.tree().setNodeSizes(true);
 
-  engine.spacing(function(a, b) {
+  engine.spacing(function (a, b) {
     return a.parent == b.parent ? 0 : engine.rootXSize();
   });
 
-  engine.nodeSize(function(d) {
+  engine.nodeSize(function (d) {
     return [
       document.getElementById(d.id).getBBox()['height'] + 70,
-      document.getElementById(d.id).getBBox()['width'] + 30
+      document.getElementById(d.id).getBBox()['width'] + 30,
     ];
   });
 
@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', function() {
     last_id = 0,
     node = svg_g
       .selectAll('.node')
-      .data(nodes, function(d) {
+      .data(nodes, function (d) {
         return d.id || (d.id = ++last_id);
       })
       .enter()
@@ -77,11 +77,11 @@ document.addEventListener('DOMContentLoaded', function() {
   svg_p.attr('transform', 'translate(20,0)').attr('id', 'paths');
 
   var infos_group = node.append('g').attr({
-    id: function(d) {
+    id: function (d) {
       return d.id;
     },
     dx: 0,
-    dy: 0
+    dy: 0,
   });
 
   //Node icon
@@ -90,31 +90,31 @@ document.addEventListener('DOMContentLoaded', function() {
     .attr('font-family', 'Ionicons')
     .attr('y', 5)
     .attr('x', 0)
-    .attr('class', function(d) {
+    .attr('class', function (d) {
       return d.children || d._children ? 'icon has-children' : 'icon';
     })
-    .attr('font-size', function(d) {
+    .attr('font-size', function (d) {
       return '15px';
     })
-    .text(function(d) {
+    .text(function (d) {
       return '\uf183';
     });
 
   //node infos
   infos_group
     .append('svg:text')
-    .attr('x', function(d) {
+    .attr('x', function (d) {
       return 0;
     })
-    .attr('y', function(d) {
+    .attr('y', function (d) {
       return 10;
     })
     .attr('dy', '.35em')
     .attr('class', 'text')
-    .attr('text-anchor', function(d) {
+    .attr('text-anchor', function (d) {
       return 'start';
     })
-    .html(function(d) {
+    .html(function (d) {
       // if kind === module name + module
       // if kind === component component + path
       var _name = '';
@@ -198,20 +198,20 @@ document.addEventListener('DOMContentLoaded', function() {
   //
   infos_group
     .append('svg:text')
-    .attr('y', function(d) {
+    .attr('y', function (d) {
       return 45;
     })
-    .attr('x', function(d) {
+    .attr('x', function (d) {
       return -18;
     })
     .attr('font-family', 'Ionicons')
-    .attr('class', function(d) {
+    .attr('class', function (d) {
       return 'icon';
     })
-    .attr('font-size', function(d) {
+    .attr('font-size', function (d) {
       return '15px';
     })
-    .text(function(d) {
+    .text(function (d) {
       var _text = '';
       if (d.loadChildren) {
         _text = '\uf4c1';
@@ -225,13 +225,13 @@ document.addEventListener('DOMContentLoaded', function() {
   //Node text background
   infos_group
     .insert('rect', 'text')
-    .attr('width', function(d) {
+    .attr('width', function (d) {
       return d.bbox.width;
     })
-    .attr('height', function(d) {
+    .attr('height', function (d) {
       return d.bbox.height;
     })
-    .attr('y', function(d) {
+    .attr('y', function (d) {
       return 15;
     })
     .style('fill', 'white')
@@ -251,7 +251,7 @@ document.addEventListener('DOMContentLoaded', function() {
     x_size_min = nodes[0].x_size,
     y_size_min = nodes[0].y_size;
 
-  nodes.slice(1).forEach(function(n) {
+  nodes.slice(1).forEach(function (n) {
     var ne = node_extents(n);
     xmin = Math.min(xmin, ne[0]);
     ymin = Math.min(ymin, ne[1]);
@@ -276,11 +276,11 @@ document.addEventListener('DOMContentLoaded', function() {
   var nodebox_right_margin = Math.min(x_size_min * scale, 10);
   var nodebox_vertical_margin = Math.min(y_size_min * scale, 3);
 
-  node.attr('transform', function(d) {
+  node.attr('transform', function (d) {
     return 'translate(' + svg_x(d.y) + ',' + svg_y(d.x) + ')';
   });
 
-  var diagonal = d3.svg.diagonal().projection(function(d) {
+  var diagonal = d3.svg.diagonal().projection(function (d) {
     return [svg_x(d.y), svg_y(d.x)];
   });
 
@@ -301,6 +301,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
   svg.attr({
     width: document.getElementById('main-group').getBBox()['width'] + 30,
-    height: document.getElementById('main-group').getBBox()['height'] + 50
+    height: document.getElementById('main-group').getBBox()['height'] + 50,
   });
 });

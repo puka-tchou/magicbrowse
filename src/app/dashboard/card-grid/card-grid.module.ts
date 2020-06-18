@@ -9,6 +9,6 @@ import { CardPopupComponent } from './card-popup/card-popup.component';
   declarations: [CardGridComponent],
   imports: [CommonModule, CardPopupModule, SharedModule],
   entryComponents: [CardPopupComponent],
-  exports: [CardGridComponent]
+  exports: [CardGridComponent],
 })
 export class CardGridModule {}

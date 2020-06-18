@@ -7,6 +7,6 @@ import { RouterModule } from '@angular/router';
 @NgModule({
   declarations: [],
   imports: [CommonModule, MaterialModule, HttpClientModule, RouterModule],
-  exports: [MaterialModule, HttpClientModule, RouterModule]
+  exports: [MaterialModule, HttpClientModule, RouterModule],
 })
 export class SharedModule {}

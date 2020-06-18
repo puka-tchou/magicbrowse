@@ -2,19 +2,19 @@
  * @author mrdoob / http://mrdoob.com/
  */
 
-var EventDispatcher = function() {};
+var EventDispatcher = function () {};
 Object.assign(EventDispatcher.prototype, {
-  addEventListener: function(i, t) {
+  addEventListener: function (i, t) {
     void 0 === this._listeners && (this._listeners = {});
     var e = this._listeners;
     void 0 === e[i] && (e[i] = []), -1 === e[i].indexOf(t) && e[i].push(t);
   },
-  hasEventListener: function(i, t) {
+  hasEventListener: function (i, t) {
     if (void 0 === this._listeners) return !1;
     var e = this._listeners;
     return void 0 !== e[i] && -1 !== e[i].indexOf(t);
   },
-  removeEventListener: function(i, t) {
+  removeEventListener: function (i, t) {
     if (void 0 !== this._listeners) {
       var e = this._listeners[i];
       if (void 0 !== e) {
@@ -23,7 +23,7 @@ Object.assign(EventDispatcher.prototype, {
       }
     }
   },
-  dispatchEvent: function(i) {
+  dispatchEvent: function (i) {
     if (void 0 !== this._listeners) {
       var t = this._listeners[i.type];
       if (void 0 !== t) {
@@ -35,5 +35,5 @@ Object.assign(EventDispatcher.prototype, {
         for (s = 0; s < n; s++) e[s].call(this, i);
       }
     }
-  }
+  },
 });

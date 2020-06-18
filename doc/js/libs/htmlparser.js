@@ -20,9 +20,9 @@ IN THE SOFTWARE.
 ***********************************************/
 /* v2.0.0 */
 
-!(function() {
+!(function () {
   function t(t, e) {
-    var a = function() {};
+    var a = function () {};
     (a.prototype = e.prototype),
       (t.super_ = e),
       (t.prototype = new a()),
@@ -53,7 +53,7 @@ IN THE SOFTWARE.
       ignoreWhitespace: !0,
       verbose: !1,
       enforceEmptyTags: !1,
-      caseSensitiveTags: !0
+      caseSensitiveTags: !0,
     });
   }
   var i;
@@ -74,22 +74,22 @@ IN THE SOFTWARE.
     Attr: 'attr',
     CData: 'cdata',
     Doctype: 'doctype',
-    Comment: 'comment'
+    Comment: 'comment',
   };
   'undefined' != typeof module &&
     void 0 !== module.exports &&
     (t(e, require('stream')),
     (e.prototype.writable = !0),
-    (e.prototype.write = function(t) {
+    (e.prototype.write = function (t) {
       t instanceof Buffer && (t = t.toString()), this.parseChunk(t);
     }),
-    (e.prototype.end = function(t) {
+    (e.prototype.end = function (t) {
       arguments.length && this.write(t), (this.writable = !1), this.done();
     }),
-    (e.prototype.destroy = function() {
+    (e.prototype.destroy = function () {
       this.writable = !1;
     })),
-    (e.prototype.reset = function() {
+    (e.prototype.reset = function () {
       (this._state = {
         mode: s.Text,
         pos: 0,
@@ -100,11 +100,11 @@ IN THE SOFTWARE.
         isScript: !1,
         needData: !1,
         output: [],
-        done: !1
+        done: !1,
       }),
         this._builder.reset();
     }),
-    (e.prototype.parseChunk = function(t) {
+    (e.prototype.parseChunk = function (t) {
       for (
         this._state.needData = !1,
           this._state.data =
@@ -116,16 +116,16 @@ IN THE SOFTWARE.
       )
         this._parse(this._state);
     }),
-    (e.prototype.parseComplete = function(t) {
+    (e.prototype.parseComplete = function (t) {
       this.reset(), this.parseChunk(t), this.done();
     }),
-    (e.prototype.done = function() {
+    (e.prototype.done = function () {
       (this._state.done = !0),
         this._parse(this._state),
         this._flushWrite(),
         this._builder.done();
     }),
-    (e.prototype._validateBuilder = function(t) {
+    (e.prototype._validateBuilder = function (t) {
       if ('object' != typeof t) throw new Error('Builder is not an object');
       if ('function' != typeof t.reset)
         throw new Error("Builder method 'reset' is invalid");
@@ -136,7 +136,7 @@ IN THE SOFTWARE.
       if ('function' != typeof t.error)
         throw new Error("Builder method 'error' is invalid");
     }),
-    (e.prototype._parse = function() {
+    (e.prototype._parse = function () {
       switch (this._state.mode) {
         case s.Text:
           return this._parseText(this._state);
@@ -152,11 +152,11 @@ IN THE SOFTWARE.
           return this._parseComment(this._state);
       }
     }),
-    (e.prototype._writePending = function(t) {
+    (e.prototype._writePending = function (t) {
       this._state.pendingWrite || (this._state.pendingWrite = []),
         this._state.pendingWrite.push(t);
     }),
-    (e.prototype._flushWrite = function() {
+    (e.prototype._flushWrite = function () {
       if (this._state.pendingWrite) {
         for (var t = 0, e = this._state.pendingWrite.length; t < e; t++) {
           var a = this._state.pendingWrite[t];
@@ -165,11 +165,11 @@ IN THE SOFTWARE.
         this._state.pendingWrite = null;
       }
     }),
-    (e.prototype._write = function(t) {
+    (e.prototype._write = function (t) {
       this._flushWrite(), this._builder.write(t);
     }),
     (e._re_parseText_scriptClose = /<\s*\/\s*script/gi),
-    (e.prototype._parseText = function() {
+    (e.prototype._parseText = function () {
       var t,
         a = this._state;
       a.isScript
@@ -196,7 +196,7 @@ IN THE SOFTWARE.
           (a.mode = s.Tag);
     }),
     (e.re_parseTag = /\s*(\/?)\s*([^\s>\/]+)(\s*)\??(>?)/g),
-    (e.prototype._parseTag = function() {
+    (e.prototype._parseTag = function () {
       var t = this._state;
       e.re_parseTag.lastIndex = t.pos;
       var a = e.re_parseTag.exec(t.data);
@@ -223,7 +223,7 @@ IN THE SOFTWARE.
       } else t.needData = !0;
     }),
     (e.re_parseAttr_findName = /\s*([^=<>\s'"\/]+)\s*/g),
-    (e.prototype._parseAttr_findName = function() {
+    (e.prototype._parseAttr_findName = function () {
       e.re_parseAttr_findName.lastIndex = this._state.pos;
       var t = e.re_parseAttr_findName.exec(this._state.data);
       return t
@@ -234,7 +234,7 @@ IN THE SOFTWARE.
     }),
     (e.re_parseAttr_findValue = /\s*=\s*(?:'([^']*)'|"([^"]*)"|([^'"\s\/>]+))\s*/g),
     (e.re_parseAttr_findValue_last = /\s*=\s*['"]?(.*)$/g),
-    (e.prototype._parseAttr_findValue = function() {
+    (e.prototype._parseAttr_findValue = function () {
       var t = this._state;
       e.re_parseAttr_findValue.lastIndex = t.pos;
       var a = e.re_parseAttr_findValue.exec(t.data);
@@ -250,7 +250,7 @@ IN THE SOFTWARE.
     }),
     (e.re_parseAttr_splitValue = /\s*=\s*['"]?/g),
     (e.re_parseAttr_selfClose = /(\s*\/\s*)(>?)/g),
-    (e.prototype._parseAttr = function() {
+    (e.prototype._parseAttr = function () {
       var t = this._state,
         a = this._parseAttr_findName(t);
       if (a && '?' !== a.name) {
@@ -297,7 +297,7 @@ IN THE SOFTWARE.
       }
     }),
     (e.re_parseCData_findEnding = /\]{1,2}$/),
-    (e.prototype._parseCData = function() {
+    (e.prototype._parseCData = function () {
       var t = this._state,
         a = t.data.indexOf(']]>', t.pos);
       if ((a < 0 && t.done && (a = t.data.length), a < 0)) {
@@ -322,7 +322,7 @@ IN THE SOFTWARE.
           (t.pos = a + 3);
       }
     }),
-    (e.prototype._parseDoctype = function() {
+    (e.prototype._parseDoctype = function () {
       var t = this._state,
         a = t.data.indexOf('>', t.pos);
       if ((a < 0 && t.done && (a = t.data.length), a < 0))
@@ -344,7 +344,7 @@ IN THE SOFTWARE.
       }
     }),
     (e.re_parseComment_findEnding = /\-{1,2}$/),
-    (e.prototype._parseComment = function() {
+    (e.prototype._parseComment = function () {
       var t = this._state,
         a = t.data.indexOf('--\x3e', t.pos);
       if ((a < 0 && t.done && (a = t.data.length), a < 0)) {
@@ -384,32 +384,32 @@ IN THE SOFTWARE.
       meta: 1,
       param: 1,
       embed: 1,
-      '?xml': 1
+      '?xml': 1,
     }),
     (a.reWhitespace = /^\s*$/),
     (a.prototype.dom = null),
-    (a.prototype.reset = function() {
+    (a.prototype.reset = function () {
       (this.dom = []),
         (this._done = !1),
         (this._tagStack = []),
         (this._lastTag = null),
-        (this._tagStack.last = function() {
+        (this._tagStack.last = function () {
           return this.length ? this[this.length - 1] : null;
         }),
         (this._line = 1),
         (this._col = 1);
     }),
-    (a.prototype.done = function() {
+    (a.prototype.done = function () {
       (this._done = !0), this.handleCallback(null);
     }),
-    (a.prototype.error = function(t) {
+    (a.prototype.error = function (t) {
       this.handleCallback(t);
     }),
-    (a.prototype.handleCallback = function(t) {
+    (a.prototype.handleCallback = function (t) {
       if ('function' == typeof this._callback) this._callback(t, this.dom);
       else if (t) throw t;
     }),
-    (a.prototype.isEmptyTag = function(t) {
+    (a.prototype.isEmptyTag = function (t) {
       var e = t.name.toLowerCase();
       return (
         '?' == e.charAt(0) ||
@@ -417,10 +417,10 @@ IN THE SOFTWARE.
         this._options.enforceEmptyTags && !!a._emptyTags[e])
       );
     }),
-    (a.prototype._getLocation = function() {
+    (a.prototype._getLocation = function () {
       return { line: this._line, col: this._col };
     }),
-    (a.prototype._updateLocation = function(t) {
+    (a.prototype._updateLocation = function (t) {
       var e = t.type === s.Tag ? t.raw : t.data;
       if (null !== e) {
         var a = e.split('\n');
@@ -434,7 +434,7 @@ IN THE SOFTWARE.
             : t.type === s.CData && (this._col += 12);
       }
     }),
-    (a.prototype._copyElement = function(t) {
+    (a.prototype._copyElement = function (t) {
       var e = { type: t.type };
       if (
         (this._options.verbose && void 0 !== t.raw && (e.raw = t.raw),
@@ -463,7 +463,7 @@ IN THE SOFTWARE.
         e
       );
     }),
-    (a.prototype.write = function(t) {
+    (a.prototype.write = function (t) {
       if (
         (this._done &&
           this.handleCallback(
@@ -539,11 +539,11 @@ IN THE SOFTWARE.
     (a.prototype._done = !1),
     (a.prototype._tagStack = null),
     t(n, a),
-    (n.prototype.done = function() {
+    (n.prototype.done = function () {
       var t,
         e = {},
         a = r.getElementsByTagName(
-          function(t) {
+          function (t) {
             return 'rss' == t || 'feed' == t;
           },
           this.dom,
@@ -592,7 +592,7 @@ IN THE SOFTWARE.
           (e.items = []),
             r
               .getElementsByTagName('item', t.children)
-              .forEach(function(t, a, n) {
+              .forEach(function (t, a, n) {
                 var i = {};
                 try {
                   i.id = r.getElementsByTagName(
@@ -682,7 +682,7 @@ IN THE SOFTWARE.
           (e.items = []),
             r
               .getElementsByTagName('entry', t.children)
-              .forEach(function(t, a, n) {
+              .forEach(function (t, a, n) {
                 var i = {};
                 try {
                   i.id = r.getElementsByTagName(
@@ -729,7 +729,7 @@ IN THE SOFTWARE.
       n.super_.prototype.done.call(this);
     });
   var r = {
-    testElement: function(t, e) {
+    testElement: function (t, e) {
       if (!e) return !1;
       for (var a in t)
         if (t.hasOwnProperty(a))
@@ -745,7 +745,7 @@ IN THE SOFTWARE.
           } else if (!e.attributes || !t[a](e.attributes[a])) return !1;
       return !0;
     },
-    getElements: function(t, e, a, n) {
+    getElements: function (t, e, a, n) {
       if (
         ((a = void 0 === a || null === a || !!a),
         (n = isNaN(parseInt(n)) ? -1 : parseInt(n)),
@@ -756,8 +756,8 @@ IN THE SOFTWARE.
         s = [];
       for (var o in t)
         'function' != typeof t[o] &&
-          (t[o] = (function(t) {
-            return function(e) {
+          (t[o] = (function (t) {
+            return function (e) {
               return e == t;
             };
           })(t[o]));
@@ -776,16 +776,16 @@ IN THE SOFTWARE.
       );
       return s;
     },
-    getElementById: function(t, e, a) {
+    getElementById: function (t, e, a) {
       var n = r.getElements({ id: t }, e, a, 1);
       return n.length ? n[0] : null;
     },
-    getElementsByTagName: function(t, e, a, n) {
+    getElementsByTagName: function (t, e, a, n) {
       return r.getElements({ tag_name: t }, e, a, n);
     },
-    getElementsByTagType: function(t, e, a, n) {
+    getElementsByTagType: function (t, e, a, n) {
       return r.getElements({ tag_type: t }, e, a, n);
-    }
+    },
   };
   (i.Parser = e),
     (i.HtmlBuilder = a),

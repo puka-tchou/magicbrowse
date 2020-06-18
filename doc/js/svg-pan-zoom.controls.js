@@ -1,25 +1,27 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
   if (document.getElementById('module-graph-svg')) {
     panZoom = svgPanZoom(
       document.getElementById('module-graph-svg').querySelector('svg'),
       {
         zoomEnabled: true,
         minZoom: 1,
-        maxZoom: 5
+        maxZoom: 5,
       }
     );
 
-    document.getElementById('zoom-in').addEventListener('click', function(ev) {
+    document.getElementById('zoom-in').addEventListener('click', function (ev) {
       ev.preventDefault();
       panZoom.zoomIn();
     });
 
-    document.getElementById('zoom-out').addEventListener('click', function(ev) {
-      ev.preventDefault();
-      panZoom.zoomOut();
-    });
+    document
+      .getElementById('zoom-out')
+      .addEventListener('click', function (ev) {
+        ev.preventDefault();
+        panZoom.zoomOut();
+      });
 
-    document.getElementById('reset').addEventListener('click', function(ev) {
+    document.getElementById('reset').addEventListener('click', function (ev) {
       ev.preventDefault();
       panZoom.resetZoom();
       panZoom.resetPan();
@@ -30,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     document
       .getElementById('fullscreen')
-      .addEventListener('click', function(ev) {
+      .addEventListener('click', function (ev) {
         if (overviewFullscreen) {
           document.getElementById(
             'module-graph-svg'
@@ -55,7 +57,7 @@ document.addEventListener('DOMContentLoaded', function() {
           .querySelector('svg').style.height = document.getElementById(
           'module-graph-svg'
         ).clientHeight;
-        setTimeout(function() {
+        setTimeout(function () {
           panZoom.resize();
           panZoom.fit();
           panZoom.center();

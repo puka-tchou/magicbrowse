@@ -1,18 +1,18 @@
 // lit-html v0.10.0 | © Polymer team
-!(function(e, t) {
+!(function (e, t) {
   'object' == typeof exports && 'undefined' != typeof module
     ? t(exports)
     : 'function' == typeof define && define.amd
     ? define(['exports'], t)
     : t((e.lithtml = {}));
-})(this, function(e) {
+})(this, function (e) {
   'use strict';
   var t =
       'function' == typeof Symbol && 'symbol' == typeof Symbol.iterator
-        ? function(e) {
+        ? function (e) {
             return typeof e;
           }
-        : function(e) {
+        : function (e) {
             return e &&
               'function' == typeof Symbol &&
               e.constructor === Symbol &&
@@ -31,7 +31,7 @@
       var a = i.get;
       return void 0 !== a ? a.call(r) : void 0;
     },
-    r = (function() {
+    r = (function () {
       function e(e, t) {
         for (var n = 0; n < t.length; n++) {
           var r = t[n];
@@ -41,7 +41,7 @@
             Object.defineProperty(e, r.key, r);
         }
       }
-      return function(t, n, r) {
+      return function (t, n, r) {
         return n && e(t.prototype, n), r && e(t, r), t;
       };
     })();
@@ -50,7 +50,7 @@
       throw new TypeError('Cannot call a class as a function');
   }
   var o = new Map(),
-    a = (function() {
+    a = (function () {
       function e(t, n, r) {
         var o =
           arguments.length > 3 && void 0 !== arguments[3] ? arguments[3] : x;
@@ -64,7 +64,7 @@
         r(e, [
           {
             key: 'getHTML',
-            value: function() {
+            value: function () {
               for (
                 var e, t, n = this.strings.length - 1, r = '', i = !0, o = 0;
                 o < n;
@@ -80,24 +80,24 @@
                 r += (i = s > -1 ? s < a.length : i) ? c : u;
               }
               return (r += this.strings[n]);
-            }
+            },
           },
           {
             key: 'getTemplateElement',
-            value: function() {
+            value: function () {
               var e = document.createElement('template');
               return (e.innerHTML = this.getHTML()), e;
-            }
-          }
+            },
+          },
         ]),
         e
       );
     })(),
-    s = (function(e) {
+    s = (function (e) {
       function t() {
         return (
           i(this, t),
-          (function(e, t) {
+          (function (e, t) {
             if (!e)
               throw new ReferenceError(
                 "this hasn't been initialised - super() hasn't been called"
@@ -112,7 +112,7 @@
         );
       }
       return (
-        (function(e, t) {
+        (function (e, t) {
           if ('function' != typeof t && null !== t)
             throw new TypeError(
               'Super expression must either be null or a function, not ' +
@@ -123,8 +123,8 @@
               value: e,
               enumerable: !1,
               writable: !0,
-              configurable: !0
-            }
+              configurable: !0,
+            },
           })),
             t &&
               (Object.setPrototypeOf
@@ -134,7 +134,7 @@
         r(t, [
           {
             key: 'getHTML',
-            value: function() {
+            value: function () {
               return (
                 '<svg>' +
                 n(
@@ -144,11 +144,11 @@
                 ).call(this) +
                 '</svg>'
               );
-            }
+            },
           },
           {
             key: 'getTemplateElement',
-            value: function() {
+            value: function () {
               var e = n(
                   t.prototype.__proto__ || Object.getPrototypeOf(t.prototype),
                   'getTemplateElement',
@@ -157,8 +157,8 @@
                 r = e.content,
                 i = r.firstChild;
               return r.removeChild(i), T(r, i.firstChild), e;
-            }
-          }
+            },
+          },
         ]),
         t
       );
@@ -272,14 +272,14 @@
         }
       }
     },
-    d = function(e, t) {
+    d = function (e, t) {
       return y(t) ? ((t = t(e)), m) : null === t ? void 0 : t;
     },
-    y = function(e) {
+    y = function (e) {
       return 'function' == typeof e && !0 === e.__litDirective;
     },
     m = {},
-    _ = function(e) {
+    _ = function (e) {
       return (
         null === e ||
         !(
@@ -288,7 +288,7 @@
         )
       );
     },
-    g = (function() {
+    g = (function () {
       function e(t, n, r, o) {
         i(this, e),
           (this.instance = t),
@@ -302,7 +302,7 @@
         r(e, [
           {
             key: '_interpolate',
-            value: function(e, t) {
+            value: function (e, t) {
               for (
                 var n = this.strings, r = n.length - 1, i = '', o = 0;
                 o < r;
@@ -339,19 +339,19 @@
                 } else i += a;
               }
               return i + n[r];
-            }
+            },
           },
           {
             key: '_equalToPreviousValues',
-            value: function(e, t) {
+            value: function (e, t) {
               for (var n = t; n < t + this.size; n++)
                 if (this._previousValues[n] !== e[n] || !_(e[n])) return !1;
               return !0;
-            }
+            },
           },
           {
             key: 'setValue',
-            value: function(e, t) {
+            value: function (e, t) {
               if (!this._equalToPreviousValues(e, t)) {
                 var n = this.strings,
                   r = void 0;
@@ -361,13 +361,13 @@
                   r !== m && this.element.setAttribute(this.name, r),
                   (this._previousValues = e);
               }
-            }
-          }
+            },
+          },
         ]),
         e
       );
     })(),
-    b = (function() {
+    b = (function () {
       function e(t, n, r) {
         i(this, e),
           (this.instance = t),
@@ -379,7 +379,7 @@
         r(e, [
           {
             key: 'setValue',
-            value: function(e) {
+            value: function (e) {
               if ((e = d(this, e)) !== m)
                 if (_(e)) {
                   if (e === this._previousValue) return;
@@ -394,24 +394,24 @@
                     : void 0 !== e.then
                     ? this._setPromise(e)
                     : this._setText(e);
-            }
+            },
           },
           {
             key: '_insert',
-            value: function(e) {
+            value: function (e) {
               this.endNode.parentNode.insertBefore(e, this.endNode);
-            }
+            },
           },
           {
             key: '_setNode',
-            value: function(e) {
+            value: function (e) {
               this._previousValue !== e &&
                 (this.clear(), this._insert(e), (this._previousValue = e));
-            }
+            },
           },
           {
             key: '_setText',
-            value: function(e) {
+            value: function (e) {
               var t = this.startNode.nextSibling;
               (e = void 0 === e ? '' : e),
                 t === this.endNode.previousSibling &&
@@ -419,11 +419,11 @@
                   ? (t.textContent = e)
                   : this._setNode(document.createTextNode(e)),
                 (this._previousValue = e);
-            }
+            },
           },
           {
             key: '_setTemplateResult',
-            value: function(e) {
+            value: function (e) {
               var t = this.instance._getTemplate(e),
                 n = void 0;
               this._previousValue && this._previousValue.template === t
@@ -436,11 +436,11 @@
                   this._setNode(n._clone()),
                   (this._previousValue = n)),
                 n.update(e.values);
-            }
+            },
           },
           {
             key: '_setIterable',
-            value: function(t) {
+            value: function (t) {
               Array.isArray(this._previousValue) ||
                 (this.clear(), (this._previousValue = []));
               var n = this._previousValue,
@@ -481,38 +481,38 @@
                   this.clear(f.endNode.previousSibling),
                   (f.endNode = this.endNode);
               }
-            }
+            },
           },
           {
             key: '_setPromise',
-            value: function(e) {
+            value: function (e) {
               var t = this;
               (this._previousValue = e),
-                e.then(function(n) {
+                e.then(function (n) {
                   t._previousValue === e && t.setValue(n);
                 });
-            }
+            },
           },
           {
             key: 'clear',
-            value: function() {
+            value: function () {
               var e =
                 arguments.length > 0 && void 0 !== arguments[0]
                   ? arguments[0]
                   : this.startNode;
               w(this.startNode.parentNode, e.nextSibling, this.endNode);
-            }
-          }
+            },
+          },
         ]),
         e
       );
     })(),
-    x = function(e, t, n) {
+    x = function (e, t, n) {
       if ('attribute' === t.type) return new g(e, n, t.name, t.strings);
       if ('node' === t.type) return new b(e, n, n.nextSibling);
       throw new Error('Unknown part type ' + t.type);
     },
-    N = (function() {
+    N = (function () {
       function e(t, n, r) {
         i(this, e),
           (this._parts = []),
@@ -524,7 +524,7 @@
         r(e, [
           {
             key: 'update',
-            value: function(e) {
+            value: function (e) {
               var t = 0,
                 n = !0,
                 r = !1,
@@ -549,11 +549,11 @@
                   if (r) throw i;
                 }
               }
-            }
+            },
           },
           {
             key: '_clone',
-            value: function() {
+            value: function () {
               var e = document.importNode(this.template.element.content, !0),
                 t = this.template.parts;
               if (t.length > 0)
@@ -568,13 +568,13 @@
                   this._parts.push(this._partCallback(this, o, n.currentNode));
                 }
               return e;
-            }
-          }
+            },
+          },
         ]),
         e
       );
     })(),
-    T = function(e, t) {
+    T = function (e, t) {
       for (
         var n =
             arguments.length > 2 && void 0 !== arguments[2]
@@ -592,7 +592,7 @@
         e.insertBefore(i, r), (i = o);
       }
     },
-    w = function(e, t) {
+    w = function (e, t) {
       for (
         var n =
             arguments.length > 2 && void 0 !== arguments[2]
@@ -607,7 +607,7 @@
       }
     };
   (e.templateCaches = o),
-    (e.html = function(e) {
+    (e.html = function (e) {
       for (
         var t = arguments.length, n = Array(t > 1 ? t - 1 : 0), r = 1;
         r < t;
@@ -616,7 +616,7 @@
         n[r - 1] = arguments[r];
       return new a(e, n, 'html');
     }),
-    (e.svg = function(e) {
+    (e.svg = function (e) {
       for (
         var t = arguments.length, n = Array(t > 1 ? t - 1 : 0), r = 1;
         r < t;
@@ -628,7 +628,7 @@
     (e.TemplateResult = a),
     (e.SVGTemplateResult = s),
     (e.defaultTemplateFactory = l),
-    (e.render = function(e, t) {
+    (e.render = function (e, t) {
       var n =
           arguments.length > 2 && void 0 !== arguments[2] ? arguments[2] : l,
         r = n(e),
@@ -646,7 +646,7 @@
     (e.TemplatePart = p),
     (e.Template = v),
     (e.getValue = d),
-    (e.directive = function(e) {
+    (e.directive = function (e) {
       return (e.__litDirective = !0), e;
     }),
     (e.directiveValue = m),

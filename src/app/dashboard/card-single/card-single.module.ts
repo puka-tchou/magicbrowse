@@ -6,6 +6,6 @@ import { SharedModule } from 'src/app/shared/shared.module';
 @NgModule({
   declarations: [CardSingleComponent],
   imports: [CommonModule, SharedModule],
-  exports: [CardSingleComponent]
+  exports: [CardSingleComponent],
 })
 export class CardSingleModule {}

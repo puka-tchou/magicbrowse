@@ -132,8 +132,8 @@ var COMPODOC_SEARCH_INDEX = {
           61,
           0.023,
           62,
-          0.017
-        ]
+          0.017,
+        ],
       ],
       ['title/modules/AppModule.html', [63, 0.405, 64, 1.903]],
       [
@@ -234,8 +234,8 @@ var COMPODOC_SEARCH_INDEX = {
           95,
           1.339,
           96,
-          1.894
-        ]
+          1.894,
+        ],
       ],
       ['title/classes/AppPage.html', [33, 0.092, 97, 2.159]],
       [
@@ -300,8 +300,8 @@ var COMPODOC_SEARCH_INDEX = {
           110,
           3.732,
           111,
-          3.732
-        ]
+          3.732,
+        ],
       ],
       ['title/modules/AppRoutingModule.html', [63, 0.405, 75, 1.698]],
       [
@@ -390,8 +390,8 @@ var COMPODOC_SEARCH_INDEX = {
           123,
           2.682,
           124,
-          2.682
-        ]
+          2.682,
+        ],
       ],
       ['title/components/CardGridComponent.html', [0, 0.576, 47, 1.038]],
       [
@@ -650,8 +650,8 @@ var COMPODOC_SEARCH_INDEX = {
           197,
           1.729,
           198,
-          1.729
-        ]
+          1.729,
+        ],
       ],
       ['title/modules/CardGridModule.html', [63, 0.405, 199, 1.698]],
       [
@@ -746,8 +746,8 @@ var COMPODOC_SEARCH_INDEX = {
           208,
           2.068,
           209,
-          2.896
-        ]
+          2.896,
+        ],
       ],
       ['title/classes/CardListModel.html', [33, 0.092, 153, 1.698]],
       [
@@ -800,8 +800,8 @@ var COMPODOC_SEARCH_INDEX = {
           211,
           3.976,
           212,
-          2.502
-        ]
+          2.502,
+        ],
       ],
       ['title/classes/CardModel.html', [33, 0.092, 148, 1.381]],
       [
@@ -856,8 +856,8 @@ var COMPODOC_SEARCH_INDEX = {
           217,
           3.629,
           218,
-          3.629
-        ]
+          3.629,
+        ],
       ],
       ['title/components/CardPopupComponent.html', [0, 0.576, 50, 0.945]],
       [
@@ -1024,8 +1024,8 @@ var COMPODOC_SEARCH_INDEX = {
           233,
           2.338,
           234,
-          3.442
-        ]
+          3.442,
+        ],
       ],
       ['title/modules/CardPopupModule.html', [63, 0.405, 204, 1.698]],
       [
@@ -1110,8 +1110,8 @@ var COMPODOC_SEARCH_INDEX = {
           237,
           3.309,
           238,
-          3.309
-        ]
+          3.309,
+        ],
       ],
       ['title/components/CardSingleComponent.html', [0, 0.576, 52, 1.038]],
       [
@@ -1302,8 +1302,8 @@ var COMPODOC_SEARCH_INDEX = {
           259,
           2.052,
           260,
-          2.052
-        ]
+          2.052,
+        ],
       ],
       ['title/modules/CardSingleModule.html', [63, 0.405, 76, 1.381]],
       [
@@ -1386,8 +1386,8 @@ var COMPODOC_SEARCH_INDEX = {
           265,
           3.202,
           266,
-          3.202
-        ]
+          3.202,
+        ],
       ],
       ['title/components/DashboardComponent.html', [0, 0.576, 54, 0.859]],
       [
@@ -1550,8 +1550,8 @@ var COMPODOC_SEARCH_INDEX = {
           282,
           3.464,
           283,
-          3.464
-        ]
+          3.464,
+        ],
       ],
       ['title/modules/DashboardModule.html', [63, 0.405, 77, 1.527]],
       [
@@ -1652,8 +1652,8 @@ var COMPODOC_SEARCH_INDEX = {
           292,
           2.609,
           293,
-          2.609
-        ]
+          2.609,
+        ],
       ],
       ['title/modules/DashboardRoutingModule.html', [63, 0.405, 288, 1.698]],
       [
@@ -1718,12 +1718,12 @@ var COMPODOC_SEARCH_INDEX = {
           294,
           3.714,
           295,
-          3.714
-        ]
+          3.714,
+        ],
       ],
       [
         'title/injectables/MagicTheGatheringService.html',
-        [139, 1.698, 296, 1.903]
+        [139, 1.698, 296, 1.903],
       ],
       [
         'body/injectables/MagicTheGatheringService.html',
@@ -1841,8 +1841,8 @@ var COMPODOC_SEARCH_INDEX = {
           315,
           2.707,
           316,
-          2.707
-        ]
+          2.707,
+        ],
       ],
       ['title/modules/MaterialModule.html', [63, 0.405, 317, 1.698]],
       [
@@ -1911,8 +1911,8 @@ var COMPODOC_SEARCH_INDEX = {
           328,
           4.998,
           329,
-          4.998
-        ]
+          4.998,
+        ],
       ],
       ['title/components/SearchComponent.html', [0, 0.576, 56, 1.038]],
       [
@@ -2061,8 +2061,8 @@ var COMPODOC_SEARCH_INDEX = {
           337,
           2.509,
           338,
-          2.509
-        ]
+          2.509,
+        ],
       ],
       ['title/modules/SearchModule.html', [63, 0.405, 289, 1.698]],
       [
@@ -2139,8 +2139,8 @@ var COMPODOC_SEARCH_INDEX = {
           343,
           3.241,
           344,
-          3.241
-        ]
+          3.241,
+        ],
       ],
       ['title/modules/SharedModule.html', [63, 0.405, 78, 1.14]],
       [
@@ -2219,8 +2219,8 @@ var COMPODOC_SEARCH_INDEX = {
           349,
           3.241,
           350,
-          4.874
-        ]
+          4.874,
+        ],
       ],
       ['title/classes/SingleCardModel.html', [33, 0.092, 252, 1.698]],
       [
@@ -2273,8 +2273,8 @@ var COMPODOC_SEARCH_INDEX = {
           351,
           3.291,
           352,
-          3.976
-        ]
+          3.976,
+        ],
       ],
       ['title/coverage.html', [353, 3.419]],
       [
@@ -2399,8 +2399,8 @@ var COMPODOC_SEARCH_INDEX = {
           372,
           2.865,
           373,
-          2.865
-        ]
+          2.865,
+        ],
       ],
       ['title/dependencies.html', [66, 1.136, 374, 2.524]],
       [
@@ -2483,8 +2483,8 @@ var COMPODOC_SEARCH_INDEX = {
           400,
           3.5,
           401,
-          3.5
-        ]
+          3.5,
+        ],
       ],
       ['title/index.html', [19, 0.652, 402, 2.524, 403, 2.524]],
       [
@@ -2605,8 +2605,8 @@ var COMPODOC_SEARCH_INDEX = {
           447,
           3.089,
           448,
-          3.089
-        ]
+          3.089,
+        ],
       ],
       ['title/modules.html', [65, 1.067]],
       [
@@ -2653,8 +2653,8 @@ var COMPODOC_SEARCH_INDEX = {
           451,
           4.732,
           452,
-          4.732
-        ]
+          4.732,
+        ],
       ],
       ['title/overview.html', [453, 3.419]],
       [
@@ -2787,13 +2787,13 @@ var COMPODOC_SEARCH_INDEX = {
           457,
           2.165,
           458,
-          2.165
-        ]
+          2.165,
+        ],
       ],
       ['title/routes.html', [119, 2.319]],
       [
         'body/routes.html',
-        [23, 0.032, 60, 0.028, 61, 0.032, 62, 0.028, 119, 2.694]
+        [23, 0.032, 60, 0.028, 61, 0.032, 62, 0.028, 119, 2.694],
       ],
       ['title/miscellaneous/variables.html', [459, 2.089, 460, 3.011]],
       [
@@ -2848,9 +2848,9 @@ var COMPODOC_SEARCH_INDEX = {
           467,
           4.775,
           468,
-          3.768
-        ]
-      ]
+          3.768,
+        ],
+      ],
     ],
     invertedIndex: [
       [
@@ -2886,9 +2886,9 @@ var COMPODOC_SEARCH_INDEX = {
             'modules.html': {},
             'overview.html': {},
             'routes.html': {},
-            'miscellaneous/variables.html': {}
-          }
-        }
+            'miscellaneous/variables.html': {},
+          },
+        },
       ],
       ['0', { _index: 357, title: {}, body: { 'coverage.html': {} } }],
       ['0.10.0', { _index: 396, title: {}, body: { 'dependencies.html': {} } }],
@@ -2897,16 +2897,16 @@ var COMPODOC_SEARCH_INDEX = {
         {
           _index: 192,
           title: {},
-          body: { 'components/CardGridComponent.html': {} }
-        }
+          body: { 'components/CardGridComponent.html': {} },
+        },
       ],
       [
         '0.5em',
         {
           _index: 188,
           title: {},
-          body: { 'components/CardGridComponent.html': {} }
-        }
+          body: { 'components/CardGridComponent.html': {} },
+        },
       ],
       ['0.8.26', { _index: 401, title: {}, body: { 'dependencies.html': {} } }],
       ['0/1', { _index: 366, title: {}, body: { 'coverage.html': {} } }],
@@ -2923,8 +2923,8 @@ var COMPODOC_SEARCH_INDEX = {
         {
           _index: 176,
           title: {},
-          body: { 'components/CardGridComponent.html': {} }
-        }
+          body: { 'components/CardGridComponent.html': {} },
+        },
       ],
       ['2', { _index: 458, title: {}, body: { 'overview.html': {} } }],
       ['2.0.8', { _index: 387, title: {}, body: { 'dependencies.html': {} } }],
@@ -2934,8 +2934,8 @@ var COMPODOC_SEARCH_INDEX = {
         {
           _index: 186,
           title: {},
-          body: { 'components/CardGridComponent.html': {} }
-        }
+          body: { 'components/CardGridComponent.html': {} },
+        },
       ],
       ['3.0.1', { _index: 391, title: {}, body: { 'dependencies.html': {} } }],
       ['4', { _index: 457, title: {}, body: { 'overview.html': {} } }],
@@ -2944,8 +2944,8 @@ var COMPODOC_SEARCH_INDEX = {
         {
           _index: 170,
           title: {},
-          body: { 'components/CardGridComponent.html': {} }
-        }
+          body: { 'components/CardGridComponent.html': {} },
+        },
       ],
       ['6', { _index: 455, title: {}, body: { 'overview.html': {} } }],
       ['6.3.3', { _index: 397, title: {}, body: { 'dependencies.html': {} } }],
@@ -2954,8 +2954,8 @@ var COMPODOC_SEARCH_INDEX = {
         {
           _index: 172,
           title: {},
-          body: { 'components/CardGridComponent.html': {} }
-        }
+          body: { 'components/CardGridComponent.html': {} },
+        },
       ],
       ['7.2.0', { _index: 379, title: {}, body: { 'dependencies.html': {} } }],
       ['7.2.4', { _index: 376, title: {}, body: { 'dependencies.html': {} } }],
@@ -2967,16 +2967,16 @@ var COMPODOC_SEARCH_INDEX = {
         {
           _index: 273,
           title: {},
-          body: { 'components/DashboardComponent.html': {} }
-        }
+          body: { 'components/DashboardComponent.html': {} },
+        },
       ],
       [
         'activeroute',
         {
           _index: 275,
           title: {},
-          body: { 'components/DashboardComponent.html': {} }
-        }
+          body: { 'components/DashboardComponent.html': {} },
+        },
       ],
       [
         'actual_component',
@@ -2989,18 +2989,18 @@ var COMPODOC_SEARCH_INDEX = {
             'components/CardPopupComponent.html': {},
             'components/CardSingleComponent.html': {},
             'components/DashboardComponent.html': {},
-            'components/SearchComponent.html': {}
-          }
-        }
+            'components/SearchComponent.html': {},
+          },
+        },
       ],
       ['angular', { _index: 406, title: {}, body: { 'index.html': {} } }],
       [
         'angular/animations',
-        { _index: 375, title: {}, body: { 'dependencies.html': {} } }
+        { _index: 375, title: {}, body: { 'dependencies.html': {} } },
       ],
       [
         'angular/cdk',
-        { _index: 377, title: {}, body: { 'dependencies.html': {} } }
+        { _index: 377, title: {}, body: { 'dependencies.html': {} } },
       ],
       [
         'angular/common',
@@ -3017,9 +3017,9 @@ var COMPODOC_SEARCH_INDEX = {
             'modules/MaterialModule.html': {},
             'modules/SearchModule.html': {},
             'modules/SharedModule.html': {},
-            'dependencies.html': {}
-          }
-        }
+            'dependencies.html': {},
+          },
+        },
       ],
       [
         'angular/common/http',
@@ -3029,13 +3029,13 @@ var COMPODOC_SEARCH_INDEX = {
           body: {
             'components/CardGridComponent.html': {},
             'injectables/MagicTheGatheringService.html': {},
-            'modules/SharedModule.html': {}
-          }
-        }
+            'modules/SharedModule.html': {},
+          },
+        },
       ],
       [
         'angular/compiler',
-        { _index: 380, title: {}, body: { 'dependencies.html': {} } }
+        { _index: 380, title: {}, body: { 'dependencies.html': {} } },
       ],
       [
         'angular/core',
@@ -3060,13 +3060,13 @@ var COMPODOC_SEARCH_INDEX = {
             'components/SearchComponent.html': {},
             'modules/SearchModule.html': {},
             'modules/SharedModule.html': {},
-            'dependencies.html': {}
-          }
-        }
+            'dependencies.html': {},
+          },
+        },
       ],
       [
         'angular/forms',
-        { _index: 381, title: {}, body: { 'dependencies.html': {} } }
+        { _index: 381, title: {}, body: { 'dependencies.html': {} } },
       ],
       [
         'angular/material',
@@ -3077,17 +3077,17 @@ var COMPODOC_SEARCH_INDEX = {
             'components/CardGridComponent.html': {},
             'components/CardPopupComponent.html': {},
             'modules/MaterialModule.html': {},
-            'dependencies.html': {}
-          }
-        }
+            'dependencies.html': {},
+          },
+        },
       ],
       [
         'angular/platform',
         {
           _index: 85,
           title: {},
-          body: { 'modules/AppModule.html': {}, 'dependencies.html': {} }
-        }
+          body: { 'modules/AppModule.html': {}, 'dependencies.html': {} },
+        },
       ],
       [
         'angular/router',
@@ -3099,9 +3099,9 @@ var COMPODOC_SEARCH_INDEX = {
             'components/DashboardComponent.html': {},
             'modules/DashboardRoutingModule.html': {},
             'modules/SharedModule.html': {},
-            'dependencies.html': {}
-          }
-        }
+            'dependencies.html': {},
+          },
+        },
       ],
       [
         'app',
@@ -3116,21 +3116,21 @@ var COMPODOC_SEARCH_INDEX = {
             'components/CardSingleComponent.html': {},
             'components/DashboardComponent.html': {},
             'components/SearchComponent.html': {},
-            'index.html': {}
-          }
-        }
+            'index.html': {},
+          },
+        },
       ],
       [
         'app.component',
-        { _index: 90, title: {}, body: { 'modules/AppModule.html': {} } }
+        { _index: 90, title: {}, body: { 'modules/AppModule.html': {} } },
       ],
       [
         'app.component.html',
-        { _index: 18, title: {}, body: { 'components/AppComponent.html': {} } }
+        { _index: 18, title: {}, body: { 'components/AppComponent.html': {} } },
       ],
       [
         'app.component.scss',
-        { _index: 16, title: {}, body: { 'components/AppComponent.html': {} } }
+        { _index: 16, title: {}, body: { 'components/AppComponent.html': {} } },
       ],
       [
         'appcomponent',
@@ -3146,9 +3146,9 @@ var COMPODOC_SEARCH_INDEX = {
             'components/DashboardComponent.html': {},
             'components/SearchComponent.html': {},
             'coverage.html': {},
-            'overview.html': {}
-          }
-        }
+            'overview.html': {},
+          },
+        },
       ],
       [
         'appmodule',
@@ -3158,17 +3158,17 @@ var COMPODOC_SEARCH_INDEX = {
           body: {
             'modules/AppModule.html': {},
             'modules.html': {},
-            'overview.html': {}
-          }
-        }
+            'overview.html': {},
+          },
+        },
       ],
       [
         'apppage',
         {
           _index: 97,
           title: { 'classes/AppPage.html': {} },
-          body: { 'classes/AppPage.html': {}, 'coverage.html': {} }
-        }
+          body: { 'classes/AppPage.html': {}, 'coverage.html': {} },
+        },
       ],
       [
         'approutingmodule',
@@ -3179,9 +3179,9 @@ var COMPODOC_SEARCH_INDEX = {
             'modules/AppModule.html': {},
             'modules/AppRoutingModule.html': {},
             'modules.html': {},
-            'overview.html': {}
-          }
-        }
+            'overview.html': {},
+          },
+        },
       ],
       [
         'around',
@@ -3190,9 +3190,9 @@ var COMPODOC_SEARCH_INDEX = {
           title: {},
           body: {
             'components/CardGridComponent.html': {},
-            'components/SearchComponent.html': {}
-          }
-        }
+            'components/SearchComponent.html': {},
+          },
+        },
       ],
       ['artifacts', { _index: 428, title: {}, body: { 'index.html': {} } }],
       ['automatically', { _index: 418, title: {}, body: { 'index.html': {} } }],
@@ -3211,33 +3211,36 @@ var COMPODOC_SEARCH_INDEX = {
             'modules/DashboardModule.html': {},
             'modules/SearchModule.html': {},
             'modules/SharedModule.html': {},
-            'overview.html': {}
-          }
-        }
+            'overview.html': {},
+          },
+        },
       ],
       [
         'border',
         {
           _index: 338,
           title: {},
-          body: { 'components/SearchComponent.html': {} }
-        }
+          body: { 'components/SearchComponent.html': {} },
+        },
       ],
       [
         'box',
         {
           _index: 336,
           title: {},
-          body: { 'components/SearchComponent.html': {} }
-        }
+          body: { 'components/SearchComponent.html': {} },
+        },
       ],
       [
         'browse',
         {
           _index: 281,
           title: {},
-          body: { 'components/DashboardComponent.html': {}, 'modules.html': {} }
-        }
+          body: {
+            'components/DashboardComponent.html': {},
+            'modules.html': {},
+          },
+        },
       ],
       [
         'browser',
@@ -3248,25 +3251,25 @@ var COMPODOC_SEARCH_INDEX = {
             'modules/AppModule.html': {},
             'classes/AppPage.html': {},
             'dependencies.html': {},
-            'modules.html': {}
-          }
-        }
+            'modules.html': {},
+          },
+        },
       ],
       [
         'browser.get(browser.baseurl',
-        { _index: 108, title: {}, body: { 'classes/AppPage.html': {} } }
+        { _index: 108, title: {}, body: { 'classes/AppPage.html': {} } },
       ],
       [
         'browser/animations',
-        { _index: 89, title: {}, body: { 'modules/AppModule.html': {} } }
+        { _index: 89, title: {}, body: { 'modules/AppModule.html': {} } },
       ],
       [
         'browseranimationsmodule',
-        { _index: 88, title: {}, body: { 'modules/AppModule.html': {} } }
+        { _index: 88, title: {}, body: { 'modules/AppModule.html': {} } },
       ],
       [
         'browsermodule',
-        { _index: 84, title: {}, body: { 'modules/AppModule.html': {} } }
+        { _index: 84, title: {}, body: { 'modules/AppModule.html': {} } },
       ],
       ['build', { _index: 427, title: {}, body: { 'index.html': {} } }],
       [
@@ -3285,9 +3288,9 @@ var COMPODOC_SEARCH_INDEX = {
             'components/DashboardComponent.html': {},
             'modules/DashboardModule.html': {},
             'components/SearchComponent.html': {},
-            'classes/SingleCardModel.html': {}
-          }
-        }
+            'classes/SingleCardModel.html': {},
+          },
+        },
       ],
       [
         'card.model',
@@ -3298,29 +3301,33 @@ var COMPODOC_SEARCH_INDEX = {
             'classes/CardListModel.html': {},
             'components/CardSingleComponent.html': {},
             'injectables/MagicTheGatheringService.html': {},
-            'classes/SingleCardModel.html': {}
-          }
-        }
+            'classes/SingleCardModel.html': {},
+          },
+        },
       ],
       [
         'card.model.ts',
         {
           _index: 351,
           title: {},
-          body: { 'classes/SingleCardModel.html': {}, 'coverage.html': {} }
-        }
+          body: { 'classes/SingleCardModel.html': {}, 'coverage.html': {} },
+        },
       ],
       [
         'card.model.ts:4',
-        { _index: 352, title: {}, body: { 'classes/SingleCardModel.html': {} } }
+        {
+          _index: 352,
+          title: {},
+          body: { 'classes/SingleCardModel.html': {} },
+        },
       ],
       [
         'card/:query',
         {
           _index: 295,
           title: {},
-          body: { 'modules/DashboardRoutingModule.html': {} }
-        }
+          body: { 'modules/DashboardRoutingModule.html': {} },
+        },
       ],
       [
         'cardgridcomponent',
@@ -3336,9 +3343,9 @@ var COMPODOC_SEARCH_INDEX = {
             'components/DashboardComponent.html': {},
             'components/SearchComponent.html': {},
             'coverage.html': {},
-            'overview.html': {}
-          }
-        }
+            'overview.html': {},
+          },
+        },
       ],
       [
         'cardgridmodule',
@@ -3349,9 +3356,9 @@ var COMPODOC_SEARCH_INDEX = {
             'modules/CardGridModule.html': {},
             'modules/DashboardModule.html': {},
             'modules.html': {},
-            'overview.html': {}
-          }
-        }
+            'overview.html': {},
+          },
+        },
       ],
       [
         'cardlistmodel',
@@ -3362,9 +3369,9 @@ var COMPODOC_SEARCH_INDEX = {
             'components/CardGridComponent.html': {},
             'classes/CardListModel.html': {},
             'injectables/MagicTheGatheringService.html': {},
-            'coverage.html': {}
-          }
-        }
+            'coverage.html': {},
+          },
+        },
       ],
       [
         'cardmodel',
@@ -3377,9 +3384,9 @@ var COMPODOC_SEARCH_INDEX = {
             'classes/CardModel.html': {},
             'components/CardSingleComponent.html': {},
             'classes/SingleCardModel.html': {},
-            'coverage.html': {}
-          }
-        }
+            'coverage.html': {},
+          },
+        },
       ],
       [
         'cardpopupcomponent',
@@ -3396,9 +3403,9 @@ var COMPODOC_SEARCH_INDEX = {
             'components/DashboardComponent.html': {},
             'components/SearchComponent.html': {},
             'coverage.html': {},
-            'overview.html': {}
-          }
-        }
+            'overview.html': {},
+          },
+        },
       ],
       [
         'cardpopupmodule',
@@ -3409,9 +3416,9 @@ var COMPODOC_SEARCH_INDEX = {
             'modules/CardGridModule.html': {},
             'modules/CardPopupModule.html': {},
             'modules.html': {},
-            'overview.html': {}
-          }
-        }
+            'overview.html': {},
+          },
+        },
       ],
       [
         'cards',
@@ -3421,9 +3428,9 @@ var COMPODOC_SEARCH_INDEX = {
           body: {
             'components/CardGridComponent.html': {},
             'classes/CardListModel.html': {},
-            'components/DashboardComponent.html': {}
-          }
-        }
+            'components/DashboardComponent.html': {},
+          },
+        },
       ],
       [
         'cardsinglecomponent',
@@ -3439,9 +3446,9 @@ var COMPODOC_SEARCH_INDEX = {
             'components/DashboardComponent.html': {},
             'components/SearchComponent.html': {},
             'coverage.html': {},
-            'overview.html': {}
-          }
-        }
+            'overview.html': {},
+          },
+        },
       ],
       [
         'cardsinglemodule',
@@ -3454,13 +3461,13 @@ var COMPODOC_SEARCH_INDEX = {
             'modules/CardSingleModule.html': {},
             'modules/DashboardModule.html': {},
             'modules.html': {},
-            'overview.html': {}
-          }
-        }
+            'overview.html': {},
+          },
+        },
       ],
       [
         'center',
-        { _index: 38, title: {}, body: { 'components/AppComponent.html': {} } }
+        { _index: 38, title: {}, body: { 'components/AppComponent.html': {} } },
       ],
       ['change', { _index: 420, title: {}, body: { 'index.html': {} } }],
       ['check', { _index: 447, title: {}, body: { 'index.html': {} } }],
@@ -3472,7 +3479,7 @@ var COMPODOC_SEARCH_INDEX = {
             'classes/AppPage.html': {},
             'classes/CardListModel.html': {},
             'classes/CardModel.html': {},
-            'classes/SingleCardModel.html': {}
+            'classes/SingleCardModel.html': {},
           },
           body: {
             'components/AppComponent.html': {},
@@ -3496,9 +3503,9 @@ var COMPODOC_SEARCH_INDEX = {
             'modules/SearchModule.html': {},
             'modules/SharedModule.html': {},
             'classes/SingleCardModel.html': {},
-            'coverage.html': {}
-          }
-        }
+            'coverage.html': {},
+          },
+        },
       ],
       [
         'classes',
@@ -3510,9 +3517,9 @@ var COMPODOC_SEARCH_INDEX = {
             'classes/CardListModel.html': {},
             'classes/CardModel.html': {},
             'classes/SingleCardModel.html': {},
-            'overview.html': {}
-          }
-        }
+            'overview.html': {},
+          },
+        },
       ],
       ['cli', { _index: 407, title: {}, body: { 'index.html': {} } }],
       [
@@ -3520,216 +3527,220 @@ var COMPODOC_SEARCH_INDEX = {
         {
           _index: 71,
           title: {},
-          body: { 'modules/AppModule.html': {}, 'overview.html': {} }
-        }
+          body: { 'modules/AppModule.html': {}, 'overview.html': {} },
+        },
       ],
       [
         'cluster_appmodule_bootstrap',
         {
           _index: 74,
           title: {},
-          body: { 'modules/AppModule.html': {}, 'overview.html': {} }
-        }
+          body: { 'modules/AppModule.html': {}, 'overview.html': {} },
+        },
       ],
       [
         'cluster_appmodule_declarations',
         {
           _index: 72,
           title: {},
-          body: { 'modules/AppModule.html': {}, 'overview.html': {} }
-        }
+          body: { 'modules/AppModule.html': {}, 'overview.html': {} },
+        },
       ],
       [
         'cluster_appmodule_imports',
         {
           _index: 73,
           title: {},
-          body: { 'modules/AppModule.html': {}, 'overview.html': {} }
-        }
+          body: { 'modules/AppModule.html': {}, 'overview.html': {} },
+        },
       ],
       [
         'cluster_approutingmodule',
         {
           _index: 112,
           title: {},
-          body: { 'modules/AppRoutingModule.html': {} }
-        }
+          body: { 'modules/AppRoutingModule.html': {} },
+        },
       ],
       [
         'cluster_approutingmodule_imports',
         {
           _index: 113,
           title: {},
-          body: { 'modules/AppRoutingModule.html': {} }
-        }
+          body: { 'modules/AppRoutingModule.html': {} },
+        },
       ],
       [
         'cluster_cardgridmodule',
         {
           _index: 200,
           title: {},
-          body: { 'modules/CardGridModule.html': {}, 'overview.html': {} }
-        }
+          body: { 'modules/CardGridModule.html': {}, 'overview.html': {} },
+        },
       ],
       [
         'cluster_cardgridmodule_declarations',
         {
           _index: 201,
           title: {},
-          body: { 'modules/CardGridModule.html': {}, 'overview.html': {} }
-        }
+          body: { 'modules/CardGridModule.html': {}, 'overview.html': {} },
+        },
       ],
       [
         'cluster_cardgridmodule_exports',
         {
           _index: 203,
           title: {},
-          body: { 'modules/CardGridModule.html': {}, 'overview.html': {} }
-        }
+          body: { 'modules/CardGridModule.html': {}, 'overview.html': {} },
+        },
       ],
       [
         'cluster_cardgridmodule_imports',
         {
           _index: 202,
           title: {},
-          body: { 'modules/CardGridModule.html': {}, 'overview.html': {} }
-        }
+          body: { 'modules/CardGridModule.html': {}, 'overview.html': {} },
+        },
       ],
       [
         'cluster_cardpopupmodule',
         {
           _index: 235,
           title: {},
-          body: { 'modules/CardPopupModule.html': {}, 'overview.html': {} }
-        }
+          body: { 'modules/CardPopupModule.html': {}, 'overview.html': {} },
+        },
       ],
       [
         'cluster_cardpopupmodule_declarations',
         {
           _index: 236,
           title: {},
-          body: { 'modules/CardPopupModule.html': {}, 'overview.html': {} }
-        }
+          body: { 'modules/CardPopupModule.html': {}, 'overview.html': {} },
+        },
       ],
       [
         'cluster_cardpopupmodule_imports',
-        { _index: 237, title: {}, body: { 'modules/CardPopupModule.html': {} } }
+        {
+          _index: 237,
+          title: {},
+          body: { 'modules/CardPopupModule.html': {} },
+        },
       ],
       [
         'cluster_cardsinglemodule',
         {
           _index: 261,
           title: {},
-          body: { 'modules/CardSingleModule.html': {}, 'overview.html': {} }
-        }
+          body: { 'modules/CardSingleModule.html': {}, 'overview.html': {} },
+        },
       ],
       [
         'cluster_cardsinglemodule_declarations',
         {
           _index: 262,
           title: {},
-          body: { 'modules/CardSingleModule.html': {}, 'overview.html': {} }
-        }
+          body: { 'modules/CardSingleModule.html': {}, 'overview.html': {} },
+        },
       ],
       [
         'cluster_cardsinglemodule_exports',
         {
           _index: 264,
           title: {},
-          body: { 'modules/CardSingleModule.html': {}, 'overview.html': {} }
-        }
+          body: { 'modules/CardSingleModule.html': {}, 'overview.html': {} },
+        },
       ],
       [
         'cluster_cardsinglemodule_imports',
         {
           _index: 263,
           title: {},
-          body: { 'modules/CardSingleModule.html': {} }
-        }
+          body: { 'modules/CardSingleModule.html': {} },
+        },
       ],
       [
         'cluster_dashboardmodule',
         {
           _index: 284,
           title: {},
-          body: { 'modules/DashboardModule.html': {}, 'overview.html': {} }
-        }
+          body: { 'modules/DashboardModule.html': {}, 'overview.html': {} },
+        },
       ],
       [
         'cluster_dashboardmodule_declarations',
         {
           _index: 285,
           title: {},
-          body: { 'modules/DashboardModule.html': {}, 'overview.html': {} }
-        }
+          body: { 'modules/DashboardModule.html': {}, 'overview.html': {} },
+        },
       ],
       [
         'cluster_dashboardmodule_exports',
         {
           _index: 287,
           title: {},
-          body: { 'modules/DashboardModule.html': {}, 'overview.html': {} }
-        }
+          body: { 'modules/DashboardModule.html': {}, 'overview.html': {} },
+        },
       ],
       [
         'cluster_dashboardmodule_imports',
         {
           _index: 286,
           title: {},
-          body: { 'modules/DashboardModule.html': {}, 'overview.html': {} }
-        }
+          body: { 'modules/DashboardModule.html': {}, 'overview.html': {} },
+        },
       ],
       [
         'cluster_searchmodule',
         {
           _index: 339,
           title: {},
-          body: { 'modules/SearchModule.html': {}, 'overview.html': {} }
-        }
+          body: { 'modules/SearchModule.html': {}, 'overview.html': {} },
+        },
       ],
       [
         'cluster_searchmodule_declarations',
         {
           _index: 340,
           title: {},
-          body: { 'modules/SearchModule.html': {}, 'overview.html': {} }
-        }
+          body: { 'modules/SearchModule.html': {}, 'overview.html': {} },
+        },
       ],
       [
         'cluster_searchmodule_exports',
         {
           _index: 342,
           title: {},
-          body: { 'modules/SearchModule.html': {}, 'overview.html': {} }
-        }
+          body: { 'modules/SearchModule.html': {}, 'overview.html': {} },
+        },
       ],
       [
         'cluster_searchmodule_imports',
-        { _index: 341, title: {}, body: { 'modules/SearchModule.html': {} } }
+        { _index: 341, title: {}, body: { 'modules/SearchModule.html': {} } },
       ],
       [
         'cluster_sharedmodule',
         {
           _index: 345,
           title: {},
-          body: { 'modules/SharedModule.html': {}, 'overview.html': {} }
-        }
+          body: { 'modules/SharedModule.html': {}, 'overview.html': {} },
+        },
       ],
       [
         'cluster_sharedmodule_exports',
         {
           _index: 347,
           title: {},
-          body: { 'modules/SharedModule.html': {}, 'overview.html': {} }
-        }
+          body: { 'modules/SharedModule.html': {}, 'overview.html': {} },
+        },
       ],
       [
         'cluster_sharedmodule_imports',
         {
           _index: 346,
           title: {},
-          body: { 'modules/SharedModule.html': {}, 'overview.html': {} }
-        }
+          body: { 'modules/SharedModule.html': {}, 'overview.html': {} },
+        },
       ],
       ['code', { _index: 422, title: {}, body: { 'index.html': {} } }],
       [
@@ -3737,8 +3748,8 @@ var COMPODOC_SEARCH_INDEX = {
         {
           _index: 283,
           title: {},
-          body: { 'components/DashboardComponent.html': {} }
-        }
+          body: { 'components/DashboardComponent.html': {} },
+        },
       ],
       [
         'commonmodule',
@@ -3754,9 +3765,9 @@ var COMPODOC_SEARCH_INDEX = {
             'modules/DashboardRoutingModule.html': {},
             'modules/MaterialModule.html': {},
             'modules/SearchModule.html': {},
-            'modules/SharedModule.html': {}
-          }
-        }
+            'modules/SharedModule.html': {},
+          },
+        },
       ],
       [
         'component',
@@ -3768,7 +3779,7 @@ var COMPODOC_SEARCH_INDEX = {
             'components/CardPopupComponent.html': {},
             'components/CardSingleComponent.html': {},
             'components/DashboardComponent.html': {},
-            'components/SearchComponent.html': {}
+            'components/SearchComponent.html': {},
           },
           body: {
             'components/AppComponent.html': {},
@@ -3780,9 +3791,9 @@ var COMPODOC_SEARCH_INDEX = {
             'modules/DashboardRoutingModule.html': {},
             'components/SearchComponent.html': {},
             'coverage.html': {},
-            'index.html': {}
-          }
-        }
+            'index.html': {},
+          },
+        },
       ],
       [
         'component_template',
@@ -3795,9 +3806,9 @@ var COMPODOC_SEARCH_INDEX = {
             'components/CardPopupComponent.html': {},
             'components/CardSingleComponent.html': {},
             'components/DashboardComponent.html': {},
-            'components/SearchComponent.html': {}
-          }
-        }
+            'components/SearchComponent.html': {},
+          },
+        },
       ],
       [
         'components',
@@ -3811,41 +3822,41 @@ var COMPODOC_SEARCH_INDEX = {
             'components/CardSingleComponent.html': {},
             'components/DashboardComponent.html': {},
             'components/SearchComponent.html': {},
-            'overview.html': {}
-          }
-        }
+            'overview.html': {},
+          },
+        },
       ],
       [
         'console.error(err',
         {
           _index: 260,
           title: {},
-          body: { 'components/CardSingleComponent.html': {} }
-        }
+          body: { 'components/CardSingleComponent.html': {} },
+        },
       ],
       [
         'console.log(data',
         {
           _index: 233,
           title: {},
-          body: { 'components/CardPopupComponent.html': {} }
-        }
+          body: { 'components/CardPopupComponent.html': {} },
+        },
       ],
       [
         'console.log(err',
         {
           _index: 167,
           title: {},
-          body: { 'components/CardGridComponent.html': {} }
-        }
+          body: { 'components/CardGridComponent.html': {} },
+        },
       ],
       [
         'console.log(this.card',
         {
           _index: 259,
           title: {},
-          body: { 'components/CardSingleComponent.html': {} }
-        }
+          body: { 'components/CardSingleComponent.html': {} },
+        },
       ],
       [
         'const',
@@ -3855,9 +3866,9 @@ var COMPODOC_SEARCH_INDEX = {
           body: {
             'modules/AppRoutingModule.html': {},
             'components/CardPopupComponent.html': {},
-            'modules/DashboardRoutingModule.html': {}
-          }
-        }
+            'modules/DashboardRoutingModule.html': {},
+          },
+        },
       ],
       [
         'constructor',
@@ -3870,57 +3881,57 @@ var COMPODOC_SEARCH_INDEX = {
             'components/CardSingleComponent.html': {},
             'components/DashboardComponent.html': {},
             'injectables/MagicTheGatheringService.html': {},
-            'components/SearchComponent.html': {}
-          }
-        }
+            'components/SearchComponent.html': {},
+          },
+        },
       ],
       [
         'constructor(@inject(mat_dialog_data',
         {
           _index: 231,
           title: {},
-          body: { 'components/CardPopupComponent.html': {} }
-        }
+          body: { 'components/CardPopupComponent.html': {} },
+        },
       ],
       [
         'constructor(activeroute',
         {
           _index: 272,
           title: {},
-          body: { 'components/DashboardComponent.html': {} }
-        }
+          body: { 'components/DashboardComponent.html': {} },
+        },
       ],
       [
         'constructor(card',
         {
           _index: 138,
           title: {},
-          body: { 'components/CardGridComponent.html': {} }
-        }
+          body: { 'components/CardGridComponent.html': {} },
+        },
       ],
       [
         'constructor(data',
         {
           _index: 223,
           title: {},
-          body: { 'components/CardPopupComponent.html': {} }
-        }
+          body: { 'components/CardPopupComponent.html': {} },
+        },
       ],
       [
         'constructor(http',
         {
           _index: 302,
           title: {},
-          body: { 'injectables/MagicTheGatheringService.html': {} }
-        }
+          body: { 'injectables/MagicTheGatheringService.html': {} },
+        },
       ],
       [
         'constructor(magicthegatheringservice',
         {
           _index: 246,
           title: {},
-          body: { 'components/CardSingleComponent.html': {} }
-        }
+          body: { 'components/CardSingleComponent.html': {} },
+        },
       ],
       [
         'constructor(private',
@@ -3930,41 +3941,41 @@ var COMPODOC_SEARCH_INDEX = {
           body: {
             'components/CardSingleComponent.html': {},
             'components/DashboardComponent.html': {},
-            'injectables/MagicTheGatheringService.html': {}
-          }
-        }
+            'injectables/MagicTheGatheringService.html': {},
+          },
+        },
       ],
       [
         'container',
         {
           _index: 184,
           title: {},
-          body: { 'components/CardGridComponent.html': {} }
-        }
+          body: { 'components/CardGridComponent.html': {} },
+        },
       ],
       [
         'container:active',
         {
           _index: 196,
           title: {},
-          body: { 'components/CardGridComponent.html': {} }
-        }
+          body: { 'components/CardGridComponent.html': {} },
+        },
       ],
       [
         'container:focus',
         {
           _index: 195,
           title: {},
-          body: { 'components/CardGridComponent.html': {} }
-        }
+          body: { 'components/CardGridComponent.html': {} },
+        },
       ],
       [
         'container:hover',
         {
           _index: 194,
           title: {},
-          body: { 'components/CardGridComponent.html': {} }
-        }
+          body: { 'components/CardGridComponent.html': {} },
+        },
       ],
       [
         'content',
@@ -3974,17 +3985,17 @@ var COMPODOC_SEARCH_INDEX = {
           body: {
             'components/AppComponent.html': {},
             'components/CardGridComponent.html': {},
-            'components/SearchComponent.html': {}
-          }
-        }
+            'components/SearchComponent.html': {},
+          },
+        },
       ],
       [
         'context',
         {
           _index: 369,
           title: {},
-          body: { 'coverage.html': {}, 'miscellaneous/variables.html': {} }
-        }
+          body: { 'coverage.html': {}, 'miscellaneous/variables.html': {} },
+        },
       ],
       ['core', { _index: 383, title: {}, body: { 'dependencies.html': {} } }],
       [
@@ -3992,16 +4003,16 @@ var COMPODOC_SEARCH_INDEX = {
         {
           _index: 353,
           title: { 'coverage.html': {} },
-          body: { 'coverage.html': {} }
-        }
+          body: { 'coverage.html': {} },
+        },
       ],
       [
         'cursor',
         {
           _index: 189,
           title: {},
-          body: { 'components/CardGridComponent.html': {} }
-        }
+          body: { 'components/CardGridComponent.html': {} },
+        },
       ],
       [
         'dashboard',
@@ -4010,9 +4021,9 @@ var COMPODOC_SEARCH_INDEX = {
           title: {},
           body: {
             'components/DashboardComponent.html': {},
-            'modules/DashboardModule.html': {}
-          }
-        }
+            'modules/DashboardModule.html': {},
+          },
+        },
       ],
       [
         "dashboard'},{'name",
@@ -4025,9 +4036,9 @@ var COMPODOC_SEARCH_INDEX = {
             'components/CardPopupComponent.html': {},
             'components/CardSingleComponent.html': {},
             'components/DashboardComponent.html': {},
-            'components/SearchComponent.html': {}
-          }
-        }
+            'components/SearchComponent.html': {},
+          },
+        },
       ],
       [
         'dashboard.component',
@@ -4036,37 +4047,37 @@ var COMPODOC_SEARCH_INDEX = {
           title: {},
           body: {
             'modules/DashboardModule.html': {},
-            'modules/DashboardRoutingModule.html': {}
-          }
-        }
+            'modules/DashboardRoutingModule.html': {},
+          },
+        },
       ],
       [
         'dashboard.component.html',
         {
           _index: 270,
           title: {},
-          body: { 'components/DashboardComponent.html': {} }
-        }
+          body: { 'components/DashboardComponent.html': {} },
+        },
       ],
       [
         'dashboard.component.scss',
         {
           _index: 269,
           title: {},
-          body: { 'components/DashboardComponent.html': {} }
-        }
+          body: { 'components/DashboardComponent.html': {} },
+        },
       ],
       [
         'dashboard/card',
-        { _index: 94, title: {}, body: { 'modules/AppModule.html': {} } }
+        { _index: 94, title: {}, body: { 'modules/AppModule.html': {} } },
       ],
       [
         'dashboard/dashboard.component',
         {
           _index: 121,
           title: {},
-          body: { 'modules/AppRoutingModule.html': {} }
-        }
+          body: { 'modules/AppRoutingModule.html': {} },
+        },
       ],
       [
         'dashboard/dashboard.module',
@@ -4075,9 +4086,9 @@ var COMPODOC_SEARCH_INDEX = {
           title: {},
           body: {
             'modules/AppModule.html': {},
-            'modules/AppRoutingModule.html': {}
-          }
-        }
+            'modules/AppRoutingModule.html': {},
+          },
+        },
       ],
       [
         'dashboardcomponent',
@@ -4095,9 +4106,9 @@ var COMPODOC_SEARCH_INDEX = {
             'modules/DashboardRoutingModule.html': {},
             'components/SearchComponent.html': {},
             'coverage.html': {},
-            'overview.html': {}
-          }
-        }
+            'overview.html': {},
+          },
+        },
       ],
       [
         'dashboardmodule',
@@ -4109,9 +4120,9 @@ var COMPODOC_SEARCH_INDEX = {
             'modules/AppRoutingModule.html': {},
             'modules/DashboardModule.html': {},
             'modules.html': {},
-            'overview.html': {}
-          }
-        }
+            'overview.html': {},
+          },
+        },
       ],
       [
         'dashboardroutingmodule',
@@ -4122,9 +4133,9 @@ var COMPODOC_SEARCH_INDEX = {
             'modules/DashboardModule.html': {},
             'modules/DashboardRoutingModule.html': {},
             'modules.html': {},
-            'overview.html': {}
-          }
-        }
+            'overview.html': {},
+          },
+        },
       ],
       [
         'data',
@@ -4134,33 +4145,33 @@ var COMPODOC_SEARCH_INDEX = {
           body: {
             'components/CardGridComponent.html': {},
             'components/CardPopupComponent.html': {},
-            'components/CardSingleComponent.html': {}
-          }
-        }
+            'components/CardSingleComponent.html': {},
+          },
+        },
       ],
       [
         'data.card',
         {
           _index: 258,
           title: {},
-          body: { 'components/CardSingleComponent.html': {} }
-        }
+          body: { 'components/CardSingleComponent.html': {} },
+        },
       ],
       [
         'data.cards',
         {
           _index: 165,
           title: {},
-          body: { 'components/CardGridComponent.html': {} }
-        }
+          body: { 'components/CardGridComponent.html': {} },
+        },
       ],
       [
         'data.name',
         {
           _index: 234,
           title: {},
-          body: { 'components/CardPopupComponent.html': {} }
-        }
+          body: { 'components/CardPopupComponent.html': {} },
+        },
       ],
       [
         'declarations',
@@ -4178,17 +4189,17 @@ var COMPODOC_SEARCH_INDEX = {
             'modules/MaterialModule.html': {},
             'modules/SearchModule.html': {},
             'modules/SharedModule.html': {},
-            'overview.html': {}
-          }
-        }
+            'overview.html': {},
+          },
+        },
       ],
       [
         'decorators',
         {
           _index: 226,
           title: {},
-          body: { 'components/CardPopupComponent.html': {} }
-        }
+          body: { 'components/CardPopupComponent.html': {} },
+        },
       ],
       [
         'default',
@@ -4197,9 +4208,9 @@ var COMPODOC_SEARCH_INDEX = {
           title: {},
           body: {
             'components/AppComponent.html': {},
-            'miscellaneous/variables.html': {}
-          }
-        }
+            'miscellaneous/variables.html': {},
+          },
+        },
       ],
       [
         'defined',
@@ -4217,9 +4228,9 @@ var COMPODOC_SEARCH_INDEX = {
             'components/DashboardComponent.html': {},
             'injectables/MagicTheGatheringService.html': {},
             'components/SearchComponent.html': {},
-            'classes/SingleCardModel.html': {}
-          }
-        }
+            'classes/SingleCardModel.html': {},
+          },
+        },
       ],
       [
         'dependencies',
@@ -4236,9 +4247,9 @@ var COMPODOC_SEARCH_INDEX = {
             'modules/SearchModule.html': {},
             'modules/SharedModule.html': {},
             'dependencies.html': {},
-            'overview.html': {}
-          }
-        }
+            'overview.html': {},
+          },
+        },
       ],
       ['design', { _index: 389, title: {}, body: { 'dependencies.html': {} } }],
       ['dev', { _index: 415, title: {}, body: { 'index.html': {} } }],
@@ -4248,8 +4259,8 @@ var COMPODOC_SEARCH_INDEX = {
         {
           _index: 140,
           title: {},
-          body: { 'components/CardGridComponent.html': {} }
-        }
+          body: { 'components/CardGridComponent.html': {} },
+        },
       ],
       [
         'directive',
@@ -4262,9 +4273,9 @@ var COMPODOC_SEARCH_INDEX = {
             'components/CardPopupComponent.html': {},
             'components/CardSingleComponent.html': {},
             'components/DashboardComponent.html': {},
-            'components/SearchComponent.html': {}
-          }
-        }
+            'components/SearchComponent.html': {},
+          },
+        },
       ],
       [
         'directives',
@@ -4277,13 +4288,13 @@ var COMPODOC_SEARCH_INDEX = {
             'components/CardPopupComponent.html': {},
             'components/CardSingleComponent.html': {},
             'components/DashboardComponent.html': {},
-            'components/SearchComponent.html': {}
-          }
-        }
+            'components/SearchComponent.html': {},
+          },
+        },
       ],
       [
         'directive|pipe|service|class|guard|interface|enum|module',
-        { _index: 426, title: {}, body: { 'index.html': {} } }
+        { _index: 426, title: {}, body: { 'index.html': {} } },
       ],
       ['directory', { _index: 431, title: {}, body: { 'index.html': {} } }],
       [
@@ -4293,14 +4304,14 @@ var COMPODOC_SEARCH_INDEX = {
           title: {},
           body: {
             'components/CardGridComponent.html': {},
-            'components/SearchComponent.html': {}
-          }
-        }
+            'components/SearchComponent.html': {},
+          },
+        },
       ],
       ['dist', { _index: 430, title: {}, body: { 'index.html': {} } }],
       [
         'documentation',
-        { _index: 354, title: {}, body: { 'coverage.html': {} } }
+        { _index: 354, title: {}, body: { 'coverage.html': {} } },
       ],
       [
         'dom',
@@ -4313,13 +4324,13 @@ var COMPODOC_SEARCH_INDEX = {
             'components/CardPopupComponent.html': {},
             'components/CardSingleComponent.html': {},
             'components/DashboardComponent.html': {},
-            'components/SearchComponent.html': {}
-          }
-        }
+            'components/SearchComponent.html': {},
+          },
+        },
       ],
       [
         'dynamic',
-        { _index: 382, title: {}, body: { 'dependencies.html': {} } }
+        { _index: 382, title: {}, body: { 'dependencies.html': {} } },
       ],
       ['e2e', { _index: 442, title: {}, body: { 'index.html': {} } }],
       [
@@ -4327,24 +4338,24 @@ var COMPODOC_SEARCH_INDEX = {
         {
           _index: 99,
           title: {},
-          body: { 'classes/AppPage.html': {}, 'coverage.html': {} }
-        }
+          body: { 'classes/AppPage.html': {}, 'coverage.html': {} },
+        },
       ],
       [
         'e2e/src/app.po.ts:4',
-        { _index: 105, title: {}, body: { 'classes/AppPage.html': {} } }
+        { _index: 105, title: {}, body: { 'classes/AppPage.html': {} } },
       ],
       [
         'e2e/src/app.po.ts:8',
-        { _index: 103, title: {}, body: { 'classes/AppPage.html': {} } }
+        { _index: 103, title: {}, body: { 'classes/AppPage.html': {} } },
       ],
       [
         'ease',
         {
           _index: 193,
           title: {},
-          body: { 'components/CardGridComponent.html': {} }
-        }
+          body: { 'components/CardGridComponent.html': {} },
+        },
       ],
       [
         'element',
@@ -4358,26 +4369,26 @@ var COMPODOC_SEARCH_INDEX = {
             'components/CardPopupComponent.html': {},
             'components/CardSingleComponent.html': {},
             'components/DashboardComponent.html': {},
-            'components/SearchComponent.html': {}
-          }
-        }
+            'components/SearchComponent.html': {},
+          },
+        },
       ],
       [
         "element(by.css('app",
-        { _index: 110, title: {}, body: { 'classes/AppPage.html': {} } }
+        { _index: 110, title: {}, body: { 'classes/AppPage.html': {} } },
       ],
       ['end', { _index: 441, title: {}, body: { 'index.html': {} } }],
       [
         'entrycomponents',
-        { _index: 206, title: {}, body: { 'modules/CardGridModule.html': {} } }
+        { _index: 206, title: {}, body: { 'modules/CardGridModule.html': {} } },
       ],
       [
         'environment',
         {
           _index: 365,
           title: {},
-          body: { 'coverage.html': {}, 'miscellaneous/variables.html': {} }
-        }
+          body: { 'coverage.html': {}, 'miscellaneous/variables.html': {} },
+        },
       ],
       [
         'err',
@@ -4386,9 +4397,9 @@ var COMPODOC_SEARCH_INDEX = {
           title: {},
           body: {
             'components/CardGridComponent.html': {},
-            'components/CardSingleComponent.html': {}
-          }
-        }
+            'components/CardSingleComponent.html': {},
+          },
+        },
       ],
       ['execute', { _index: 438, title: {}, body: { 'index.html': {} } }],
       [
@@ -4417,9 +4428,9 @@ var COMPODOC_SEARCH_INDEX = {
             'components/SearchComponent.html': {},
             'modules/SearchModule.html': {},
             'modules/SharedModule.html': {},
-            'classes/SingleCardModel.html': {}
-          }
-        }
+            'classes/SingleCardModel.html': {},
+          },
+        },
       ],
       [
         'exports',
@@ -4436,13 +4447,17 @@ var COMPODOC_SEARCH_INDEX = {
             'modules/MaterialModule.html': {},
             'modules/SearchModule.html': {},
             'modules/SharedModule.html': {},
-            'overview.html': {}
-          }
-        }
+            'overview.html': {},
+          },
+        },
       ],
       [
         'false',
-        { _index: 468, title: {}, body: { 'miscellaneous/variables.html': {} } }
+        {
+          _index: 468,
+          title: {},
+          body: { 'miscellaneous/variables.html': {} },
+        },
       ],
       [
         'file',
@@ -4471,9 +4486,9 @@ var COMPODOC_SEARCH_INDEX = {
             'modules/SearchModule.html': {},
             'modules/SharedModule.html': {},
             'classes/SingleCardModel.html': {},
-            'coverage.html': {}
-          }
-        }
+            'coverage.html': {},
+          },
+        },
       ],
       ['files', { _index: 421, title: {}, body: { 'index.html': {} } }],
       ['flag', { _index: 433, title: {}, body: { 'index.html': {} } }],
@@ -4484,9 +4499,9 @@ var COMPODOC_SEARCH_INDEX = {
           title: {},
           body: {
             'components/CardGridComponent.html': {},
-            'components/SearchComponent.html': {}
-          }
-        }
+            'components/SearchComponent.html': {},
+          },
+        },
       ],
       [
         'flow',
@@ -4495,13 +4510,13 @@ var COMPODOC_SEARCH_INDEX = {
           title: {},
           body: {
             'components/CardGridComponent.html': {},
-            'components/SearchComponent.html': {}
-          }
-        }
+            'components/SearchComponent.html': {},
+          },
+        },
       ],
       [
         'fontface',
-        { _index: 395, title: {}, body: { 'dependencies.html': {} } }
+        { _index: 395, title: {}, body: { 'dependencies.html': {} } },
       ],
       ['further', { _index: 443, title: {}, body: { 'index.html': {} } }],
       [
@@ -4511,9 +4526,9 @@ var COMPODOC_SEARCH_INDEX = {
           title: {},
           body: {
             'components/CardGridComponent.html': {},
-            'components/CardSingleComponent.html': {}
-          }
-        }
+            'components/CardSingleComponent.html': {},
+          },
+        },
       ],
       [
         'gathering.service.ts',
@@ -4522,41 +4537,41 @@ var COMPODOC_SEARCH_INDEX = {
           title: {},
           body: {
             'injectables/MagicTheGatheringService.html': {},
-            'coverage.html': {}
-          }
-        }
+            'coverage.html': {},
+          },
+        },
       ],
       [
         'gathering.service.ts:10',
         {
           _index: 303,
           title: {},
-          body: { 'injectables/MagicTheGatheringService.html': {} }
-        }
+          body: { 'injectables/MagicTheGatheringService.html': {} },
+        },
       ],
       [
         'gathering.service.ts:13',
         {
           _index: 308,
           title: {},
-          body: { 'injectables/MagicTheGatheringService.html': {} }
-        }
+          body: { 'injectables/MagicTheGatheringService.html': {} },
+        },
       ],
       [
         'gathering.service.ts:19',
         {
           _index: 310,
           title: {},
-          body: { 'injectables/MagicTheGatheringService.html': {} }
-        }
+          body: { 'injectables/MagicTheGatheringService.html': {} },
+        },
       ],
       [
         'gathering.service.ts:21',
         {
           _index: 305,
           title: {},
-          body: { 'injectables/MagicTheGatheringService.html': {} }
-        }
+          body: { 'injectables/MagicTheGatheringService.html': {} },
+        },
       ],
       ['generate', { _index: 424, title: {}, body: { 'index.html': {} } }],
       ['generated', { _index: 405, title: {}, body: { 'index.html': {} } }],
@@ -4565,45 +4580,45 @@ var COMPODOC_SEARCH_INDEX = {
         {
           _index: 299,
           title: {},
-          body: { 'injectables/MagicTheGatheringService.html': {} }
-        }
+          body: { 'injectables/MagicTheGatheringService.html': {} },
+        },
       ],
       [
         'getcardsbyid',
         {
           _index: 300,
           title: {},
-          body: { 'injectables/MagicTheGatheringService.html': {} }
-        }
+          body: { 'injectables/MagicTheGatheringService.html': {} },
+        },
       ],
       [
         'getcardsbyid(id',
         {
           _index: 307,
           title: {},
-          body: { 'injectables/MagicTheGatheringService.html': {} }
-        }
+          body: { 'injectables/MagicTheGatheringService.html': {} },
+        },
       ],
       [
         'getcardsbytype',
         {
           _index: 301,
           title: {},
-          body: { 'injectables/MagicTheGatheringService.html': {} }
-        }
+          body: { 'injectables/MagicTheGatheringService.html': {} },
+        },
       ],
       [
         'getcardsbytype(type',
         {
           _index: 309,
           title: {},
-          body: { 'injectables/MagicTheGatheringService.html': {} }
-        }
+          body: { 'injectables/MagicTheGatheringService.html': {} },
+        },
       ],
       ['getting', { _index: 402, title: { 'index.html': {} }, body: {} }],
       [
         'gettitletext',
-        { _index: 101, title: {}, body: { 'classes/AppPage.html': {} } }
+        { _index: 101, title: {}, body: { 'classes/AppPage.html': {} } },
       ],
       ['go', { _index: 446, title: {}, body: { 'index.html': {} } }],
       ['graph', { _index: 451, title: {}, body: { 'modules.html': {} } }],
@@ -4612,8 +4627,8 @@ var COMPODOC_SEARCH_INDEX = {
         {
           _index: 130,
           title: {},
-          body: { 'components/CardGridComponent.html': {} }
-        }
+          body: { 'components/CardGridComponent.html': {} },
+        },
       ],
       [
         "grid'},{'name",
@@ -4626,69 +4641,76 @@ var COMPODOC_SEARCH_INDEX = {
             'components/CardPopupComponent.html': {},
             'components/CardSingleComponent.html': {},
             'components/DashboardComponent.html': {},
-            'components/SearchComponent.html': {}
-          }
-        }
+            'components/SearchComponent.html': {},
+          },
+        },
       ],
       [
         'grid.component',
-        { _index: 207, title: {}, body: { 'modules/CardGridModule.html': {} } }
+        { _index: 207, title: {}, body: { 'modules/CardGridModule.html': {} } },
       ],
       [
         'grid.component.html',
         {
           _index: 132,
           title: {},
-          body: { 'components/CardGridComponent.html': {} }
-        }
+          body: { 'components/CardGridComponent.html': {} },
+        },
       ],
       [
         'grid.component.scss',
         {
           _index: 131,
           title: {},
-          body: { 'components/CardGridComponent.html': {} }
-        }
+          body: { 'components/CardGridComponent.html': {} },
+        },
       ],
       [
         'grid.component.ts',
         {
           _index: 127,
           title: {},
-          body: { 'components/CardGridComponent.html': {}, 'coverage.html': {} }
-        }
+          body: {
+            'components/CardGridComponent.html': {},
+            'coverage.html': {},
+          },
+        },
       ],
       [
         'grid.component.ts:15',
         {
           _index: 142,
           title: {},
-          body: { 'components/CardGridComponent.html': {} }
-        }
+          body: { 'components/CardGridComponent.html': {} },
+        },
       ],
       [
         'grid.component.ts:23',
         {
           _index: 145,
           title: {},
-          body: { 'components/CardGridComponent.html': {} }
-        }
+          body: { 'components/CardGridComponent.html': {} },
+        },
       ],
       [
         'grid.component.ts:34',
         {
           _index: 147,
           title: {},
-          body: { 'components/CardGridComponent.html': {} }
-        }
+          body: { 'components/CardGridComponent.html': {} },
+        },
       ],
       [
         'grid.module',
-        { _index: 292, title: {}, body: { 'modules/DashboardModule.html': {} } }
+        {
+          _index: 292,
+          title: {},
+          body: { 'modules/DashboardModule.html': {} },
+        },
       ],
       [
         'grid.module.ts',
-        { _index: 205, title: {}, body: { 'modules/CardGridModule.html': {} } }
+        { _index: 205, title: {}, body: { 'modules/CardGridModule.html': {} } },
       ],
       [
         'grid/card',
@@ -4701,25 +4723,25 @@ var COMPODOC_SEARCH_INDEX = {
             'components/CardPopupComponent.html': {},
             'modules/CardPopupModule.html': {},
             'modules/DashboardModule.html': {},
-            'coverage.html': {}
-          }
-        }
+            'coverage.html': {},
+          },
+        },
       ],
       [
         "h1')).gettext",
-        { _index: 111, title: {}, body: { 'classes/AppPage.html': {} } }
+        { _index: 111, title: {}, body: { 'classes/AppPage.html': {} } },
       ],
       [
         'hammerjs',
-        { _index: 386, title: {}, body: { 'dependencies.html': {} } }
+        { _index: 386, title: {}, body: { 'dependencies.html': {} } },
       ],
       [
         'height',
         {
           _index: 169,
           title: {},
-          body: { 'components/CardGridComponent.html': {} }
-        }
+          body: { 'components/CardGridComponent.html': {} },
+        },
       ],
       ['help', { _index: 444, title: {}, body: { 'index.html': {} } }],
       [
@@ -4729,9 +4751,9 @@ var COMPODOC_SEARCH_INDEX = {
           title: {},
           body: {
             'components/CardGridComponent.html': {},
-            'components/SearchComponent.html': {}
-          }
-        }
+            'components/SearchComponent.html': {},
+          },
+        },
       ],
       [
         'html',
@@ -4744,21 +4766,21 @@ var COMPODOC_SEARCH_INDEX = {
             'components/CardPopupComponent.html': {},
             'components/CardSingleComponent.html': {},
             'components/DashboardComponent.html': {},
-            'components/SearchComponent.html': {}
-          }
-        }
+            'components/SearchComponent.html': {},
+          },
+        },
       ],
       [
         'http',
         {
           _index: 304,
           title: {},
-          body: { 'injectables/MagicTheGatheringService.html': {} }
-        }
+          body: { 'injectables/MagicTheGatheringService.html': {} },
+        },
       ],
       [
         'http://localhost:4200',
-        { _index: 417, title: {}, body: { 'index.html': {} } }
+        { _index: 417, title: {}, body: { 'index.html': {} } },
       ],
       [
         'httpclient',
@@ -4767,29 +4789,29 @@ var COMPODOC_SEARCH_INDEX = {
           title: {},
           body: {
             'components/CardGridComponent.html': {},
-            'injectables/MagicTheGatheringService.html': {}
-          }
-        }
+            'injectables/MagicTheGatheringService.html': {},
+          },
+        },
       ],
       [
         'httpclientmodule',
-        { _index: 350, title: {}, body: { 'modules/SharedModule.html': {} } }
+        { _index: 350, title: {}, body: { 'modules/SharedModule.html': {} } },
       ],
       [
         'https://api.magicthegathering.io/v1/cards',
         {
           _index: 316,
           title: {},
-          body: { 'injectables/MagicTheGatheringService.html': {} }
-        }
+          body: { 'injectables/MagicTheGatheringService.html': {} },
+        },
       ],
       [
         'https://api.magicthegathering.io/v1/cards/${id',
         {
           _index: 315,
           title: {},
-          body: { 'injectables/MagicTheGatheringService.html': {} }
-        }
+          body: { 'injectables/MagicTheGatheringService.html': {} },
+        },
       ],
       ['icons', { _index: 390, title: {}, body: { 'dependencies.html': {} } }],
       [
@@ -4800,22 +4822,22 @@ var COMPODOC_SEARCH_INDEX = {
           body: {
             'classes/CardModel.html': {},
             'components/CardSingleComponent.html': {},
-            'injectables/MagicTheGatheringService.html': {}
-          }
-        }
+            'injectables/MagicTheGatheringService.html': {},
+          },
+        },
       ],
       ['identifier', { _index: 355, title: {}, body: { 'coverage.html': {} } }],
       [
         'imageurl',
-        { _index: 215, title: {}, body: { 'classes/CardModel.html': {} } }
+        { _index: 215, title: {}, body: { 'classes/CardModel.html': {} } },
       ],
       [
         'img',
         {
           _index: 187,
           title: {},
-          body: { 'components/CardGridComponent.html': {} }
-        }
+          body: { 'components/CardGridComponent.html': {} },
+        },
       ],
       [
         'implements',
@@ -4827,9 +4849,9 @@ var COMPODOC_SEARCH_INDEX = {
             'components/CardPopupComponent.html': {},
             'components/CardSingleComponent.html': {},
             'components/DashboardComponent.html': {},
-            'components/SearchComponent.html': {}
-          }
-        }
+            'components/SearchComponent.html': {},
+          },
+        },
       ],
       [
         'import',
@@ -4856,9 +4878,9 @@ var COMPODOC_SEARCH_INDEX = {
             'components/SearchComponent.html': {},
             'modules/SearchModule.html': {},
             'modules/SharedModule.html': {},
-            'classes/SingleCardModel.html': {}
-          }
-        }
+            'classes/SingleCardModel.html': {},
+          },
+        },
       ],
       [
         'imports',
@@ -4875,9 +4897,9 @@ var COMPODOC_SEARCH_INDEX = {
             'modules/DashboardRoutingModule.html': {},
             'modules/MaterialModule.html': {},
             'modules/SearchModule.html': {},
-            'modules/SharedModule.html': {}
-          }
-        }
+            'modules/SharedModule.html': {},
+          },
+        },
       ],
       [
         'index',
@@ -4896,9 +4918,9 @@ var COMPODOC_SEARCH_INDEX = {
             'injectables/MagicTheGatheringService.html': {},
             'components/SearchComponent.html': {},
             'classes/SingleCardModel.html': {},
-            'miscellaneous/variables.html': {}
-          }
-        }
+            'miscellaneous/variables.html': {},
+          },
+        },
       ],
       [
         'info',
@@ -4926,25 +4948,25 @@ var COMPODOC_SEARCH_INDEX = {
             'components/SearchComponent.html': {},
             'modules/SearchModule.html': {},
             'modules/SharedModule.html': {},
-            'classes/SingleCardModel.html': {}
-          }
-        }
+            'classes/SingleCardModel.html': {},
+          },
+        },
       ],
       [
         'inject',
         {
           _index: 229,
           title: {},
-          body: { 'components/CardPopupComponent.html': {} }
-        }
+          body: { 'components/CardPopupComponent.html': {} },
+        },
       ],
       [
         'inject(mat_dialog_data',
         {
           _index: 227,
           title: {},
-          body: { 'components/CardPopupComponent.html': {} }
-        }
+          body: { 'components/CardPopupComponent.html': {} },
+        },
       ],
       [
         'injectable',
@@ -4954,33 +4976,33 @@ var COMPODOC_SEARCH_INDEX = {
           body: {
             'injectables/MagicTheGatheringService.html': {},
             'coverage.html': {},
-            'overview.html': {}
-          }
-        }
+            'overview.html': {},
+          },
+        },
       ],
       [
         'injectables',
         {
           _index: 297,
           title: {},
-          body: { 'injectables/MagicTheGatheringService.html': {} }
-        }
+          body: { 'injectables/MagicTheGatheringService.html': {} },
+        },
       ],
       [
         'input',
         {
           _index: 251,
           title: {},
-          body: { 'components/CardSingleComponent.html': {} }
-        }
+          body: { 'components/CardSingleComponent.html': {} },
+        },
       ],
       [
         'inputs',
         {
           _index: 245,
           title: {},
-          body: { 'components/CardSingleComponent.html': {} }
-        }
+          body: { 'components/CardSingleComponent.html': {} },
+        },
       ],
       ['js', { _index: 384, title: {}, body: { 'dependencies.html': {} } }],
       [
@@ -4991,9 +5013,9 @@ var COMPODOC_SEARCH_INDEX = {
           body: {
             'components/AppComponent.html': {},
             'components/CardGridComponent.html': {},
-            'components/SearchComponent.html': {}
-          }
-        }
+            'components/SearchComponent.html': {},
+          },
+        },
       ],
       ['karma', { _index: 440, title: {}, body: { 'index.html': {} } }],
       [
@@ -5016,9 +5038,9 @@ var COMPODOC_SEARCH_INDEX = {
             'components/SearchComponent.html': {},
             'modules/SearchModule.html': {},
             'modules/SharedModule.html': {},
-            'overview.html': {}
-          }
-        }
+            'overview.html': {},
+          },
+        },
       ],
       [
         'list.model',
@@ -5027,21 +5049,21 @@ var COMPODOC_SEARCH_INDEX = {
           title: {},
           body: {
             'components/CardGridComponent.html': {},
-            'injectables/MagicTheGatheringService.html': {}
-          }
-        }
+            'injectables/MagicTheGatheringService.html': {},
+          },
+        },
       ],
       [
         'list.model.ts',
         {
           _index: 210,
           title: {},
-          body: { 'classes/CardListModel.html': {}, 'coverage.html': {} }
-        }
+          body: { 'classes/CardListModel.html': {}, 'coverage.html': {} },
+        },
       ],
       [
         'list.model.ts:4',
-        { _index: 211, title: {}, body: { 'classes/CardListModel.html': {} } }
+        { _index: 211, title: {}, body: { 'classes/CardListModel.html': {} } },
       ],
       [
         'list/card',
@@ -5052,9 +5074,9 @@ var COMPODOC_SEARCH_INDEX = {
             'components/CardGridComponent.html': {},
             'classes/CardListModel.html': {},
             'injectables/MagicTheGatheringService.html': {},
-            'coverage.html': {}
-          }
-        }
+            'coverage.html': {},
+          },
+        },
       ],
       [
         'list/card.model',
@@ -5063,29 +5085,29 @@ var COMPODOC_SEARCH_INDEX = {
           title: {},
           body: {
             'components/CardGridComponent.html': {},
-            'components/CardSingleComponent.html': {}
-          }
-        }
+            'components/CardSingleComponent.html': {},
+          },
+        },
       ],
       [
         'list/card.model.ts',
         {
           _index: 213,
           title: {},
-          body: { 'classes/CardModel.html': {}, 'coverage.html': {} }
-        }
+          body: { 'classes/CardModel.html': {}, 'coverage.html': {} },
+        },
       ],
       [
         'list/card.model.ts:2',
-        { _index: 218, title: {}, body: { 'classes/CardModel.html': {} } }
+        { _index: 218, title: {}, body: { 'classes/CardModel.html': {} } },
       ],
       [
         'list/card.model.ts:3',
-        { _index: 217, title: {}, body: { 'classes/CardModel.html': {} } }
+        { _index: 217, title: {}, body: { 'classes/CardModel.html': {} } },
       ],
       [
         'list/card.model.ts:4',
-        { _index: 216, title: {}, body: { 'classes/CardModel.html': {} } }
+        { _index: 216, title: {}, body: { 'classes/CardModel.html': {} } },
       ],
       [
         'list/single',
@@ -5096,17 +5118,17 @@ var COMPODOC_SEARCH_INDEX = {
             'components/CardSingleComponent.html': {},
             'injectables/MagicTheGatheringService.html': {},
             'classes/SingleCardModel.html': {},
-            'coverage.html': {}
-          }
-        }
+            'coverage.html': {},
+          },
+        },
       ],
       [
         'magicbrowse',
         {
           _index: 27,
           title: {},
-          body: { 'components/AppComponent.html': {}, 'index.html': {} }
-        }
+          body: { 'components/AppComponent.html': {}, 'index.html': {} },
+        },
       ],
       [
         'magicthegatheringservice',
@@ -5117,37 +5139,37 @@ var COMPODOC_SEARCH_INDEX = {
             'components/CardGridComponent.html': {},
             'components/CardSingleComponent.html': {},
             'injectables/MagicTheGatheringService.html': {},
-            'coverage.html': {}
-          }
-        }
+            'coverage.html': {},
+          },
+        },
       ],
       [
         'margin',
         {
           _index: 174,
           title: {},
-          body: { 'components/CardGridComponent.html': {} }
-        }
+          body: { 'components/CardGridComponent.html': {} },
+        },
       ],
       [
         'mat',
-        { _index: 34, title: {}, body: { 'components/AppComponent.html': {} } }
+        { _index: 34, title: {}, body: { 'components/AppComponent.html': {} } },
       ],
       [
         'mat_dialog_data',
         {
           _index: 230,
           title: {},
-          body: { 'components/CardPopupComponent.html': {} }
-        }
+          body: { 'components/CardPopupComponent.html': {} },
+        },
       ],
       [
         'matbuttonmodule',
-        { _index: 321, title: {}, body: { 'modules/MaterialModule.html': {} } }
+        { _index: 321, title: {}, body: { 'modules/MaterialModule.html': {} } },
       ],
       [
         'matcardmodule',
-        { _index: 328, title: {}, body: { 'modules/MaterialModule.html': {} } }
+        { _index: 328, title: {}, body: { 'modules/MaterialModule.html': {} } },
       ],
       [
         'matching',
@@ -5182,29 +5204,29 @@ var COMPODOC_SEARCH_INDEX = {
             'modules.html': {},
             'overview.html': {},
             'routes.html': {},
-            'miscellaneous/variables.html': {}
-          }
-        }
+            'miscellaneous/variables.html': {},
+          },
+        },
       ],
       [
         'matdialog',
         {
           _index: 141,
           title: {},
-          body: { 'components/CardGridComponent.html': {} }
-        }
+          body: { 'components/CardGridComponent.html': {} },
+        },
       ],
       [
         'matdialogmodule',
-        { _index: 325, title: {}, body: { 'modules/MaterialModule.html': {} } }
+        { _index: 325, title: {}, body: { 'modules/MaterialModule.html': {} } },
       ],
       [
         'material',
-        { _index: 388, title: {}, body: { 'dependencies.html': {} } }
+        { _index: 388, title: {}, body: { 'dependencies.html': {} } },
       ],
       [
         'material/material.module',
-        { _index: 349, title: {}, body: { 'modules/SharedModule.html': {} } }
+        { _index: 349, title: {}, body: { 'modules/SharedModule.html': {} } },
       ],
       [
         'materialmodule',
@@ -5215,41 +5237,41 @@ var COMPODOC_SEARCH_INDEX = {
             'modules/MaterialModule.html': {},
             'modules/SharedModule.html': {},
             'modules.html': {},
-            'overview.html': {}
-          }
-        }
+            'overview.html': {},
+          },
+        },
       ],
       [
         'matformfieldmodule',
-        { _index: 326, title: {}, body: { 'modules/MaterialModule.html': {} } }
+        { _index: 326, title: {}, body: { 'modules/MaterialModule.html': {} } },
       ],
       [
         'matgridlistmodule',
-        { _index: 329, title: {}, body: { 'modules/MaterialModule.html': {} } }
+        { _index: 329, title: {}, body: { 'modules/MaterialModule.html': {} } },
       ],
       [
         'maticonmodule',
-        { _index: 322, title: {}, body: { 'modules/MaterialModule.html': {} } }
+        { _index: 322, title: {}, body: { 'modules/MaterialModule.html': {} } },
       ],
       [
         'matinputmodule',
-        { _index: 327, title: {}, body: { 'modules/MaterialModule.html': {} } }
+        { _index: 327, title: {}, body: { 'modules/MaterialModule.html': {} } },
       ],
       [
         'matprogressspinnermodule',
-        { _index: 323, title: {}, body: { 'modules/MaterialModule.html': {} } }
+        { _index: 323, title: {}, body: { 'modules/MaterialModule.html': {} } },
       ],
       [
         'matsidenavmodule',
-        { _index: 320, title: {}, body: { 'modules/MaterialModule.html': {} } }
+        { _index: 320, title: {}, body: { 'modules/MaterialModule.html': {} } },
       ],
       [
         'mattabsmodule',
-        { _index: 324, title: {}, body: { 'modules/MaterialModule.html': {} } }
+        { _index: 324, title: {}, body: { 'modules/MaterialModule.html': {} } },
       ],
       [
         'mattoolbarmodule',
-        { _index: 319, title: {}, body: { 'modules/MaterialModule.html': {} } }
+        { _index: 319, title: {}, body: { 'modules/MaterialModule.html': {} } },
       ],
       [
         'metadata',
@@ -5262,9 +5284,9 @@ var COMPODOC_SEARCH_INDEX = {
             'components/CardPopupComponent.html': {},
             'components/CardSingleComponent.html': {},
             'components/DashboardComponent.html': {},
-            'components/SearchComponent.html': {}
-          }
-        }
+            'components/SearchComponent.html': {},
+          },
+        },
       ],
       [
         'methods',
@@ -5278,25 +5300,25 @@ var COMPODOC_SEARCH_INDEX = {
             'components/CardSingleComponent.html': {},
             'components/DashboardComponent.html': {},
             'injectables/MagicTheGatheringService.html': {},
-            'components/SearchComponent.html': {}
-          }
-        }
+            'components/SearchComponent.html': {},
+          },
+        },
       ],
       [
         'miscellaneous',
         {
           _index: 459,
           title: { 'miscellaneous/variables.html': {} },
-          body: { 'miscellaneous/variables.html': {} }
-        }
+          body: { 'miscellaneous/variables.html': {} },
+        },
       ],
       [
         'models/magicthegathering/card',
         {
           _index: 312,
           title: {},
-          body: { 'injectables/MagicTheGatheringService.html': {} }
-        }
+          body: { 'injectables/MagicTheGatheringService.html': {} },
+        },
       ],
       [
         'module',
@@ -5312,7 +5334,7 @@ var COMPODOC_SEARCH_INDEX = {
             'modules/DashboardRoutingModule.html': {},
             'modules/MaterialModule.html': {},
             'modules/SearchModule.html': {},
-            'modules/SharedModule.html': {}
+            'modules/SharedModule.html': {},
           },
           body: {
             'modules/AppModule.html': {},
@@ -5323,9 +5345,9 @@ var COMPODOC_SEARCH_INDEX = {
             'modules/DashboardModule.html': {},
             'modules/SearchModule.html': {},
             'modules/SharedModule.html': {},
-            'overview.html': {}
-          }
-        }
+            'overview.html': {},
+          },
+        },
       ],
       [
         'modules',
@@ -5344,9 +5366,9 @@ var COMPODOC_SEARCH_INDEX = {
             'modules/SearchModule.html': {},
             'modules/SharedModule.html': {},
             'modules.html': {},
-            'overview.html': {}
-          }
-        }
+            'overview.html': {},
+          },
+        },
       ],
       ['more', { _index: 445, title: {}, body: { 'index.html': {} } }],
       [
@@ -5363,22 +5385,22 @@ var COMPODOC_SEARCH_INDEX = {
             'components/DashboardComponent.html': {},
             'injectables/MagicTheGatheringService.html': {},
             'components/SearchComponent.html': {},
-            'index.html': {}
-          }
-        }
+            'index.html': {},
+          },
+        },
       ],
       ['navigate', { _index: 416, title: {}, body: { 'index.html': {} } }],
       [
         'navigateto',
-        { _index: 102, title: {}, body: { 'classes/AppPage.html': {} } }
+        { _index: 102, title: {}, body: { 'classes/AppPage.html': {} } },
       ],
       [
         'new',
         {
           _index: 371,
           title: {},
-          body: { 'coverage.html': {}, 'index.html': {} }
-        }
+          body: { 'coverage.html': {}, 'index.html': {} },
+        },
       ],
       ['ng', { _index: 413, title: {}, body: { 'index.html': {} } }],
       [
@@ -5396,17 +5418,17 @@ var COMPODOC_SEARCH_INDEX = {
             'modules/DashboardRoutingModule.html': {},
             'modules/MaterialModule.html': {},
             'modules/SearchModule.html': {},
-            'modules/SharedModule.html': {}
-          }
-        }
+            'modules/SharedModule.html': {},
+          },
+        },
       ],
       [
         'ngonchanges',
         {
           _index: 244,
           title: {},
-          body: { 'components/CardSingleComponent.html': {} }
-        }
+          body: { 'components/CardSingleComponent.html': {} },
+        },
       ],
       [
         'ngoninit',
@@ -5418,41 +5440,45 @@ var COMPODOC_SEARCH_INDEX = {
             'components/CardPopupComponent.html': {},
             'components/CardSingleComponent.html': {},
             'components/DashboardComponent.html': {},
-            'components/SearchComponent.html': {}
-          }
-        }
+            'components/SearchComponent.html': {},
+          },
+        },
       ],
       [
         'normalize.css',
-        { _index: 392, title: {}, body: { 'dependencies.html': {} } }
+        { _index: 392, title: {}, body: { 'dependencies.html': {} } },
       ],
       [
         'null',
         {
           _index: 278,
           title: {},
-          body: { 'components/DashboardComponent.html': {} }
-        }
+          body: { 'components/DashboardComponent.html': {} },
+        },
       ],
       [
         'object',
-        { _index: 467, title: {}, body: { 'miscellaneous/variables.html': {} } }
+        {
+          _index: 467,
+          title: {},
+          body: { 'miscellaneous/variables.html': {} },
+        },
       ],
       [
         'observable',
         {
           _index: 306,
           title: {},
-          body: { 'injectables/MagicTheGatheringService.html': {} }
-        }
+          body: { 'injectables/MagicTheGatheringService.html': {} },
+        },
       ],
       [
         'onchanges',
         {
           _index: 240,
           title: {},
-          body: { 'components/CardSingleComponent.html': {} }
-        }
+          body: { 'components/CardSingleComponent.html': {} },
+        },
       ],
       [
         'oninit',
@@ -5464,17 +5490,17 @@ var COMPODOC_SEARCH_INDEX = {
             'components/CardPopupComponent.html': {},
             'components/CardSingleComponent.html': {},
             'components/DashboardComponent.html': {},
-            'components/SearchComponent.html': {}
-          }
-        }
+            'components/SearchComponent.html': {},
+          },
+        },
       ],
       [
         'opendialog',
         {
           _index: 136,
           title: {},
-          body: { 'components/CardGridComponent.html': {} }
-        }
+          body: { 'components/CardGridComponent.html': {} },
+        },
       ],
       [
         'optional',
@@ -5486,9 +5512,9 @@ var COMPODOC_SEARCH_INDEX = {
             'components/CardPopupComponent.html': {},
             'components/CardSingleComponent.html': {},
             'components/DashboardComponent.html': {},
-            'injectables/MagicTheGatheringService.html': {}
-          }
-        }
+            'injectables/MagicTheGatheringService.html': {},
+          },
+        },
       ],
       [
         'out',
@@ -5506,21 +5532,21 @@ var COMPODOC_SEARCH_INDEX = {
             'modules/SearchModule.html': {},
             'modules/SharedModule.html': {},
             'index.html': {},
-            'overview.html': {}
-          }
-        }
+            'overview.html': {},
+          },
+        },
       ],
       [
         'overview',
         {
           _index: 453,
           title: { 'overview.html': {} },
-          body: { 'overview.html': {} }
-        }
+          body: { 'overview.html': {} },
+        },
       ],
       [
         'package',
-        { _index: 374, title: { 'dependencies.html': {} }, body: {} }
+        { _index: 374, title: { 'dependencies.html': {} }, body: {} },
       ],
       [
         'parameters',
@@ -5532,9 +5558,9 @@ var COMPODOC_SEARCH_INDEX = {
             'components/CardPopupComponent.html': {},
             'components/CardSingleComponent.html': {},
             'components/DashboardComponent.html': {},
-            'injectables/MagicTheGatheringService.html': {}
-          }
-        }
+            'injectables/MagicTheGatheringService.html': {},
+          },
+        },
       ],
       [
         'path',
@@ -5543,33 +5569,33 @@ var COMPODOC_SEARCH_INDEX = {
           title: {},
           body: {
             'modules/AppRoutingModule.html': {},
-            'modules/DashboardRoutingModule.html': {}
-          }
-        }
+            'modules/DashboardRoutingModule.html': {},
+          },
+        },
       ],
       [
         'perspective',
         {
           _index: 185,
           title: {},
-          body: { 'components/CardGridComponent.html': {} }
-        }
+          body: { 'components/CardGridComponent.html': {} },
+        },
       ],
       [
         'pointer',
         {
           _index: 190,
           title: {},
-          body: { 'components/CardGridComponent.html': {} }
-        }
+          body: { 'components/CardGridComponent.html': {} },
+        },
       ],
       [
         'popup',
         {
           _index: 220,
           title: {},
-          body: { 'components/CardPopupComponent.html': {} }
-        }
+          body: { 'components/CardPopupComponent.html': {} },
+        },
       ],
       [
         "popup'},{'name",
@@ -5582,9 +5608,9 @@ var COMPODOC_SEARCH_INDEX = {
             'components/CardPopupComponent.html': {},
             'components/CardSingleComponent.html': {},
             'components/DashboardComponent.html': {},
-            'components/SearchComponent.html': {}
-          }
-        }
+            'components/SearchComponent.html': {},
+          },
+        },
       ],
       [
         'popup.component',
@@ -5594,25 +5620,25 @@ var COMPODOC_SEARCH_INDEX = {
           body: {
             'components/CardGridComponent.html': {},
             'modules/CardGridModule.html': {},
-            'modules/CardPopupModule.html': {}
-          }
-        }
+            'modules/CardPopupModule.html': {},
+          },
+        },
       ],
       [
         'popup.component.html',
         {
           _index: 222,
           title: {},
-          body: { 'components/CardPopupComponent.html': {} }
-        }
+          body: { 'components/CardPopupComponent.html': {} },
+        },
       ],
       [
         'popup.component.scss',
         {
           _index: 221,
           title: {},
-          body: { 'components/CardPopupComponent.html': {} }
-        }
+          body: { 'components/CardPopupComponent.html': {} },
+        },
       ],
       [
         'popup.component.ts',
@@ -5621,41 +5647,45 @@ var COMPODOC_SEARCH_INDEX = {
           title: {},
           body: {
             'components/CardPopupComponent.html': {},
-            'coverage.html': {}
-          }
-        }
+            'coverage.html': {},
+          },
+        },
       ],
       [
         'popup.component.ts:10',
         {
           _index: 228,
           title: {},
-          body: { 'components/CardPopupComponent.html': {} }
-        }
+          body: { 'components/CardPopupComponent.html': {} },
+        },
       ],
       [
         'popup.component.ts:12',
         {
           _index: 225,
           title: {},
-          body: { 'components/CardPopupComponent.html': {} }
-        }
+          body: { 'components/CardPopupComponent.html': {} },
+        },
       ],
       [
         'popup.component.ts:9',
         {
           _index: 224,
           title: {},
-          body: { 'components/CardPopupComponent.html': {} }
-        }
+          body: { 'components/CardPopupComponent.html': {} },
+        },
       ],
       [
         'popup.module',
-        { _index: 209, title: {}, body: { 'modules/CardGridModule.html': {} } }
+        { _index: 209, title: {}, body: { 'modules/CardGridModule.html': {} } },
       ],
       [
         'popup.module.ts',
-        { _index: 238, title: {}, body: { 'modules/CardPopupModule.html': {} } }
+        {
+          _index: 238,
+          title: {},
+          body: { 'modules/CardPopupModule.html': {} },
+        },
       ],
       [
         'popup/card',
@@ -5667,17 +5697,17 @@ var COMPODOC_SEARCH_INDEX = {
             'modules/CardGridModule.html': {},
             'components/CardPopupComponent.html': {},
             'modules/CardPopupModule.html': {},
-            'coverage.html': {}
-          }
-        }
+            'coverage.html': {},
+          },
+        },
       ],
       [
         'private',
         {
           _index: 161,
           title: {},
-          body: { 'components/CardGridComponent.html': {} }
-        }
+          body: { 'components/CardGridComponent.html': {} },
+        },
       ],
       ['prod', { _index: 432, title: {}, body: { 'index.html': {} } }],
       [
@@ -5685,13 +5715,13 @@ var COMPODOC_SEARCH_INDEX = {
         {
           _index: 434,
           title: {},
-          body: { 'index.html': {}, 'miscellaneous/variables.html': {} }
-        }
+          body: { 'index.html': {}, 'miscellaneous/variables.html': {} },
+        },
       ],
       ['project', { _index: 404, title: {}, body: { 'index.html': {} } }],
       [
         'promise',
-        { _index: 109, title: {}, body: { 'classes/AppPage.html': {} } }
+        { _index: 109, title: {}, body: { 'classes/AppPage.html': {} } },
       ],
       [
         'properties',
@@ -5706,25 +5736,25 @@ var COMPODOC_SEARCH_INDEX = {
             'components/CardPopupComponent.html': {},
             'components/CardSingleComponent.html': {},
             'components/DashboardComponent.html': {},
-            'classes/SingleCardModel.html': {}
-          }
-        }
+            'classes/SingleCardModel.html': {},
+          },
+        },
       ],
       [
         'protractor',
         {
           _index: 106,
           title: {},
-          body: { 'classes/AppPage.html': {}, 'index.html': {} }
-        }
+          body: { 'classes/AppPage.html': {}, 'index.html': {} },
+        },
       ],
       [
         'providedin',
         {
           _index: 313,
           title: {},
-          body: { 'injectables/MagicTheGatheringService.html': {} }
-        }
+          body: { 'injectables/MagicTheGatheringService.html': {} },
+        },
       ],
       [
         'providers',
@@ -5740,9 +5770,9 @@ var COMPODOC_SEARCH_INDEX = {
             'modules/DashboardModule.html': {},
             'modules/SearchModule.html': {},
             'modules/SharedModule.html': {},
-            'overview.html': {}
-          }
-        }
+            'overview.html': {},
+          },
+        },
       ],
       [
         'public',
@@ -5756,17 +5786,17 @@ var COMPODOC_SEARCH_INDEX = {
             'components/CardPopupComponent.html': {},
             'components/CardSingleComponent.html': {},
             'components/DashboardComponent.html': {},
-            'classes/SingleCardModel.html': {}
-          }
-        }
+            'classes/SingleCardModel.html': {},
+          },
+        },
       ],
       [
         'query',
         {
           _index: 271,
           title: {},
-          body: { 'components/DashboardComponent.html': {} }
-        }
+          body: { 'components/DashboardComponent.html': {} },
+        },
       ],
       ['readme', { _index: 448, title: {}, body: { 'index.html': {} } }],
       ['reload', { _index: 419, title: {}, body: { 'index.html': {} } }],
@@ -5775,12 +5805,16 @@ var COMPODOC_SEARCH_INDEX = {
         {
           _index: 370,
           title: {},
-          body: { 'coverage.html': {}, 'miscellaneous/variables.html': {} }
-        }
+          body: { 'coverage.html': {}, 'miscellaneous/variables.html': {} },
+        },
       ],
       [
         'require.context',
-        { _index: 464, title: {}, body: { 'miscellaneous/variables.html': {} } }
+        {
+          _index: 464,
+          title: {},
+          body: { 'miscellaneous/variables.html': {} },
+        },
       ],
       [
         'reset',
@@ -5796,9 +5830,9 @@ var COMPODOC_SEARCH_INDEX = {
             'modules/DashboardModule.html': {},
             'modules/SearchModule.html': {},
             'modules/SharedModule.html': {},
-            'overview.html': {}
-          }
-        }
+            'overview.html': {},
+          },
+        },
       ],
       [
         'result',
@@ -5833,9 +5867,9 @@ var COMPODOC_SEARCH_INDEX = {
             'modules.html': {},
             'overview.html': {},
             'routes.html': {},
-            'miscellaneous/variables.html': {}
-          }
-        }
+            'miscellaneous/variables.html': {},
+          },
+        },
       ],
       [
         'results',
@@ -5870,9 +5904,9 @@ var COMPODOC_SEARCH_INDEX = {
             'modules.html': {},
             'overview.html': {},
             'routes.html': {},
-            'miscellaneous/variables.html': {}
-          }
-        }
+            'miscellaneous/variables.html': {},
+          },
+        },
       ],
       [
         'return',
@@ -5881,9 +5915,9 @@ var COMPODOC_SEARCH_INDEX = {
           title: {},
           body: {
             'classes/AppPage.html': {},
-            'injectables/MagicTheGatheringService.html': {}
-          }
-        }
+            'injectables/MagicTheGatheringService.html': {},
+          },
+        },
       ],
       [
         'returns',
@@ -5897,9 +5931,9 @@ var COMPODOC_SEARCH_INDEX = {
             'components/CardSingleComponent.html': {},
             'components/DashboardComponent.html': {},
             'injectables/MagicTheGatheringService.html': {},
-            'components/SearchComponent.html': {}
-          }
-        }
+            'components/SearchComponent.html': {},
+          },
+        },
       ],
       ['roboto', { _index: 394, title: {}, body: { 'dependencies.html': {} } }],
       [
@@ -5910,9 +5944,9 @@ var COMPODOC_SEARCH_INDEX = {
           body: {
             'components/AppComponent.html': {},
             'classes/AppPage.html': {},
-            'injectables/MagicTheGatheringService.html': {}
-          }
-        }
+            'injectables/MagicTheGatheringService.html': {},
+          },
+        },
       ],
       [
         "root'},{'name",
@@ -5925,17 +5959,17 @@ var COMPODOC_SEARCH_INDEX = {
             'components/CardPopupComponent.html': {},
             'components/CardSingleComponent.html': {},
             'components/DashboardComponent.html': {},
-            'components/SearchComponent.html': {}
-          }
-        }
+            'components/SearchComponent.html': {},
+          },
+        },
       ],
       [
         'rotatex(5deg',
         {
           _index: 198,
           title: {},
-          body: { 'components/CardGridComponent.html': {} }
-        }
+          body: { 'components/CardGridComponent.html': {} },
+        },
       ],
       [
         'routermodule',
@@ -5945,9 +5979,9 @@ var COMPODOC_SEARCH_INDEX = {
           body: {
             'modules/AppRoutingModule.html': {},
             'modules/DashboardRoutingModule.html': {},
-            'modules/SharedModule.html': {}
-          }
-        }
+            'modules/SharedModule.html': {},
+          },
+        },
       ],
       [
         'routermodule.forroot(routes',
@@ -5956,9 +5990,9 @@ var COMPODOC_SEARCH_INDEX = {
           title: {},
           body: {
             'modules/AppRoutingModule.html': {},
-            'modules/DashboardRoutingModule.html': {}
-          }
-        }
+            'modules/DashboardRoutingModule.html': {},
+          },
+        },
       ],
       [
         'routes',
@@ -5969,9 +6003,9 @@ var COMPODOC_SEARCH_INDEX = {
             'modules/AppRoutingModule.html': {},
             'modules/DashboardRoutingModule.html': {},
             'overview.html': {},
-            'routes.html': {}
-          }
-        }
+            'routes.html': {},
+          },
+        },
       ],
       [
         'routing.module',
@@ -5980,9 +6014,9 @@ var COMPODOC_SEARCH_INDEX = {
           title: {},
           body: {
             'modules/AppModule.html': {},
-            'modules/DashboardModule.html': {}
-          }
-        }
+            'modules/DashboardModule.html': {},
+          },
+        },
       ],
       [
         'routing.module.ts',
@@ -5991,9 +6025,9 @@ var COMPODOC_SEARCH_INDEX = {
           title: {},
           body: {
             'modules/AppRoutingModule.html': {},
-            'modules/DashboardRoutingModule.html': {}
-          }
-        }
+            'modules/DashboardRoutingModule.html': {},
+          },
+        },
       ],
       [
         'row',
@@ -6002,9 +6036,9 @@ var COMPODOC_SEARCH_INDEX = {
           title: {},
           body: {
             'components/CardGridComponent.html': {},
-            'components/SearchComponent.html': {}
-          }
-        }
+            'components/SearchComponent.html': {},
+          },
+        },
       ],
       ['run', { _index: 412, title: {}, body: { 'index.html': {} } }],
       ['running', { _index: 435, title: {}, body: { 'index.html': {} } }],
@@ -6015,9 +6049,9 @@ var COMPODOC_SEARCH_INDEX = {
           title: {},
           body: {
             'injectables/MagicTheGatheringService.html': {},
-            'dependencies.html': {}
-          }
-        }
+            'dependencies.html': {},
+          },
+        },
       ],
       ['scaffolding', { _index: 423, title: {}, body: { 'index.html': {} } }],
       [
@@ -6031,33 +6065,37 @@ var COMPODOC_SEARCH_INDEX = {
             'components/CardPopupComponent.html': {},
             'components/CardSingleComponent.html': {},
             'components/DashboardComponent.html': {},
-            'components/SearchComponent.html': {}
-          }
-        }
+            'components/SearchComponent.html': {},
+          },
+        },
       ],
       [
         'search.component',
-        { _index: 344, title: {}, body: { 'modules/SearchModule.html': {} } }
+        { _index: 344, title: {}, body: { 'modules/SearchModule.html': {} } },
       ],
       [
         'search.component.html',
         {
           _index: 332,
           title: {},
-          body: { 'components/SearchComponent.html': {} }
-        }
+          body: { 'components/SearchComponent.html': {} },
+        },
       ],
       [
         'search.component.scss',
         {
           _index: 331,
           title: {},
-          body: { 'components/SearchComponent.html': {} }
-        }
+          body: { 'components/SearchComponent.html': {} },
+        },
       ],
       [
         'search/search.module',
-        { _index: 293, title: {}, body: { 'modules/DashboardModule.html': {} } }
+        {
+          _index: 293,
+          title: {},
+          body: { 'modules/DashboardModule.html': {} },
+        },
       ],
       [
         'searchcomponent',
@@ -6073,9 +6111,9 @@ var COMPODOC_SEARCH_INDEX = {
             'components/SearchComponent.html': {},
             'modules/SearchModule.html': {},
             'coverage.html': {},
-            'overview.html': {}
-          }
-        }
+            'overview.html': {},
+          },
+        },
       ],
       [
         'searchmodule',
@@ -6086,9 +6124,9 @@ var COMPODOC_SEARCH_INDEX = {
             'modules/DashboardModule.html': {},
             'modules/SearchModule.html': {},
             'modules.html': {},
-            'overview.html': {}
-          }
-        }
+            'overview.html': {},
+          },
+        },
       ],
       [
         'selector',
@@ -6101,9 +6139,9 @@ var COMPODOC_SEARCH_INDEX = {
             'components/CardPopupComponent.html': {},
             'components/CardSingleComponent.html': {},
             'components/DashboardComponent.html': {},
-            'components/SearchComponent.html': {}
-          }
-        }
+            'components/SearchComponent.html': {},
+          },
+        },
       ],
       ['serve', { _index: 414, title: {}, body: { 'index.html': {} } }],
       ['server', { _index: 411, title: {}, body: { 'index.html': {} } }],
@@ -6114,9 +6152,9 @@ var COMPODOC_SEARCH_INDEX = {
           title: {},
           body: {
             'modules/AppModule.html': {},
-            'modules/DashboardModule.html': {}
-          }
-        }
+            'modules/DashboardModule.html': {},
+          },
+        },
       ],
       [
         'sharedmodule',
@@ -6131,17 +6169,17 @@ var COMPODOC_SEARCH_INDEX = {
             'modules/SearchModule.html': {},
             'modules/SharedModule.html': {},
             'modules.html': {},
-            'overview.html': {}
-          }
-        }
+            'overview.html': {},
+          },
+        },
       ],
       [
         'single',
         {
           _index: 241,
           title: {},
-          body: { 'components/CardSingleComponent.html': {} }
-        }
+          body: { 'components/CardSingleComponent.html': {} },
+        },
       ],
       [
         "single'},{'name",
@@ -6154,33 +6192,33 @@ var COMPODOC_SEARCH_INDEX = {
             'components/CardPopupComponent.html': {},
             'components/CardSingleComponent.html': {},
             'components/DashboardComponent.html': {},
-            'components/SearchComponent.html': {}
-          }
-        }
+            'components/SearchComponent.html': {},
+          },
+        },
       ],
       [
         'single.component',
         {
           _index: 266,
           title: {},
-          body: { 'modules/CardSingleModule.html': {} }
-        }
+          body: { 'modules/CardSingleModule.html': {} },
+        },
       ],
       [
         'single.component.html',
         {
           _index: 243,
           title: {},
-          body: { 'components/CardSingleComponent.html': {} }
-        }
+          body: { 'components/CardSingleComponent.html': {} },
+        },
       ],
       [
         'single.component.scss',
         {
           _index: 242,
           title: {},
-          body: { 'components/CardSingleComponent.html': {} }
-        }
+          body: { 'components/CardSingleComponent.html': {} },
+        },
       ],
       [
         'single.component.ts',
@@ -6189,41 +6227,41 @@ var COMPODOC_SEARCH_INDEX = {
           title: {},
           body: {
             'components/CardSingleComponent.html': {},
-            'coverage.html': {}
-          }
-        }
+            'coverage.html': {},
+          },
+        },
       ],
       [
         'single.component.ts:12',
         {
           _index: 248,
           title: {},
-          body: { 'components/CardSingleComponent.html': {} }
-        }
+          body: { 'components/CardSingleComponent.html': {} },
+        },
       ],
       [
         'single.component.ts:13',
         {
           _index: 247,
           title: {},
-          body: { 'components/CardSingleComponent.html': {} }
-        }
+          body: { 'components/CardSingleComponent.html': {} },
+        },
       ],
       [
         'single.component.ts:17',
         {
           _index: 250,
           title: {},
-          body: { 'components/CardSingleComponent.html': {} }
-        }
+          body: { 'components/CardSingleComponent.html': {} },
+        },
       ],
       [
         'single.component.ts:31',
         {
           _index: 249,
           title: {},
-          body: { 'components/CardSingleComponent.html': {} }
-        }
+          body: { 'components/CardSingleComponent.html': {} },
+        },
       ],
       [
         'single.module',
@@ -6233,17 +6271,17 @@ var COMPODOC_SEARCH_INDEX = {
           body: {
             'modules/AppModule.html': {},
             'modules/CardPopupModule.html': {},
-            'modules/DashboardModule.html': {}
-          }
-        }
+            'modules/DashboardModule.html': {},
+          },
+        },
       ],
       [
         'single.module.ts',
         {
           _index: 265,
           title: {},
-          body: { 'modules/CardSingleModule.html': {} }
-        }
+          body: { 'modules/CardSingleModule.html': {} },
+        },
       ],
       [
         'single/card',
@@ -6256,9 +6294,9 @@ var COMPODOC_SEARCH_INDEX = {
             'components/CardSingleComponent.html': {},
             'modules/CardSingleModule.html': {},
             'modules/DashboardModule.html': {},
-            'coverage.html': {}
-          }
-        }
+            'coverage.html': {},
+          },
+        },
       ],
       [
         'singlecardmodel',
@@ -6269,17 +6307,17 @@ var COMPODOC_SEARCH_INDEX = {
             'components/CardSingleComponent.html': {},
             'injectables/MagicTheGatheringService.html': {},
             'classes/SingleCardModel.html': {},
-            'coverage.html': {}
-          }
-        }
+            'coverage.html': {},
+          },
+        },
       ],
       [
         'sizing',
         {
           _index: 337,
           title: {},
-          body: { 'components/SearchComponent.html': {} }
-        }
+          body: { 'components/SearchComponent.html': {} },
+        },
       ],
       [
         'source',
@@ -6308,9 +6346,9 @@ var COMPODOC_SEARCH_INDEX = {
             'modules/SearchModule.html': {},
             'modules/SharedModule.html': {},
             'classes/SingleCardModel.html': {},
-            'index.html': {}
-          }
-        }
+            'index.html': {},
+          },
+        },
       ],
       [
         'space',
@@ -6319,49 +6357,65 @@ var COMPODOC_SEARCH_INDEX = {
           title: {},
           body: {
             'components/CardGridComponent.html': {},
-            'components/SearchComponent.html': {}
-          }
-        }
+            'components/SearchComponent.html': {},
+          },
+        },
       ],
       [
         'spec\\.ts',
-        { _index: 466, title: {}, body: { 'miscellaneous/variables.html': {} } }
+        {
+          _index: 466,
+          title: {},
+          body: { 'miscellaneous/variables.html': {} },
+        },
       ],
       [
         'src/.../environment.prod.ts',
-        { _index: 462, title: {}, body: { 'miscellaneous/variables.html': {} } }
+        {
+          _index: 462,
+          title: {},
+          body: { 'miscellaneous/variables.html': {} },
+        },
       ],
       [
         'src/.../environment.ts',
-        { _index: 463, title: {}, body: { 'miscellaneous/variables.html': {} } }
+        {
+          _index: 463,
+          title: {},
+          body: { 'miscellaneous/variables.html': {} },
+        },
       ],
       [
         'src/.../test.ts',
-        { _index: 461, title: {}, body: { 'miscellaneous/variables.html': {} } }
+        {
+          _index: 461,
+          title: {},
+          body: { 'miscellaneous/variables.html': {} },
+        },
       ],
       [
         'src/app/app',
         {
           _index: 114,
           title: {},
-          body: { 'modules/AppRoutingModule.html': {} }
-        }
+          body: { 'modules/AppRoutingModule.html': {} },
+        },
       ],
       [
         'src/app/app.component.ts',
         {
           _index: 10,
           title: {},
-          body: { 'components/AppComponent.html': {}, 'coverage.html': {} }
-        }
+          body: { 'components/AppComponent.html': {}, 'coverage.html': {} },
+        },
       ],
       [
         'src/app/app.component.ts:9',
-        { _index: 29, title: {}, body: { 'components/AppComponent.html': {} } }
+        { _index: 29, title: {}, body: { 'components/AppComponent.html': {} } },
       ],
       [
         'src/app/app.module.ts',
-        { _index: 82, title: {}, body: { 'modules/AppModule.html': {} } }
+        { _index: 82, title: {}, body: { 'modules/AppModule.html': {} } },
       ],
       [
         'src/app/dashboard/card',
@@ -6375,17 +6429,17 @@ var COMPODOC_SEARCH_INDEX = {
             'modules/CardPopupModule.html': {},
             'components/CardSingleComponent.html': {},
             'modules/CardSingleModule.html': {},
-            'coverage.html': {}
-          }
-        }
+            'coverage.html': {},
+          },
+        },
       ],
       [
         'src/app/dashboard/dashboard',
         {
           _index: 294,
           title: {},
-          body: { 'modules/DashboardRoutingModule.html': {} }
-        }
+          body: { 'modules/DashboardRoutingModule.html': {} },
+        },
       ],
       [
         'src/app/dashboard/dashboard.component.ts',
@@ -6394,61 +6448,65 @@ var COMPODOC_SEARCH_INDEX = {
           title: {},
           body: {
             'components/DashboardComponent.html': {},
-            'coverage.html': {}
-          }
-        }
+            'coverage.html': {},
+          },
+        },
       ],
       [
         'src/app/dashboard/dashboard.component.ts:10',
         {
           _index: 274,
           title: {},
-          body: { 'components/DashboardComponent.html': {} }
-        }
+          body: { 'components/DashboardComponent.html': {} },
+        },
       ],
       [
         'src/app/dashboard/dashboard.component.ts:16',
         {
           _index: 276,
           title: {},
-          body: { 'components/DashboardComponent.html': {} }
-        }
+          body: { 'components/DashboardComponent.html': {} },
+        },
       ],
       [
         'src/app/dashboard/dashboard.module.ts',
-        { _index: 290, title: {}, body: { 'modules/DashboardModule.html': {} } }
+        {
+          _index: 290,
+          title: {},
+          body: { 'modules/DashboardModule.html': {} },
+        },
       ],
       [
         'src/app/dashboard/search/search.component.ts',
         {
           _index: 330,
           title: {},
-          body: { 'components/SearchComponent.html': {}, 'coverage.html': {} }
-        }
+          body: { 'components/SearchComponent.html': {}, 'coverage.html': {} },
+        },
       ],
       [
         'src/app/dashboard/search/search.component.ts:12',
         {
           _index: 334,
           title: {},
-          body: { 'components/SearchComponent.html': {} }
-        }
+          body: { 'components/SearchComponent.html': {} },
+        },
       ],
       [
         'src/app/dashboard/search/search.component.ts:8',
         {
           _index: 333,
           title: {},
-          body: { 'components/SearchComponent.html': {} }
-        }
+          body: { 'components/SearchComponent.html': {} },
+        },
       ],
       [
         'src/app/dashboard/search/search.module.ts',
-        { _index: 343, title: {}, body: { 'modules/SearchModule.html': {} } }
+        { _index: 343, title: {}, body: { 'modules/SearchModule.html': {} } },
       ],
       [
         'src/app/shared/material/material.module.ts',
-        { _index: 318, title: {}, body: { 'modules/MaterialModule.html': {} } }
+        { _index: 318, title: {}, body: { 'modules/MaterialModule.html': {} } },
       ],
       [
         'src/app/shared/models/magicthegathering/card',
@@ -6461,9 +6519,9 @@ var COMPODOC_SEARCH_INDEX = {
             'classes/CardModel.html': {},
             'components/CardSingleComponent.html': {},
             'classes/SingleCardModel.html': {},
-            'coverage.html': {}
-          }
-        }
+            'coverage.html': {},
+          },
+        },
       ],
       [
         'src/app/shared/services/magic',
@@ -6474,9 +6532,9 @@ var COMPODOC_SEARCH_INDEX = {
             'components/CardGridComponent.html': {},
             'components/CardSingleComponent.html': {},
             'injectables/MagicTheGatheringService.html': {},
-            'coverage.html': {}
-          }
-        }
+            'coverage.html': {},
+          },
+        },
       ],
       [
         'src/app/shared/shared.module',
@@ -6486,37 +6544,37 @@ var COMPODOC_SEARCH_INDEX = {
           body: {
             'modules/CardGridModule.html': {},
             'modules/CardSingleModule.html': {},
-            'modules/SearchModule.html': {}
-          }
-        }
+            'modules/SearchModule.html': {},
+          },
+        },
       ],
       [
         'src/app/shared/shared.module.ts',
-        { _index: 348, title: {}, body: { 'modules/SharedModule.html': {} } }
+        { _index: 348, title: {}, body: { 'modules/SharedModule.html': {} } },
       ],
       [
         'src/environments/environment.prod.ts',
         {
           _index: 363,
           title: {},
-          body: { 'coverage.html': {}, 'miscellaneous/variables.html': {} }
-        }
+          body: { 'coverage.html': {}, 'miscellaneous/variables.html': {} },
+        },
       ],
       [
         'src/environments/environment.ts',
         {
           _index: 367,
           title: {},
-          body: { 'coverage.html': {}, 'miscellaneous/variables.html': {} }
-        }
+          body: { 'coverage.html': {}, 'miscellaneous/variables.html': {} },
+        },
       ],
       [
         'src/test.ts',
         {
           _index: 368,
           title: {},
-          body: { 'coverage.html': {}, 'miscellaneous/variables.html': {} }
-        }
+          body: { 'coverage.html': {}, 'miscellaneous/variables.html': {} },
+        },
       ],
       ['started', { _index: 403, title: { 'index.html': {} }, body: {} }],
       ['statements', { _index: 356, title: {}, body: { 'coverage.html': {} } }],
@@ -6532,9 +6590,9 @@ var COMPODOC_SEARCH_INDEX = {
             'components/CardPopupComponent.html': {},
             'components/CardSingleComponent.html': {},
             'components/DashboardComponent.html': {},
-            'injectables/MagicTheGatheringService.html': {}
-          }
-        }
+            'injectables/MagicTheGatheringService.html': {},
+          },
+        },
       ],
       [
         'styles',
@@ -6547,9 +6605,9 @@ var COMPODOC_SEARCH_INDEX = {
             'components/CardPopupComponent.html': {},
             'components/CardSingleComponent.html': {},
             'components/DashboardComponent.html': {},
-            'components/SearchComponent.html': {}
-          }
-        }
+            'components/SearchComponent.html': {},
+          },
+        },
       ],
       [
         'styleurls',
@@ -6562,16 +6620,16 @@ var COMPODOC_SEARCH_INDEX = {
             'components/CardPopupComponent.html': {},
             'components/CardSingleComponent.html': {},
             'components/DashboardComponent.html': {},
-            'components/SearchComponent.html': {}
-          }
-        }
+            'components/SearchComponent.html': {},
+          },
+        },
       ],
       ['support', { _index: 449, title: {}, body: { 'modules.html': {} } }],
       ['svg', { _index: 450, title: {}, body: { 'modules.html': {} } }],
       ['table', { _index: 373, title: {}, body: { 'coverage.html': {} } }],
       [
         "tablesort(document.getelementbyid('coverage",
-        { _index: 372, title: {}, body: { 'coverage.html': {} } }
+        { _index: 372, title: {}, body: { 'coverage.html': {} } },
       ],
       [
         'template',
@@ -6584,9 +6642,9 @@ var COMPODOC_SEARCH_INDEX = {
             'components/CardPopupComponent.html': {},
             'components/CardSingleComponent.html': {},
             'components/DashboardComponent.html': {},
-            'components/SearchComponent.html': {}
-          }
-        }
+            'components/SearchComponent.html': {},
+          },
+        },
       ],
       [
         'templateurl',
@@ -6599,17 +6657,17 @@ var COMPODOC_SEARCH_INDEX = {
             'components/CardPopupComponent.html': {},
             'components/CardSingleComponent.html': {},
             'components/DashboardComponent.html': {},
-            'components/SearchComponent.html': {}
-          }
-        }
+            'components/SearchComponent.html': {},
+          },
+        },
       ],
       [
         'test',
         {
           _index: 335,
           title: {},
-          body: { 'components/SearchComponent.html': {}, 'index.html': {} }
-        }
+          body: { 'components/SearchComponent.html': {}, 'index.html': {} },
+        },
       ],
       ['tests', { _index: 437, title: {}, body: { 'index.html': {} } }],
       [
@@ -6617,120 +6675,120 @@ var COMPODOC_SEARCH_INDEX = {
         {
           _index: 280,
           title: {},
-          body: { 'components/DashboardComponent.html': {} }
-        }
+          body: { 'components/DashboardComponent.html': {} },
+        },
       ],
       [
         'this.activeroute.url.subscribe',
         {
           _index: 279,
           title: {},
-          body: { 'components/DashboardComponent.html': {} }
-        }
+          body: { 'components/DashboardComponent.html': {} },
+        },
       ],
       [
         'this.card',
         {
           _index: 257,
           title: {},
-          body: { 'components/CardSingleComponent.html': {} }
-        }
+          body: { 'components/CardSingleComponent.html': {} },
+        },
       ],
       [
         'this.card.getcards().subscribe',
         {
           _index: 163,
           title: {},
-          body: { 'components/CardGridComponent.html': {} }
-        }
+          body: { 'components/CardGridComponent.html': {} },
+        },
       ],
       [
         'this.cards',
         {
           _index: 162,
           title: {},
-          body: { 'components/CardGridComponent.html': {} }
-        }
+          body: { 'components/CardGridComponent.html': {} },
+        },
       ],
       [
         'this.data',
         {
           _index: 232,
           title: {},
-          body: { 'components/CardPopupComponent.html': {} }
-        }
+          body: { 'components/CardPopupComponent.html': {} },
+        },
       ],
       [
         'this.dialog.open(cardpopupcomponent',
         {
           _index: 168,
           title: {},
-          body: { 'components/CardGridComponent.html': {} }
-        }
+          body: { 'components/CardGridComponent.html': {} },
+        },
       ],
       [
         'this.http.get',
         {
           _index: 314,
           title: {},
-          body: { 'injectables/MagicTheGatheringService.html': {} }
-        }
+          body: { 'injectables/MagicTheGatheringService.html': {} },
+        },
       ],
       [
         'this.id',
         {
           _index: 255,
           title: {},
-          body: { 'components/CardSingleComponent.html': {} }
-        }
+          body: { 'components/CardSingleComponent.html': {} },
+        },
       ],
       [
         'this.magicthegatheringservice.getcardsbyid(this.id).subscribe',
         {
           _index: 256,
           title: {},
-          body: { 'components/CardSingleComponent.html': {} }
-        }
+          body: { 'components/CardSingleComponent.html': {} },
+        },
       ],
       [
         'this.query',
         {
           _index: 277,
           title: {},
-          body: { 'components/DashboardComponent.html': {} }
-        }
+          body: { 'components/DashboardComponent.html': {} },
+        },
       ],
       [
         'title',
-        { _index: 21, title: {}, body: { 'components/AppComponent.html': {} } }
+        { _index: 21, title: {}, body: { 'components/AppComponent.html': {} } },
       ],
       [
         'toolbar',
-        { _index: 35, title: {}, body: { 'components/AppComponent.html': {} } }
+        { _index: 35, title: {}, body: { 'components/AppComponent.html': {} } },
       ],
       [
         'top',
         {
           _index: 175,
           title: {},
-          body: { 'components/CardGridComponent.html': {} }
-        }
+          body: { 'components/CardGridComponent.html': {} },
+        },
       ],
       [
         'transform',
         {
           _index: 197,
           title: {},
-          body: { 'components/CardGridComponent.html': {} }
-        }
+          body: { 'components/CardGridComponent.html': {} },
+        },
       ],
       [
         'transition',
         {
           _index: 191,
           title: {},
-          body: { 'components/CardGridComponent.html': {} }
-        }
+          body: { 'components/CardGridComponent.html': {} },
+        },
       ],
       [
         'tree',
@@ -6743,13 +6801,17 @@ var COMPODOC_SEARCH_INDEX = {
             'components/CardPopupComponent.html': {},
             'components/CardSingleComponent.html': {},
             'components/DashboardComponent.html': {},
-            'components/SearchComponent.html': {}
-          }
-        }
+            'components/SearchComponent.html': {},
+          },
+        },
       ],
       [
         'true',
-        { _index: 465, title: {}, body: { 'miscellaneous/variables.html': {} } }
+        {
+          _index: 465,
+          title: {},
+          body: { 'miscellaneous/variables.html': {} },
+        },
       ],
       ['tslib', { _index: 398, title: {}, body: { 'dependencies.html': {} } }],
       [
@@ -6768,9 +6830,9 @@ var COMPODOC_SEARCH_INDEX = {
             'injectables/MagicTheGatheringService.html': {},
             'classes/SingleCardModel.html': {},
             'coverage.html': {},
-            'miscellaneous/variables.html': {}
-          }
-        }
+            'miscellaneous/variables.html': {},
+          },
+        },
       ],
       ['unit', { _index: 436, title: {}, body: { 'index.html': {} } }],
       ['use', { _index: 425, title: {}, body: { 'index.html': {} } }],
@@ -6781,9 +6843,9 @@ var COMPODOC_SEARCH_INDEX = {
           title: {},
           body: {
             'components/AppComponent.html': {},
-            'miscellaneous/variables.html': {}
-          }
-        }
+            'miscellaneous/variables.html': {},
+          },
+        },
       ],
       [
         'var',
@@ -6796,9 +6858,9 @@ var COMPODOC_SEARCH_INDEX = {
             'components/CardPopupComponent.html': {},
             'components/CardSingleComponent.html': {},
             'components/DashboardComponent.html': {},
-            'components/SearchComponent.html': {}
-          }
-        }
+            'components/SearchComponent.html': {},
+          },
+        },
       ],
       ['variable', { _index: 364, title: {}, body: { 'coverage.html': {} } }],
       [
@@ -6806,8 +6868,8 @@ var COMPODOC_SEARCH_INDEX = {
         {
           _index: 460,
           title: { 'miscellaneous/variables.html': {} },
-          body: { 'miscellaneous/variables.html': {} }
-        }
+          body: { 'miscellaneous/variables.html': {} },
+        },
       ],
       ['version', { _index: 408, title: {}, body: { 'index.html': {} } }],
       ['via', { _index: 439, title: {}, body: { 'index.html': {} } }],
@@ -6816,8 +6878,8 @@ var COMPODOC_SEARCH_INDEX = {
         {
           _index: 282,
           title: {},
-          body: { 'components/DashboardComponent.html': {} }
-        }
+          body: { 'components/DashboardComponent.html': {} },
+        },
       ],
       [
         'void',
@@ -6830,17 +6892,17 @@ var COMPODOC_SEARCH_INDEX = {
             'components/CardSingleComponent.html': {},
             'components/DashboardComponent.html': {},
             'injectables/MagicTheGatheringService.html': {},
-            'components/SearchComponent.html': {}
-          }
-        }
+            'components/SearchComponent.html': {},
+          },
+        },
       ],
       [
         'width',
         {
           _index: 171,
           title: {},
-          body: { 'components/CardGridComponent.html': {} }
-        }
+          body: { 'components/CardGridComponent.html': {} },
+        },
       ],
       [
         'wrap',
@@ -6849,13 +6911,13 @@ var COMPODOC_SEARCH_INDEX = {
           title: {},
           body: {
             'components/CardGridComponent.html': {},
-            'components/SearchComponent.html': {}
-          }
-        }
+            'components/SearchComponent.html': {},
+          },
+        },
       ],
       [
         'zone.js',
-        { _index: 400, title: {}, body: { 'dependencies.html': {} } }
+        { _index: 400, title: {}, body: { 'dependencies.html': {} } },
       ],
       [
         'zoom',
@@ -6871,181 +6933,181 @@ var COMPODOC_SEARCH_INDEX = {
             'modules/DashboardModule.html': {},
             'modules/SearchModule.html': {},
             'modules/SharedModule.html': {},
-            'overview.html': {}
-          }
-        }
-      ]
+            'overview.html': {},
+          },
+        },
+      ],
     ],
-    pipeline: ['stemmer']
+    pipeline: ['stemmer'],
   },
   store: {
     'components/AppComponent.html': {
       url: 'components/AppComponent.html',
       title: 'component - AppComponent',
       body:
-        "\n                   \n\n\n\n\n\n  Components\n  AppComponent\n\n\n\n        \n            Info\n        \n        \n            Source\n        \n        \n            Template\n        \n        \n            Styles\n        \n        \n            DOM Tree\n        \n\n\n\n    \n    File\n\n\n    src/app/app.component.ts\n\n\n\n\n\n\n\n    Metadata\n    \n        \n\n\n\n\n\n\n\n\n\n\n\n            \n                selector\n                app-root\n            \n\n            \n                styleUrls\n                ./app.component.scss\n            \n\n\n\n            \n                templateUrl\n                ./app.component.html\n            \n\n\n\n\n\n\n\n\n        \n    \n\n\n    \n    Index\n    \n        \n                \n                    \n                        Properties\n                    \n                \n                \n                    \n                        \n                            \n                                title\n                            \n                        \n                    \n                \n\n\n\n\n\n\n        \n    \n\n\n\n\n\n\n\n\n    \n    \n        \n            Properties\n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                            title\n                            \n                        \n                    \n                \n                    \n                        \n                            Type :     string\n\n                        \n                    \n                    \n                        \n                            Default value : 'magicBrowse'\n                        \n                    \n                        \n                            \n                                    Defined in src/app/app.component.ts:9\n                            \n                        \n\n\n            \n        \n\n\n\n\n\n    \n        import { Component } from '@angular/core';\n\n@Component({\n  selector: 'app-root',\n  templateUrl: './app.component.html',\n  styleUrls: ['./app.component.scss']\n})\nexport class AppComponent {\n  title = 'magicBrowse';\n}\n\n    \n\n    \n        \n\n    \n\n    \n                \n                    ./app.component.scss\n                \n                mat-toolbar {\n  justify-content: center;\n}\n\n    \n\n    \n        \n        \n            \n                Legend\n            \n            \n                Html element\n            \n            \n                Component\n            \n            \n                Html element with directive\n            \n        \n    \n\n    \n\n\n\n\n\n\n        var COMPONENT_TEMPLATE = ''\n    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'CardGridComponent', 'selector': 'app-card-grid'},{'name': 'CardPopupComponent', 'selector': 'app-card-popup'},{'name': 'CardSingleComponent', 'selector': 'app-card-single'},{'name': 'DashboardComponent', 'selector': 'app-dashboard'},{'name': 'SearchComponent', 'selector': 'app-search'}];\n    var DIRECTIVES = [];\n    var ACTUAL_COMPONENT = {'name': 'AppComponent'};\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n"
+        "\n                   \n\n\n\n\n\n  Components\n  AppComponent\n\n\n\n        \n            Info\n        \n        \n            Source\n        \n        \n            Template\n        \n        \n            Styles\n        \n        \n            DOM Tree\n        \n\n\n\n    \n    File\n\n\n    src/app/app.component.ts\n\n\n\n\n\n\n\n    Metadata\n    \n        \n\n\n\n\n\n\n\n\n\n\n\n            \n                selector\n                app-root\n            \n\n            \n                styleUrls\n                ./app.component.scss\n            \n\n\n\n            \n                templateUrl\n                ./app.component.html\n            \n\n\n\n\n\n\n\n\n        \n    \n\n\n    \n    Index\n    \n        \n                \n                    \n                        Properties\n                    \n                \n                \n                    \n                        \n                            \n                                title\n                            \n                        \n                    \n                \n\n\n\n\n\n\n        \n    \n\n\n\n\n\n\n\n\n    \n    \n        \n            Properties\n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                            title\n                            \n                        \n                    \n                \n                    \n                        \n                            Type :     string\n\n                        \n                    \n                    \n                        \n                            Default value : 'magicBrowse'\n                        \n                    \n                        \n                            \n                                    Defined in src/app/app.component.ts:9\n                            \n                        \n\n\n            \n        \n\n\n\n\n\n    \n        import { Component } from '@angular/core';\n\n@Component({\n  selector: 'app-root',\n  templateUrl: './app.component.html',\n  styleUrls: ['./app.component.scss']\n})\nexport class AppComponent {\n  title = 'magicBrowse';\n}\n\n    \n\n    \n        \n\n    \n\n    \n                \n                    ./app.component.scss\n                \n                mat-toolbar {\n  justify-content: center;\n}\n\n    \n\n    \n        \n        \n            \n                Legend\n            \n            \n                Html element\n            \n            \n                Component\n            \n            \n                Html element with directive\n            \n        \n    \n\n    \n\n\n\n\n\n\n        var COMPONENT_TEMPLATE = ''\n    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'CardGridComponent', 'selector': 'app-card-grid'},{'name': 'CardPopupComponent', 'selector': 'app-card-popup'},{'name': 'CardSingleComponent', 'selector': 'app-card-single'},{'name': 'DashboardComponent', 'selector': 'app-dashboard'},{'name': 'SearchComponent', 'selector': 'app-search'}];\n    var DIRECTIVES = [];\n    var ACTUAL_COMPONENT = {'name': 'AppComponent'};\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n",
     },
     'modules/AppModule.html': {
       url: 'modules/AppModule.html',
       title: 'module - AppModule',
       body:
-        "\n                   \n\n\n\n\n    Modules\n    AppModule\n\n\n\n    \n        \n\n\n\n\n\ndependencies\n\nLegend\n\n  Declarations\n\n  Module\n\n  Bootstrap\n\n  Providers\n\n  Exports\n\ncluster_AppModule\n\n\n\ncluster_AppModule_declarations\n\n\n\ncluster_AppModule_imports\n\n\n\ncluster_AppModule_bootstrap\n\n\n\n\nAppComponent\n\nAppComponent\n\n\n\nAppModule\n\nAppModule\n\nAppModule -->\n\nAppComponent->AppModule\n\n\n\n\n\nAppComponent \n\nAppComponent \n\nAppComponent  -->\n\nAppModule->AppComponent \n\n\n\n\n\nAppRoutingModule\n\nAppRoutingModule\n\nAppModule -->\n\nAppRoutingModule->AppModule\n\n\n\n\n\nCardSingleModule\n\nCardSingleModule\n\nAppModule -->\n\nCardSingleModule->AppModule\n\n\n\n\n\nDashboardModule\n\nDashboardModule\n\nAppModule -->\n\nDashboardModule->AppModule\n\n\n\n\n\nSharedModule\n\nSharedModule\n\nAppModule -->\n\nSharedModule->AppModule\n\n\n\n\n\n\n    \n    \n    \n        Zoom in\n        Reset\n        Zoom out\n    \n\n\n\n\n\n    \n        Info\n    \n    \n        Source\n    \n\n\n\n    \n\n        \n            File\n        \n        \n            src/app/app.module.ts\n        \n\n\n\n\n        \n            \n                \n                    Declarations\n                    \n                        \n                            AppComponent\n                        \n                    \n                \n                \n                    Imports\n                    \n                        \n                            AppRoutingModule\n                        \n                        \n                            CardSingleModule\n                        \n                        \n                            DashboardModule\n                        \n                        \n                            SharedModule\n                        \n                    \n                \n                \n                    Bootstrap\n                    \n                        \n                            AppComponent\n                        \n                    \n                \n            \n        \n\n\n    \n\n\n    \n        import { BrowserModule } from '@angular/platform-browser';\nimport { NgModule } from '@angular/core';\nimport { BrowserAnimationsModule } from '@angular/platform-browser/animations';\nimport { AppComponent } from './app.component';\nimport { SharedModule } from './shared/shared.module';\nimport { DashboardModule } from './dashboard/dashboard.module';\nimport { AppRoutingModule } from './app-routing.module';\nimport { CardSingleModule } from './dashboard/card-single/card-single.module';\n\n@NgModule({\n  declarations: [AppComponent],\n  imports: [\n    BrowserModule,\n    BrowserAnimationsModule,\n    SharedModule,\n    DashboardModule,\n    CardSingleModule,\n    AppRoutingModule\n  ],\n  providers: [],\n  bootstrap: [AppComponent]\n})\nexport class AppModule {}\n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n"
+        "\n                   \n\n\n\n\n    Modules\n    AppModule\n\n\n\n    \n        \n\n\n\n\n\ndependencies\n\nLegend\n\n  Declarations\n\n  Module\n\n  Bootstrap\n\n  Providers\n\n  Exports\n\ncluster_AppModule\n\n\n\ncluster_AppModule_declarations\n\n\n\ncluster_AppModule_imports\n\n\n\ncluster_AppModule_bootstrap\n\n\n\n\nAppComponent\n\nAppComponent\n\n\n\nAppModule\n\nAppModule\n\nAppModule -->\n\nAppComponent->AppModule\n\n\n\n\n\nAppComponent \n\nAppComponent \n\nAppComponent  -->\n\nAppModule->AppComponent \n\n\n\n\n\nAppRoutingModule\n\nAppRoutingModule\n\nAppModule -->\n\nAppRoutingModule->AppModule\n\n\n\n\n\nCardSingleModule\n\nCardSingleModule\n\nAppModule -->\n\nCardSingleModule->AppModule\n\n\n\n\n\nDashboardModule\n\nDashboardModule\n\nAppModule -->\n\nDashboardModule->AppModule\n\n\n\n\n\nSharedModule\n\nSharedModule\n\nAppModule -->\n\nSharedModule->AppModule\n\n\n\n\n\n\n    \n    \n    \n        Zoom in\n        Reset\n        Zoom out\n    \n\n\n\n\n\n    \n        Info\n    \n    \n        Source\n    \n\n\n\n    \n\n        \n            File\n        \n        \n            src/app/app.module.ts\n        \n\n\n\n\n        \n            \n                \n                    Declarations\n                    \n                        \n                            AppComponent\n                        \n                    \n                \n                \n                    Imports\n                    \n                        \n                            AppRoutingModule\n                        \n                        \n                            CardSingleModule\n                        \n                        \n                            DashboardModule\n                        \n                        \n                            SharedModule\n                        \n                    \n                \n                \n                    Bootstrap\n                    \n                        \n                            AppComponent\n                        \n                    \n                \n            \n        \n\n\n    \n\n\n    \n        import { BrowserModule } from '@angular/platform-browser';\nimport { NgModule } from '@angular/core';\nimport { BrowserAnimationsModule } from '@angular/platform-browser/animations';\nimport { AppComponent } from './app.component';\nimport { SharedModule } from './shared/shared.module';\nimport { DashboardModule } from './dashboard/dashboard.module';\nimport { AppRoutingModule } from './app-routing.module';\nimport { CardSingleModule } from './dashboard/card-single/card-single.module';\n\n@NgModule({\n  declarations: [AppComponent],\n  imports: [\n    BrowserModule,\n    BrowserAnimationsModule,\n    SharedModule,\n    DashboardModule,\n    CardSingleModule,\n    AppRoutingModule\n  ],\n  providers: [],\n  bootstrap: [AppComponent]\n})\nexport class AppModule {}\n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n",
     },
     'classes/AppPage.html': {
       url: 'classes/AppPage.html',
       title: 'class - AppPage',
       body:
-        '\n                   \n\n\n\n\n\n\n\n\n\n\n\n\n  Classes\n  AppPage\n\n\n\n        \n            Info\n        \n        \n            Source\n        \n\n\n\n    \n        \n            File\n        \n        \n            e2e/src/app.po.ts\n        \n\n\n\n\n\n            \n    Index\n    \n        \n\n                \n                    \n                        Methods\n                    \n                \n                \n                    \n                        \n                            \n                                getTitleText\n                            \n                            \n                                navigateTo\n                            \n                        \n                    \n                \n\n\n\n\n\n        \n    \n\n\n\n\n            \n    \n        \n            Methods\n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                            getTitleText\n                            \n                            \n                        \n                    \n                \n                \n                    \ngetTitleText()\n                    \n                \n\n\n                        \n                            \n                                    Defined in e2e/src/app.po.ts:8\n                            \n                        \n\n\n                \n                    \n\n                            \n                                Returns :     any\n\n                            \n                    \n                \n            \n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                            navigateTo\n                            \n                            \n                        \n                    \n                \n                \n                    \nnavigateTo()\n                    \n                \n\n\n                        \n                            \n                                    Defined in e2e/src/app.po.ts:4\n                            \n                        \n\n\n                \n                    \n\n                            \n                                Returns :     any\n\n                            \n                    \n                \n            \n        \n\n\n\n\n\n\n\n    \n\n\n    \n        import { browser, by, element } from \'protractor\';\n\nexport class AppPage {\n  navigateTo() {\n    return browser.get(browser.baseUrl) as Promise;\n  }\n\n  getTitleText() {\n    return element(by.css(\'app-root h1\')).getText() as Promise;\n  }\n}\n\n    \n\n\n\n\n\n\n\n\n                   \n    \n         result-matching ""\n        \n    \n    \n        No results matching ""\n    \n\n'
+        '\n                   \n\n\n\n\n\n\n\n\n\n\n\n\n  Classes\n  AppPage\n\n\n\n        \n            Info\n        \n        \n            Source\n        \n\n\n\n    \n        \n            File\n        \n        \n            e2e/src/app.po.ts\n        \n\n\n\n\n\n            \n    Index\n    \n        \n\n                \n                    \n                        Methods\n                    \n                \n                \n                    \n                        \n                            \n                                getTitleText\n                            \n                            \n                                navigateTo\n                            \n                        \n                    \n                \n\n\n\n\n\n        \n    \n\n\n\n\n            \n    \n        \n            Methods\n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                            getTitleText\n                            \n                            \n                        \n                    \n                \n                \n                    \ngetTitleText()\n                    \n                \n\n\n                        \n                            \n                                    Defined in e2e/src/app.po.ts:8\n                            \n                        \n\n\n                \n                    \n\n                            \n                                Returns :     any\n\n                            \n                    \n                \n            \n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                            navigateTo\n                            \n                            \n                        \n                    \n                \n                \n                    \nnavigateTo()\n                    \n                \n\n\n                        \n                            \n                                    Defined in e2e/src/app.po.ts:4\n                            \n                        \n\n\n                \n                    \n\n                            \n                                Returns :     any\n\n                            \n                    \n                \n            \n        \n\n\n\n\n\n\n\n    \n\n\n    \n        import { browser, by, element } from \'protractor\';\n\nexport class AppPage {\n  navigateTo() {\n    return browser.get(browser.baseUrl) as Promise;\n  }\n\n  getTitleText() {\n    return element(by.css(\'app-root h1\')).getText() as Promise;\n  }\n}\n\n    \n\n\n\n\n\n\n\n\n                   \n    \n         result-matching ""\n        \n    \n    \n        No results matching ""\n    \n\n',
     },
     'modules/AppRoutingModule.html': {
       url: 'modules/AppRoutingModule.html',
       title: 'module - AppRoutingModule',
       body:
-        "\n                   \n\n\n\n\n    Modules\n    AppRoutingModule\n\n\n\n    \n        \n\n\n\n\n\ndependencies\n\nLegend\n\n  Declarations\n\n  Module\n\n  Bootstrap\n\n  Providers\n\n  Exports\n\ncluster_AppRoutingModule\n\n\n\ncluster_AppRoutingModule_imports\n\n\n\n\nDashboardModule\n\nDashboardModule\n\n\n\nAppRoutingModule\n\nAppRoutingModule\n\nAppRoutingModule -->\n\nDashboardModule->AppRoutingModule\n\n\n\n\n\n\n    \n    \n    \n        Zoom in\n        Reset\n        Zoom out\n    \n\n\n\n\n\n    \n        Info\n    \n    \n        Source\n    \n\n\n\n    \n\n        \n            File\n        \n        \n            src/app/app-routing.module.ts\n        \n\n\n\n\n        \n            \n                \n                    Imports\n                    \n                        \n                            DashboardModule\n                        \n                    \n                \n            \n        \n\n\n    \n\n\n    \n        import { NgModule } from '@angular/core';\nimport { CommonModule } from '@angular/common';\nimport { RouterModule, Routes } from '@angular/router';\nimport { DashboardComponent } from './dashboard/dashboard.component';\nimport { DashboardModule } from './dashboard/dashboard.module';\n\nconst routes: Routes = [{ path: '**', component: DashboardComponent }];\n\n@NgModule({\n  declarations: [],\n  imports: [CommonModule, RouterModule.forRoot(routes), DashboardModule],\n  exports: [RouterModule]\n})\nexport class AppRoutingModule {}\n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n"
+        "\n                   \n\n\n\n\n    Modules\n    AppRoutingModule\n\n\n\n    \n        \n\n\n\n\n\ndependencies\n\nLegend\n\n  Declarations\n\n  Module\n\n  Bootstrap\n\n  Providers\n\n  Exports\n\ncluster_AppRoutingModule\n\n\n\ncluster_AppRoutingModule_imports\n\n\n\n\nDashboardModule\n\nDashboardModule\n\n\n\nAppRoutingModule\n\nAppRoutingModule\n\nAppRoutingModule -->\n\nDashboardModule->AppRoutingModule\n\n\n\n\n\n\n    \n    \n    \n        Zoom in\n        Reset\n        Zoom out\n    \n\n\n\n\n\n    \n        Info\n    \n    \n        Source\n    \n\n\n\n    \n\n        \n            File\n        \n        \n            src/app/app-routing.module.ts\n        \n\n\n\n\n        \n            \n                \n                    Imports\n                    \n                        \n                            DashboardModule\n                        \n                    \n                \n            \n        \n\n\n    \n\n\n    \n        import { NgModule } from '@angular/core';\nimport { CommonModule } from '@angular/common';\nimport { RouterModule, Routes } from '@angular/router';\nimport { DashboardComponent } from './dashboard/dashboard.component';\nimport { DashboardModule } from './dashboard/dashboard.module';\n\nconst routes: Routes = [{ path: '**', component: DashboardComponent }];\n\n@NgModule({\n  declarations: [],\n  imports: [CommonModule, RouterModule.forRoot(routes), DashboardModule],\n  exports: [RouterModule]\n})\nexport class AppRoutingModule {}\n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n",
     },
     'components/CardGridComponent.html': {
       url: 'components/CardGridComponent.html',
       title: 'component - CardGridComponent',
       body:
-        "\n                   \n\n\n\n\n\n  Components\n  CardGridComponent\n\n\n\n        \n            Info\n        \n        \n            Source\n        \n        \n            Template\n        \n        \n            Styles\n        \n        \n            DOM Tree\n        \n\n\n\n    \n    File\n\n\n    src/app/dashboard/card-grid/card-grid.component.ts\n\n\n\n\n    \n        Implements\n    \n    \n                OnInit\n    \n\n\n\n    Metadata\n    \n        \n\n\n\n\n\n\n\n\n\n\n\n            \n                selector\n                app-card-grid\n            \n\n            \n                styleUrls\n                ./card-grid.component.scss\n            \n\n\n\n            \n                templateUrl\n                ./card-grid.component.html\n            \n\n\n\n\n\n\n\n\n        \n    \n\n\n    \n    Index\n    \n        \n                \n                    \n                        Properties\n                    \n                \n                \n                    \n                        \n                            \n                                    Public\n                                cards\n                            \n                        \n                    \n                \n\n                \n                    \n                        Methods\n                    \n                \n                \n                    \n                        \n                            \n                                ngOnInit\n                            \n                            \n                                openDialog\n                            \n                        \n                    \n                \n\n\n\n\n\n        \n    \n\n\n    \n    Constructor\n        \n            \n                \n                    \nconstructor(card: MagicTheGatheringService, dialog: MatDialog)\n                    \n                \n                        \n                            \n                                Defined in src/app/dashboard/card-grid/card-grid.component.ts:15\n                            \n                        \n\n                \n                    \n                            \n                                    Parameters :\n                                    \n                                        \n                                            \n                                                Name\n                                                    Type\n                                                Optional\n                                            \n                                        \n                                        \n                                                \n                                                        card\n                                                  \n                                                        \n                                                                    MagicTheGatheringService\n                                                        \n                                                  \n                                                    \n                                                            No\n                                                    \n                                                    \n                                                \n                                                \n                                                        dialog\n                                                  \n                                                        \n                                                                    MatDialog\n                                                        \n                                                  \n                                                    \n                                                            No\n                                                    \n                                                    \n                                                \n                                        \n                                    \n                            \n                    \n                \n            \n        \n\n\n\n\n\n\n    \n    \n        \n            Methods\n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                            ngOnInit\n                            \n                            \n                        \n                    \n                \n                \n                    \nngOnInit()\n                    \n                \n\n\n                        \n                            \n                                    Defined in src/app/dashboard/card-grid/card-grid.component.ts:23\n                            \n                        \n\n\n                \n                    \n\n                            \n                                Returns :     void\n\n                            \n                    \n                \n            \n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                            openDialog\n                            \n                            \n                        \n                    \n                \n                \n                    \nopenDialog()\n                    \n                \n\n\n                        \n                            \n                                    Defined in src/app/dashboard/card-grid/card-grid.component.ts:34\n                            \n                        \n\n\n                \n                    \n\n                            \n                                Returns :     void\n\n                            \n                    \n                \n            \n        \n\n\n    \n    \n        \n            Properties\n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                                Public\n                            cards\n                            \n                        \n                    \n                \n                    \n                        \n                            Type :     CardModel[]\n\n                        \n                    \n                        \n                            \n                                    Defined in src/app/dashboard/card-grid/card-grid.component.ts:15\n                            \n                        \n\n\n            \n        \n\n\n\n\n\n    \n        import { Component, OnInit } from '@angular/core';\nimport { HttpClient } from '@angular/common/http';\nimport { CardModel } from 'src/app/shared/models/magicthegathering/card-list/card.model';\nimport { CardListModel } from 'src/app/shared/models/magicthegathering/card-list/card-list.model';\nimport { MagicTheGatheringService } from 'src/app/shared/services/magic-the-gathering.service';\nimport { MatDialog } from '@angular/material';\nimport { CardPopupComponent } from './card-popup/card-popup.component';\n\n@Component({\n  selector: 'app-card-grid',\n  templateUrl: './card-grid.component.html',\n  styleUrls: ['./card-grid.component.scss']\n})\nexport class CardGridComponent implements OnInit {\n  public cards: CardModel[];\n  constructor(\n    private card: MagicTheGatheringService,\n    private dialog: MatDialog\n  ) {\n    this.cards = [];\n  }\n\n  ngOnInit() {\n    this.card.getCards().subscribe(\n      (data: CardListModel) => {\n        this.cards = data.cards;\n      },\n      err => {\n        console.log(err);\n      }\n    );\n  }\n\n  openDialog(): void {\n    this.dialog.open(CardPopupComponent, {\n      height: '400px',\n      width: '600px',\n      data: {\n        name: this.cards\n      }\n    });\n  }\n}\n\n    \n\n    \n        \n  \n    \n  \n\n\n\n    \n\n    \n                \n                    ./card-grid.component.scss\n                \n                :host {\n  margin-top: 1em;\n  display: flex;\n  flex-flow: row wrap;\n  justify-content: space-around;\n}\n.card-container {\n  perspective: 23rem;\n  img {\n    margin: 0.5em;\n    cursor: pointer;\n    transition: all 0.2s ease-in;\n  }\n}\n\n.card-container:hover,\n.card-container:focus,\n.card-container:active {\n  img {\n    transform: rotateX(5deg);\n    transition: all 0.2s ease-out;\n  }\n}\n\n    \n\n    \n        \n        \n            \n                Legend\n            \n            \n                Html element\n            \n            \n                Component\n            \n            \n                Html element with directive\n            \n        \n    \n\n    \n\n\n\n\n\n\n        var COMPONENT_TEMPLATE = '        '\n    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'CardGridComponent', 'selector': 'app-card-grid'},{'name': 'CardPopupComponent', 'selector': 'app-card-popup'},{'name': 'CardSingleComponent', 'selector': 'app-card-single'},{'name': 'DashboardComponent', 'selector': 'app-dashboard'},{'name': 'SearchComponent', 'selector': 'app-search'}];\n    var DIRECTIVES = [];\n    var ACTUAL_COMPONENT = {'name': 'CardGridComponent'};\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n"
+        "\n                   \n\n\n\n\n\n  Components\n  CardGridComponent\n\n\n\n        \n            Info\n        \n        \n            Source\n        \n        \n            Template\n        \n        \n            Styles\n        \n        \n            DOM Tree\n        \n\n\n\n    \n    File\n\n\n    src/app/dashboard/card-grid/card-grid.component.ts\n\n\n\n\n    \n        Implements\n    \n    \n                OnInit\n    \n\n\n\n    Metadata\n    \n        \n\n\n\n\n\n\n\n\n\n\n\n            \n                selector\n                app-card-grid\n            \n\n            \n                styleUrls\n                ./card-grid.component.scss\n            \n\n\n\n            \n                templateUrl\n                ./card-grid.component.html\n            \n\n\n\n\n\n\n\n\n        \n    \n\n\n    \n    Index\n    \n        \n                \n                    \n                        Properties\n                    \n                \n                \n                    \n                        \n                            \n                                    Public\n                                cards\n                            \n                        \n                    \n                \n\n                \n                    \n                        Methods\n                    \n                \n                \n                    \n                        \n                            \n                                ngOnInit\n                            \n                            \n                                openDialog\n                            \n                        \n                    \n                \n\n\n\n\n\n        \n    \n\n\n    \n    Constructor\n        \n            \n                \n                    \nconstructor(card: MagicTheGatheringService, dialog: MatDialog)\n                    \n                \n                        \n                            \n                                Defined in src/app/dashboard/card-grid/card-grid.component.ts:15\n                            \n                        \n\n                \n                    \n                            \n                                    Parameters :\n                                    \n                                        \n                                            \n                                                Name\n                                                    Type\n                                                Optional\n                                            \n                                        \n                                        \n                                                \n                                                        card\n                                                  \n                                                        \n                                                                    MagicTheGatheringService\n                                                        \n                                                  \n                                                    \n                                                            No\n                                                    \n                                                    \n                                                \n                                                \n                                                        dialog\n                                                  \n                                                        \n                                                                    MatDialog\n                                                        \n                                                  \n                                                    \n                                                            No\n                                                    \n                                                    \n                                                \n                                        \n                                    \n                            \n                    \n                \n            \n        \n\n\n\n\n\n\n    \n    \n        \n            Methods\n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                            ngOnInit\n                            \n                            \n                        \n                    \n                \n                \n                    \nngOnInit()\n                    \n                \n\n\n                        \n                            \n                                    Defined in src/app/dashboard/card-grid/card-grid.component.ts:23\n                            \n                        \n\n\n                \n                    \n\n                            \n                                Returns :     void\n\n                            \n                    \n                \n            \n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                            openDialog\n                            \n                            \n                        \n                    \n                \n                \n                    \nopenDialog()\n                    \n                \n\n\n                        \n                            \n                                    Defined in src/app/dashboard/card-grid/card-grid.component.ts:34\n                            \n                        \n\n\n                \n                    \n\n                            \n                                Returns :     void\n\n                            \n                    \n                \n            \n        \n\n\n    \n    \n        \n            Properties\n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                                Public\n                            cards\n                            \n                        \n                    \n                \n                    \n                        \n                            Type :     CardModel[]\n\n                        \n                    \n                        \n                            \n                                    Defined in src/app/dashboard/card-grid/card-grid.component.ts:15\n                            \n                        \n\n\n            \n        \n\n\n\n\n\n    \n        import { Component, OnInit } from '@angular/core';\nimport { HttpClient } from '@angular/common/http';\nimport { CardModel } from 'src/app/shared/models/magicthegathering/card-list/card.model';\nimport { CardListModel } from 'src/app/shared/models/magicthegathering/card-list/card-list.model';\nimport { MagicTheGatheringService } from 'src/app/shared/services/magic-the-gathering.service';\nimport { MatDialog } from '@angular/material';\nimport { CardPopupComponent } from './card-popup/card-popup.component';\n\n@Component({\n  selector: 'app-card-grid',\n  templateUrl: './card-grid.component.html',\n  styleUrls: ['./card-grid.component.scss']\n})\nexport class CardGridComponent implements OnInit {\n  public cards: CardModel[];\n  constructor(\n    private card: MagicTheGatheringService,\n    private dialog: MatDialog\n  ) {\n    this.cards = [];\n  }\n\n  ngOnInit() {\n    this.card.getCards().subscribe(\n      (data: CardListModel) => {\n        this.cards = data.cards;\n      },\n      err => {\n        console.log(err);\n      }\n    );\n  }\n\n  openDialog(): void {\n    this.dialog.open(CardPopupComponent, {\n      height: '400px',\n      width: '600px',\n      data: {\n        name: this.cards\n      }\n    });\n  }\n}\n\n    \n\n    \n        \n  \n    \n  \n\n\n\n    \n\n    \n                \n                    ./card-grid.component.scss\n                \n                :host {\n  margin-top: 1em;\n  display: flex;\n  flex-flow: row wrap;\n  justify-content: space-around;\n}\n.card-container {\n  perspective: 23rem;\n  img {\n    margin: 0.5em;\n    cursor: pointer;\n    transition: all 0.2s ease-in;\n  }\n}\n\n.card-container:hover,\n.card-container:focus,\n.card-container:active {\n  img {\n    transform: rotateX(5deg);\n    transition: all 0.2s ease-out;\n  }\n}\n\n    \n\n    \n        \n        \n            \n                Legend\n            \n            \n                Html element\n            \n            \n                Component\n            \n            \n                Html element with directive\n            \n        \n    \n\n    \n\n\n\n\n\n\n        var COMPONENT_TEMPLATE = '        '\n    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'CardGridComponent', 'selector': 'app-card-grid'},{'name': 'CardPopupComponent', 'selector': 'app-card-popup'},{'name': 'CardSingleComponent', 'selector': 'app-card-single'},{'name': 'DashboardComponent', 'selector': 'app-dashboard'},{'name': 'SearchComponent', 'selector': 'app-search'}];\n    var DIRECTIVES = [];\n    var ACTUAL_COMPONENT = {'name': 'CardGridComponent'};\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n",
     },
     'modules/CardGridModule.html': {
       url: 'modules/CardGridModule.html',
       title: 'module - CardGridModule',
       body:
-        "\n                   \n\n\n\n\n    Modules\n    CardGridModule\n\n\n\n    \n        \n\n\n\n\n\ndependencies\n\nLegend\n\n  Declarations\n\n  Module\n\n  Bootstrap\n\n  Providers\n\n  Exports\n\ncluster_CardGridModule\n\n\n\ncluster_CardGridModule_declarations\n\n\n\ncluster_CardGridModule_imports\n\n\n\ncluster_CardGridModule_exports\n\n\n\n\nCardGridComponent\n\nCardGridComponent\n\n\n\nCardGridModule\n\nCardGridModule\n\nCardGridModule -->\n\nCardGridComponent->CardGridModule\n\n\n\n\n\nCardGridComponent \n\nCardGridComponent \n\nCardGridComponent  -->\n\nCardGridModule->CardGridComponent \n\n\n\n\n\nCardPopupModule\n\nCardPopupModule\n\nCardGridModule -->\n\nCardPopupModule->CardGridModule\n\n\n\n\n\nSharedModule\n\nSharedModule\n\nCardGridModule -->\n\nSharedModule->CardGridModule\n\n\n\n\n\n\n    \n    \n    \n        Zoom in\n        Reset\n        Zoom out\n    \n\n\n\n\n\n    \n        Info\n    \n    \n        Source\n    \n\n\n\n    \n\n        \n            File\n        \n        \n            src/app/dashboard/card-grid/card-grid.module.ts\n        \n\n\n\n\n        \n            \n                \n                    Declarations\n                    \n                        \n                            CardGridComponent\n                        \n                    \n                \n                \n                    EntryComponents\n                    \n                        \n                            CardPopupComponent\n                        \n                    \n                \n                \n                    Imports\n                    \n                        \n                            CardPopupModule\n                        \n                        \n                            SharedModule\n                        \n                    \n                \n                \n                    Exports\n                    \n                        \n                            CardGridComponent\n                        \n                    \n                \n            \n        \n\n\n    \n\n\n    \n        import { NgModule } from '@angular/core';\nimport { CommonModule } from '@angular/common';\nimport { CardGridComponent } from './card-grid.component';\nimport { SharedModule } from 'src/app/shared/shared.module';\nimport { CardPopupModule } from './card-popup/card-popup.module';\nimport { CardPopupComponent } from './card-popup/card-popup.component';\n\n@NgModule({\n  declarations: [CardGridComponent],\n  imports: [CommonModule, CardPopupModule, SharedModule],\n  entryComponents: [CardPopupComponent],\n  exports: [CardGridComponent]\n})\nexport class CardGridModule {}\n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n"
+        "\n                   \n\n\n\n\n    Modules\n    CardGridModule\n\n\n\n    \n        \n\n\n\n\n\ndependencies\n\nLegend\n\n  Declarations\n\n  Module\n\n  Bootstrap\n\n  Providers\n\n  Exports\n\ncluster_CardGridModule\n\n\n\ncluster_CardGridModule_declarations\n\n\n\ncluster_CardGridModule_imports\n\n\n\ncluster_CardGridModule_exports\n\n\n\n\nCardGridComponent\n\nCardGridComponent\n\n\n\nCardGridModule\n\nCardGridModule\n\nCardGridModule -->\n\nCardGridComponent->CardGridModule\n\n\n\n\n\nCardGridComponent \n\nCardGridComponent \n\nCardGridComponent  -->\n\nCardGridModule->CardGridComponent \n\n\n\n\n\nCardPopupModule\n\nCardPopupModule\n\nCardGridModule -->\n\nCardPopupModule->CardGridModule\n\n\n\n\n\nSharedModule\n\nSharedModule\n\nCardGridModule -->\n\nSharedModule->CardGridModule\n\n\n\n\n\n\n    \n    \n    \n        Zoom in\n        Reset\n        Zoom out\n    \n\n\n\n\n\n    \n        Info\n    \n    \n        Source\n    \n\n\n\n    \n\n        \n            File\n        \n        \n            src/app/dashboard/card-grid/card-grid.module.ts\n        \n\n\n\n\n        \n            \n                \n                    Declarations\n                    \n                        \n                            CardGridComponent\n                        \n                    \n                \n                \n                    EntryComponents\n                    \n                        \n                            CardPopupComponent\n                        \n                    \n                \n                \n                    Imports\n                    \n                        \n                            CardPopupModule\n                        \n                        \n                            SharedModule\n                        \n                    \n                \n                \n                    Exports\n                    \n                        \n                            CardGridComponent\n                        \n                    \n                \n            \n        \n\n\n    \n\n\n    \n        import { NgModule } from '@angular/core';\nimport { CommonModule } from '@angular/common';\nimport { CardGridComponent } from './card-grid.component';\nimport { SharedModule } from 'src/app/shared/shared.module';\nimport { CardPopupModule } from './card-popup/card-popup.module';\nimport { CardPopupComponent } from './card-popup/card-popup.component';\n\n@NgModule({\n  declarations: [CardGridComponent],\n  imports: [CommonModule, CardPopupModule, SharedModule],\n  entryComponents: [CardPopupComponent],\n  exports: [CardGridComponent]\n})\nexport class CardGridModule {}\n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n",
     },
     'classes/CardListModel.html': {
       url: 'classes/CardListModel.html',
       title: 'class - CardListModel',
       body:
-        '\n                   \n\n\n\n\n\n\n\n\n\n\n\n\n  Classes\n  CardListModel\n\n\n\n        \n            Info\n        \n        \n            Source\n        \n\n\n\n    \n        \n            File\n        \n        \n            src/app/shared/models/magicthegathering/card-list/card-list.model.ts\n        \n\n\n\n\n\n            \n    Index\n    \n        \n                \n                    \n                        Properties\n                    \n                \n                \n                    \n                        \n                            \n                                    Public\n                                cards\n                            \n                        \n                    \n                \n\n\n\n\n\n\n        \n    \n\n\n\n            \n    \n        \n            Properties\n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                                Public\n                            cards\n                            \n                        \n                    \n                \n                    \n                        \n                            Type :     CardModel[]\n\n                        \n                    \n                        \n                            \n                                    Defined in src/app/shared/models/magicthegathering/card-list/card-list.model.ts:4\n                            \n                        \n\n\n            \n        \n\n\n\n\n\n\n\n\n    \n\n\n    \n        import { CardModel } from \'./card.model\';\n\nexport class CardListModel {\n  public cards: CardModel[];\n}\n\n    \n\n\n\n\n\n\n\n\n                   \n    \n         result-matching ""\n        \n    \n    \n        No results matching ""\n    \n\n'
+        '\n                   \n\n\n\n\n\n\n\n\n\n\n\n\n  Classes\n  CardListModel\n\n\n\n        \n            Info\n        \n        \n            Source\n        \n\n\n\n    \n        \n            File\n        \n        \n            src/app/shared/models/magicthegathering/card-list/card-list.model.ts\n        \n\n\n\n\n\n            \n    Index\n    \n        \n                \n                    \n                        Properties\n                    \n                \n                \n                    \n                        \n                            \n                                    Public\n                                cards\n                            \n                        \n                    \n                \n\n\n\n\n\n\n        \n    \n\n\n\n            \n    \n        \n            Properties\n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                                Public\n                            cards\n                            \n                        \n                    \n                \n                    \n                        \n                            Type :     CardModel[]\n\n                        \n                    \n                        \n                            \n                                    Defined in src/app/shared/models/magicthegathering/card-list/card-list.model.ts:4\n                            \n                        \n\n\n            \n        \n\n\n\n\n\n\n\n\n    \n\n\n    \n        import { CardModel } from \'./card.model\';\n\nexport class CardListModel {\n  public cards: CardModel[];\n}\n\n    \n\n\n\n\n\n\n\n\n                   \n    \n         result-matching ""\n        \n    \n    \n        No results matching ""\n    \n\n',
     },
     'classes/CardModel.html': {
       url: 'classes/CardModel.html',
       title: 'class - CardModel',
       body:
-        '\n                   \n\n\n\n\n\n\n\n\n\n\n\n\n  Classes\n  CardModel\n\n\n\n        \n            Info\n        \n        \n            Source\n        \n\n\n\n    \n        \n            File\n        \n        \n            src/app/shared/models/magicthegathering/card-list/card.model.ts\n        \n\n\n\n\n\n            \n    Index\n    \n        \n                \n                    \n                        Properties\n                    \n                \n                \n                    \n                        \n                            \n                                    Public\n                                id\n                            \n                            \n                                    Public\n                                imageUrl\n                            \n                            \n                                    Public\n                                name\n                            \n                        \n                    \n                \n\n\n\n\n\n\n        \n    \n\n\n\n            \n    \n        \n            Properties\n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                                Public\n                            id\n                            \n                        \n                    \n                \n                    \n                        \n                            Type :     string\n\n                        \n                    \n                        \n                            \n                                    Defined in src/app/shared/models/magicthegathering/card-list/card.model.ts:4\n                            \n                        \n\n\n            \n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                                Public\n                            imageUrl\n                            \n                        \n                    \n                \n                    \n                        \n                            Type :     string\n\n                        \n                    \n                        \n                            \n                                    Defined in src/app/shared/models/magicthegathering/card-list/card.model.ts:3\n                            \n                        \n\n\n            \n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                                Public\n                            name\n                            \n                        \n                    \n                \n                    \n                        \n                            Type :     string\n\n                        \n                    \n                        \n                            \n                                    Defined in src/app/shared/models/magicthegathering/card-list/card.model.ts:2\n                            \n                        \n\n\n            \n        \n\n\n\n\n\n\n\n\n    \n\n\n    \n        export class CardModel {\n  public name: string;\n  public imageUrl: string;\n  public id: string;\n}\n\n    \n\n\n\n\n\n\n\n\n                   \n    \n         result-matching ""\n        \n    \n    \n        No results matching ""\n    \n\n'
+        '\n                   \n\n\n\n\n\n\n\n\n\n\n\n\n  Classes\n  CardModel\n\n\n\n        \n            Info\n        \n        \n            Source\n        \n\n\n\n    \n        \n            File\n        \n        \n            src/app/shared/models/magicthegathering/card-list/card.model.ts\n        \n\n\n\n\n\n            \n    Index\n    \n        \n                \n                    \n                        Properties\n                    \n                \n                \n                    \n                        \n                            \n                                    Public\n                                id\n                            \n                            \n                                    Public\n                                imageUrl\n                            \n                            \n                                    Public\n                                name\n                            \n                        \n                    \n                \n\n\n\n\n\n\n        \n    \n\n\n\n            \n    \n        \n            Properties\n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                                Public\n                            id\n                            \n                        \n                    \n                \n                    \n                        \n                            Type :     string\n\n                        \n                    \n                        \n                            \n                                    Defined in src/app/shared/models/magicthegathering/card-list/card.model.ts:4\n                            \n                        \n\n\n            \n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                                Public\n                            imageUrl\n                            \n                        \n                    \n                \n                    \n                        \n                            Type :     string\n\n                        \n                    \n                        \n                            \n                                    Defined in src/app/shared/models/magicthegathering/card-list/card.model.ts:3\n                            \n                        \n\n\n            \n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                                Public\n                            name\n                            \n                        \n                    \n                \n                    \n                        \n                            Type :     string\n\n                        \n                    \n                        \n                            \n                                    Defined in src/app/shared/models/magicthegathering/card-list/card.model.ts:2\n                            \n                        \n\n\n            \n        \n\n\n\n\n\n\n\n\n    \n\n\n    \n        export class CardModel {\n  public name: string;\n  public imageUrl: string;\n  public id: string;\n}\n\n    \n\n\n\n\n\n\n\n\n                   \n    \n         result-matching ""\n        \n    \n    \n        No results matching ""\n    \n\n',
     },
     'components/CardPopupComponent.html': {
       url: 'components/CardPopupComponent.html',
       title: 'component - CardPopupComponent',
       body:
-        "\n                   \n\n\n\n\n\n  Components\n  CardPopupComponent\n\n\n\n        \n            Info\n        \n        \n            Source\n        \n        \n            Template\n        \n        \n            Styles\n        \n        \n            DOM Tree\n        \n\n\n\n    \n    File\n\n\n    src/app/dashboard/card-grid/card-popup/card-popup.component.ts\n\n\n\n\n    \n        Implements\n    \n    \n                OnInit\n    \n\n\n\n    Metadata\n    \n        \n\n\n\n\n\n\n\n\n\n\n\n            \n                selector\n                app-card-popup\n            \n\n            \n                styleUrls\n                ./card-popup.component.scss\n            \n\n\n\n            \n                templateUrl\n                ./card-popup.component.html\n            \n\n\n\n\n\n\n\n\n        \n    \n\n\n    \n    Index\n    \n        \n                \n                    \n                        Properties\n                    \n                \n                \n                    \n                        \n                            \n                                    Public\n                                data\n                            \n                        \n                    \n                \n\n                \n                    \n                        Methods\n                    \n                \n                \n                    \n                        \n                            \n                                ngOnInit\n                            \n                        \n                    \n                \n\n\n\n\n\n        \n    \n\n\n    \n    Constructor\n        \n            \n                \n                    \nconstructor(data: string)\n                    \n                \n                        \n                            \n                                Defined in src/app/dashboard/card-grid/card-popup/card-popup.component.ts:9\n                            \n                        \n\n                \n                    \n                            \n                                    Parameters :\n                                    \n                                        \n                                            \n                                                Name\n                                                    Type\n                                                Optional\n                                            \n                                        \n                                        \n                                                \n                                                        data\n                                                  \n                                                        \n                                                                    string\n                                                        \n                                                  \n                                                    \n                                                            No\n                                                    \n                                                    \n                                                \n                                        \n                                    \n                            \n                    \n                \n            \n        \n\n\n\n\n\n\n    \n    \n        \n            Methods\n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                            ngOnInit\n                            \n                            \n                        \n                    \n                \n                \n                    \nngOnInit()\n                    \n                \n\n\n                        \n                            \n                                    Defined in src/app/dashboard/card-grid/card-popup/card-popup.component.ts:12\n                            \n                        \n\n\n                \n                    \n\n                            \n                                Returns :     void\n\n                            \n                    \n                \n            \n        \n\n\n    \n    \n        \n            Properties\n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                                Public\n                            data\n                            \n                        \n                    \n                \n                    \n                        \n                            Type :     string\n\n                        \n                    \n                    \n                        \n                            Decorators : \n                            \n                            \n                                @Inject(MAT_DIALOG_DATA)\n                            \n                        \n                    \n                        \n                            \n                                    Defined in src/app/dashboard/card-grid/card-popup/card-popup.component.ts:10\n                            \n                        \n\n\n            \n        \n\n\n\n\n\n    \n        import { Component, OnInit, Inject } from '@angular/core';\nimport { MAT_DIALOG_DATA } from '@angular/material';\n\n@Component({\n  selector: 'app-card-popup',\n  templateUrl: './card-popup.component.html',\n  styleUrls: ['./card-popup.component.scss']\n})\nexport class CardPopupComponent implements OnInit {\n  constructor(@Inject(MAT_DIALOG_DATA) public data: string) {}\n\n  ngOnInit() {\n    const data = this.data;\n    console.log(data);\n  }\n}\n\n    \n\n    \n        {{ data.name }}\n\n\n    \n\n    \n                \n                    ./card-popup.component.scss\n                \n                \n    \n\n    \n        \n        \n            \n                Legend\n            \n            \n                Html element\n            \n            \n                Component\n            \n            \n                Html element with directive\n            \n        \n    \n\n    \n\n\n\n\n\n\n        var COMPONENT_TEMPLATE = '{{ data.name }}'\n    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'CardGridComponent', 'selector': 'app-card-grid'},{'name': 'CardPopupComponent', 'selector': 'app-card-popup'},{'name': 'CardSingleComponent', 'selector': 'app-card-single'},{'name': 'DashboardComponent', 'selector': 'app-dashboard'},{'name': 'SearchComponent', 'selector': 'app-search'}];\n    var DIRECTIVES = [];\n    var ACTUAL_COMPONENT = {'name': 'CardPopupComponent'};\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n"
+        "\n                   \n\n\n\n\n\n  Components\n  CardPopupComponent\n\n\n\n        \n            Info\n        \n        \n            Source\n        \n        \n            Template\n        \n        \n            Styles\n        \n        \n            DOM Tree\n        \n\n\n\n    \n    File\n\n\n    src/app/dashboard/card-grid/card-popup/card-popup.component.ts\n\n\n\n\n    \n        Implements\n    \n    \n                OnInit\n    \n\n\n\n    Metadata\n    \n        \n\n\n\n\n\n\n\n\n\n\n\n            \n                selector\n                app-card-popup\n            \n\n            \n                styleUrls\n                ./card-popup.component.scss\n            \n\n\n\n            \n                templateUrl\n                ./card-popup.component.html\n            \n\n\n\n\n\n\n\n\n        \n    \n\n\n    \n    Index\n    \n        \n                \n                    \n                        Properties\n                    \n                \n                \n                    \n                        \n                            \n                                    Public\n                                data\n                            \n                        \n                    \n                \n\n                \n                    \n                        Methods\n                    \n                \n                \n                    \n                        \n                            \n                                ngOnInit\n                            \n                        \n                    \n                \n\n\n\n\n\n        \n    \n\n\n    \n    Constructor\n        \n            \n                \n                    \nconstructor(data: string)\n                    \n                \n                        \n                            \n                                Defined in src/app/dashboard/card-grid/card-popup/card-popup.component.ts:9\n                            \n                        \n\n                \n                    \n                            \n                                    Parameters :\n                                    \n                                        \n                                            \n                                                Name\n                                                    Type\n                                                Optional\n                                            \n                                        \n                                        \n                                                \n                                                        data\n                                                  \n                                                        \n                                                                    string\n                                                        \n                                                  \n                                                    \n                                                            No\n                                                    \n                                                    \n                                                \n                                        \n                                    \n                            \n                    \n                \n            \n        \n\n\n\n\n\n\n    \n    \n        \n            Methods\n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                            ngOnInit\n                            \n                            \n                        \n                    \n                \n                \n                    \nngOnInit()\n                    \n                \n\n\n                        \n                            \n                                    Defined in src/app/dashboard/card-grid/card-popup/card-popup.component.ts:12\n                            \n                        \n\n\n                \n                    \n\n                            \n                                Returns :     void\n\n                            \n                    \n                \n            \n        \n\n\n    \n    \n        \n            Properties\n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                                Public\n                            data\n                            \n                        \n                    \n                \n                    \n                        \n                            Type :     string\n\n                        \n                    \n                    \n                        \n                            Decorators : \n                            \n                            \n                                @Inject(MAT_DIALOG_DATA)\n                            \n                        \n                    \n                        \n                            \n                                    Defined in src/app/dashboard/card-grid/card-popup/card-popup.component.ts:10\n                            \n                        \n\n\n            \n        \n\n\n\n\n\n    \n        import { Component, OnInit, Inject } from '@angular/core';\nimport { MAT_DIALOG_DATA } from '@angular/material';\n\n@Component({\n  selector: 'app-card-popup',\n  templateUrl: './card-popup.component.html',\n  styleUrls: ['./card-popup.component.scss']\n})\nexport class CardPopupComponent implements OnInit {\n  constructor(@Inject(MAT_DIALOG_DATA) public data: string) {}\n\n  ngOnInit() {\n    const data = this.data;\n    console.log(data);\n  }\n}\n\n    \n\n    \n        {{ data.name }}\n\n\n    \n\n    \n                \n                    ./card-popup.component.scss\n                \n                \n    \n\n    \n        \n        \n            \n                Legend\n            \n            \n                Html element\n            \n            \n                Component\n            \n            \n                Html element with directive\n            \n        \n    \n\n    \n\n\n\n\n\n\n        var COMPONENT_TEMPLATE = '{{ data.name }}'\n    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'CardGridComponent', 'selector': 'app-card-grid'},{'name': 'CardPopupComponent', 'selector': 'app-card-popup'},{'name': 'CardSingleComponent', 'selector': 'app-card-single'},{'name': 'DashboardComponent', 'selector': 'app-dashboard'},{'name': 'SearchComponent', 'selector': 'app-search'}];\n    var DIRECTIVES = [];\n    var ACTUAL_COMPONENT = {'name': 'CardPopupComponent'};\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n",
     },
     'modules/CardPopupModule.html': {
       url: 'modules/CardPopupModule.html',
       title: 'module - CardPopupModule',
       body:
-        "\n                   \n\n\n\n\n    Modules\n    CardPopupModule\n\n\n\n    \n        \n\n\n\n\n\ndependencies\n\nLegend\n\n  Declarations\n\n  Module\n\n  Bootstrap\n\n  Providers\n\n  Exports\n\ncluster_CardPopupModule\n\n\n\ncluster_CardPopupModule_declarations\n\n\n\ncluster_CardPopupModule_imports\n\n\n\n\nCardPopupComponent\n\nCardPopupComponent\n\n\n\nCardPopupModule\n\nCardPopupModule\n\nCardPopupModule -->\n\nCardPopupComponent->CardPopupModule\n\n\n\n\n\nCardSingleModule\n\nCardSingleModule\n\nCardPopupModule -->\n\nCardSingleModule->CardPopupModule\n\n\n\n\n\n\n    \n    \n    \n        Zoom in\n        Reset\n        Zoom out\n    \n\n\n\n\n\n    \n        Info\n    \n    \n        Source\n    \n\n\n\n    \n\n        \n            File\n        \n        \n            src/app/dashboard/card-grid/card-popup/card-popup.module.ts\n        \n\n\n\n\n        \n            \n                \n                    Declarations\n                    \n                        \n                            CardPopupComponent\n                        \n                    \n                \n                \n                    Imports\n                    \n                        \n                            CardSingleModule\n                        \n                    \n                \n            \n        \n\n\n    \n\n\n    \n        import { NgModule } from '@angular/core';\nimport { CommonModule } from '@angular/common';\nimport { CardPopupComponent } from './card-popup.component';\nimport { CardSingleModule } from '../../card-single/card-single.module';\n\n@NgModule({\n  declarations: [CardPopupComponent],\n  imports: [CommonModule, CardSingleModule]\n})\nexport class CardPopupModule {}\n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n"
+        "\n                   \n\n\n\n\n    Modules\n    CardPopupModule\n\n\n\n    \n        \n\n\n\n\n\ndependencies\n\nLegend\n\n  Declarations\n\n  Module\n\n  Bootstrap\n\n  Providers\n\n  Exports\n\ncluster_CardPopupModule\n\n\n\ncluster_CardPopupModule_declarations\n\n\n\ncluster_CardPopupModule_imports\n\n\n\n\nCardPopupComponent\n\nCardPopupComponent\n\n\n\nCardPopupModule\n\nCardPopupModule\n\nCardPopupModule -->\n\nCardPopupComponent->CardPopupModule\n\n\n\n\n\nCardSingleModule\n\nCardSingleModule\n\nCardPopupModule -->\n\nCardSingleModule->CardPopupModule\n\n\n\n\n\n\n    \n    \n    \n        Zoom in\n        Reset\n        Zoom out\n    \n\n\n\n\n\n    \n        Info\n    \n    \n        Source\n    \n\n\n\n    \n\n        \n            File\n        \n        \n            src/app/dashboard/card-grid/card-popup/card-popup.module.ts\n        \n\n\n\n\n        \n            \n                \n                    Declarations\n                    \n                        \n                            CardPopupComponent\n                        \n                    \n                \n                \n                    Imports\n                    \n                        \n                            CardSingleModule\n                        \n                    \n                \n            \n        \n\n\n    \n\n\n    \n        import { NgModule } from '@angular/core';\nimport { CommonModule } from '@angular/common';\nimport { CardPopupComponent } from './card-popup.component';\nimport { CardSingleModule } from '../../card-single/card-single.module';\n\n@NgModule({\n  declarations: [CardPopupComponent],\n  imports: [CommonModule, CardSingleModule]\n})\nexport class CardPopupModule {}\n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n",
     },
     'components/CardSingleComponent.html': {
       url: 'components/CardSingleComponent.html',
       title: 'component - CardSingleComponent',
       body:
-        "\n                   \n\n\n\n\n\n  Components\n  CardSingleComponent\n\n\n\n        \n            Info\n        \n        \n            Source\n        \n        \n            Template\n        \n        \n            Styles\n        \n        \n            DOM Tree\n        \n\n\n\n    \n    File\n\n\n    src/app/dashboard/card-single/card-single.component.ts\n\n\n\n\n    \n        Implements\n    \n    \n                OnInit\n                OnChanges\n    \n\n\n\n    Metadata\n    \n        \n\n\n\n\n\n\n\n\n\n\n\n            \n                selector\n                app-card-single\n            \n\n            \n                styleUrls\n                ./card-single.component.scss\n            \n\n\n\n            \n                templateUrl\n                ./card-single.component.html\n            \n\n\n\n\n\n\n\n\n        \n    \n\n\n    \n    Index\n    \n        \n                \n                    \n                        Properties\n                    \n                \n                \n                    \n                        \n                            \n                                    Public\n                                card\n                            \n                        \n                    \n                \n\n                \n                    \n                        Methods\n                    \n                \n                \n                    \n                        \n                            \n                                ngOnChanges\n                            \n                            \n                                ngOnInit\n                            \n                        \n                    \n                \n\n                \n                    \n                        Inputs\n                    \n                \n                \n                    \n                        \n                            \n                                id\n                            \n                        \n                    \n                \n\n\n\n\n        \n    \n\n\n    \n    Constructor\n        \n            \n                \n                    \nconstructor(magicTheGatheringService: MagicTheGatheringService)\n                    \n                \n                        \n                            \n                                Defined in src/app/dashboard/card-single/card-single.component.ts:13\n                            \n                        \n\n                \n                    \n                            \n                                    Parameters :\n                                    \n                                        \n                                            \n                                                Name\n                                                    Type\n                                                Optional\n                                            \n                                        \n                                        \n                                                \n                                                        magicTheGatheringService\n                                                  \n                                                        \n                                                                    MagicTheGatheringService\n                                                        \n                                                  \n                                                    \n                                                            No\n                                                    \n                                                    \n                                                \n                                        \n                                    \n                            \n                    \n                \n            \n        \n\n\n    \n    Inputs\n        \n            \n                \n                    \n                        \n                        id\n                    \n                \n                \n                    \n                        Type :     string\n\n                    \n                \n                        \n                            \n                                    Defined in src/app/dashboard/card-single/card-single.component.ts:12\n                            \n                        \n            \n        \n\n\n\n\n    \n    \n        \n            Methods\n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                            ngOnChanges\n                            \n                            \n                        \n                    \n                \n                \n                    \nngOnChanges()\n                    \n                \n\n\n                        \n                            \n                                    Defined in src/app/dashboard/card-single/card-single.component.ts:31\n                            \n                        \n\n\n                \n                    \n\n                            \n                                Returns :     void\n\n                            \n                    \n                \n            \n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                            ngOnInit\n                            \n                            \n                        \n                    \n                \n                \n                    \nngOnInit()\n                    \n                \n\n\n                        \n                            \n                                    Defined in src/app/dashboard/card-single/card-single.component.ts:17\n                            \n                        \n\n\n                \n                    \n\n                            \n                                Returns :     void\n\n                            \n                    \n                \n            \n        \n\n\n    \n    \n        \n            Properties\n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                                Public\n                            card\n                            \n                        \n                    \n                \n                    \n                        \n                            Type :     CardModel\n\n                        \n                    \n                        \n                            \n                                    Defined in src/app/dashboard/card-single/card-single.component.ts:13\n                            \n                        \n\n\n            \n        \n\n\n\n\n\n    \n        import { Component, OnInit, Input, OnChanges } from '@angular/core';\nimport { MagicTheGatheringService } from 'src/app/shared/services/magic-the-gathering.service';\nimport { SingleCardModel } from 'src/app/shared/models/magicthegathering/card-list/single-card.model';\nimport { CardModel } from 'src/app/shared/models/magicthegathering/card-list/card.model';\n\n@Component({\n  selector: 'app-card-single',\n  templateUrl: './card-single.component.html',\n  styleUrls: ['./card-single.component.scss']\n})\nexport class CardSingleComponent implements OnInit, OnChanges {\n  @Input() id: string;\n  public card: CardModel;\n\n  constructor(private magicTheGatheringService: MagicTheGatheringService) {}\n\n  ngOnInit() {\n    if (this.id) {\n      this.magicTheGatheringService.getCardsById(this.id).subscribe(\n        (data: SingleCardModel) => {\n          this.card = data.card;\n          console.log(this.card);\n        },\n        err => {\n          console.error(err);\n        }\n      );\n    }\n  }\n\n  ngOnChanges() {}\n}\n\n    \n\n    \n        \n\n    \n\n    \n                \n                    ./card-single.component.scss\n                \n                \n    \n\n    \n        \n        \n            \n                Legend\n            \n            \n                Html element\n            \n            \n                Component\n            \n            \n                Html element with directive\n            \n        \n    \n\n    \n\n\n\n\n\n\n        var COMPONENT_TEMPLATE = ''\n    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'CardGridComponent', 'selector': 'app-card-grid'},{'name': 'CardPopupComponent', 'selector': 'app-card-popup'},{'name': 'CardSingleComponent', 'selector': 'app-card-single'},{'name': 'DashboardComponent', 'selector': 'app-dashboard'},{'name': 'SearchComponent', 'selector': 'app-search'}];\n    var DIRECTIVES = [];\n    var ACTUAL_COMPONENT = {'name': 'CardSingleComponent'};\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n"
+        "\n                   \n\n\n\n\n\n  Components\n  CardSingleComponent\n\n\n\n        \n            Info\n        \n        \n            Source\n        \n        \n            Template\n        \n        \n            Styles\n        \n        \n            DOM Tree\n        \n\n\n\n    \n    File\n\n\n    src/app/dashboard/card-single/card-single.component.ts\n\n\n\n\n    \n        Implements\n    \n    \n                OnInit\n                OnChanges\n    \n\n\n\n    Metadata\n    \n        \n\n\n\n\n\n\n\n\n\n\n\n            \n                selector\n                app-card-single\n            \n\n            \n                styleUrls\n                ./card-single.component.scss\n            \n\n\n\n            \n                templateUrl\n                ./card-single.component.html\n            \n\n\n\n\n\n\n\n\n        \n    \n\n\n    \n    Index\n    \n        \n                \n                    \n                        Properties\n                    \n                \n                \n                    \n                        \n                            \n                                    Public\n                                card\n                            \n                        \n                    \n                \n\n                \n                    \n                        Methods\n                    \n                \n                \n                    \n                        \n                            \n                                ngOnChanges\n                            \n                            \n                                ngOnInit\n                            \n                        \n                    \n                \n\n                \n                    \n                        Inputs\n                    \n                \n                \n                    \n                        \n                            \n                                id\n                            \n                        \n                    \n                \n\n\n\n\n        \n    \n\n\n    \n    Constructor\n        \n            \n                \n                    \nconstructor(magicTheGatheringService: MagicTheGatheringService)\n                    \n                \n                        \n                            \n                                Defined in src/app/dashboard/card-single/card-single.component.ts:13\n                            \n                        \n\n                \n                    \n                            \n                                    Parameters :\n                                    \n                                        \n                                            \n                                                Name\n                                                    Type\n                                                Optional\n                                            \n                                        \n                                        \n                                                \n                                                        magicTheGatheringService\n                                                  \n                                                        \n                                                                    MagicTheGatheringService\n                                                        \n                                                  \n                                                    \n                                                            No\n                                                    \n                                                    \n                                                \n                                        \n                                    \n                            \n                    \n                \n            \n        \n\n\n    \n    Inputs\n        \n            \n                \n                    \n                        \n                        id\n                    \n                \n                \n                    \n                        Type :     string\n\n                    \n                \n                        \n                            \n                                    Defined in src/app/dashboard/card-single/card-single.component.ts:12\n                            \n                        \n            \n        \n\n\n\n\n    \n    \n        \n            Methods\n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                            ngOnChanges\n                            \n                            \n                        \n                    \n                \n                \n                    \nngOnChanges()\n                    \n                \n\n\n                        \n                            \n                                    Defined in src/app/dashboard/card-single/card-single.component.ts:31\n                            \n                        \n\n\n                \n                    \n\n                            \n                                Returns :     void\n\n                            \n                    \n                \n            \n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                            ngOnInit\n                            \n                            \n                        \n                    \n                \n                \n                    \nngOnInit()\n                    \n                \n\n\n                        \n                            \n                                    Defined in src/app/dashboard/card-single/card-single.component.ts:17\n                            \n                        \n\n\n                \n                    \n\n                            \n                                Returns :     void\n\n                            \n                    \n                \n            \n        \n\n\n    \n    \n        \n            Properties\n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                                Public\n                            card\n                            \n                        \n                    \n                \n                    \n                        \n                            Type :     CardModel\n\n                        \n                    \n                        \n                            \n                                    Defined in src/app/dashboard/card-single/card-single.component.ts:13\n                            \n                        \n\n\n            \n        \n\n\n\n\n\n    \n        import { Component, OnInit, Input, OnChanges } from '@angular/core';\nimport { MagicTheGatheringService } from 'src/app/shared/services/magic-the-gathering.service';\nimport { SingleCardModel } from 'src/app/shared/models/magicthegathering/card-list/single-card.model';\nimport { CardModel } from 'src/app/shared/models/magicthegathering/card-list/card.model';\n\n@Component({\n  selector: 'app-card-single',\n  templateUrl: './card-single.component.html',\n  styleUrls: ['./card-single.component.scss']\n})\nexport class CardSingleComponent implements OnInit, OnChanges {\n  @Input() id: string;\n  public card: CardModel;\n\n  constructor(private magicTheGatheringService: MagicTheGatheringService) {}\n\n  ngOnInit() {\n    if (this.id) {\n      this.magicTheGatheringService.getCardsById(this.id).subscribe(\n        (data: SingleCardModel) => {\n          this.card = data.card;\n          console.log(this.card);\n        },\n        err => {\n          console.error(err);\n        }\n      );\n    }\n  }\n\n  ngOnChanges() {}\n}\n\n    \n\n    \n        \n\n    \n\n    \n                \n                    ./card-single.component.scss\n                \n                \n    \n\n    \n        \n        \n            \n                Legend\n            \n            \n                Html element\n            \n            \n                Component\n            \n            \n                Html element with directive\n            \n        \n    \n\n    \n\n\n\n\n\n\n        var COMPONENT_TEMPLATE = ''\n    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'CardGridComponent', 'selector': 'app-card-grid'},{'name': 'CardPopupComponent', 'selector': 'app-card-popup'},{'name': 'CardSingleComponent', 'selector': 'app-card-single'},{'name': 'DashboardComponent', 'selector': 'app-dashboard'},{'name': 'SearchComponent', 'selector': 'app-search'}];\n    var DIRECTIVES = [];\n    var ACTUAL_COMPONENT = {'name': 'CardSingleComponent'};\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n",
     },
     'modules/CardSingleModule.html': {
       url: 'modules/CardSingleModule.html',
       title: 'module - CardSingleModule',
       body:
-        "\n                   \n\n\n\n\n    Modules\n    CardSingleModule\n\n\n\n    \n        \n\n\n\n\n\ndependencies\n\nLegend\n\n  Declarations\n\n  Module\n\n  Bootstrap\n\n  Providers\n\n  Exports\n\ncluster_CardSingleModule\n\n\n\ncluster_CardSingleModule_declarations\n\n\n\ncluster_CardSingleModule_imports\n\n\n\ncluster_CardSingleModule_exports\n\n\n\n\nCardSingleComponent\n\nCardSingleComponent\n\n\n\nCardSingleModule\n\nCardSingleModule\n\nCardSingleModule -->\n\nCardSingleComponent->CardSingleModule\n\n\n\n\n\nCardSingleComponent \n\nCardSingleComponent \n\nCardSingleComponent  -->\n\nCardSingleModule->CardSingleComponent \n\n\n\n\n\nSharedModule\n\nSharedModule\n\nCardSingleModule -->\n\nSharedModule->CardSingleModule\n\n\n\n\n\n\n    \n    \n    \n        Zoom in\n        Reset\n        Zoom out\n    \n\n\n\n\n\n    \n        Info\n    \n    \n        Source\n    \n\n\n\n    \n\n        \n            File\n        \n        \n            src/app/dashboard/card-single/card-single.module.ts\n        \n\n\n\n\n        \n            \n                \n                    Declarations\n                    \n                        \n                            CardSingleComponent\n                        \n                    \n                \n                \n                    Imports\n                    \n                        \n                            SharedModule\n                        \n                    \n                \n                \n                    Exports\n                    \n                        \n                            CardSingleComponent\n                        \n                    \n                \n            \n        \n\n\n    \n\n\n    \n        import { NgModule } from '@angular/core';\nimport { CommonModule } from '@angular/common';\nimport { CardSingleComponent } from './card-single.component';\nimport { SharedModule } from 'src/app/shared/shared.module';\n\n@NgModule({\n  declarations: [CardSingleComponent],\n  imports: [CommonModule, SharedModule],\n  exports: [CardSingleComponent]\n})\nexport class CardSingleModule {}\n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n"
+        "\n                   \n\n\n\n\n    Modules\n    CardSingleModule\n\n\n\n    \n        \n\n\n\n\n\ndependencies\n\nLegend\n\n  Declarations\n\n  Module\n\n  Bootstrap\n\n  Providers\n\n  Exports\n\ncluster_CardSingleModule\n\n\n\ncluster_CardSingleModule_declarations\n\n\n\ncluster_CardSingleModule_imports\n\n\n\ncluster_CardSingleModule_exports\n\n\n\n\nCardSingleComponent\n\nCardSingleComponent\n\n\n\nCardSingleModule\n\nCardSingleModule\n\nCardSingleModule -->\n\nCardSingleComponent->CardSingleModule\n\n\n\n\n\nCardSingleComponent \n\nCardSingleComponent \n\nCardSingleComponent  -->\n\nCardSingleModule->CardSingleComponent \n\n\n\n\n\nSharedModule\n\nSharedModule\n\nCardSingleModule -->\n\nSharedModule->CardSingleModule\n\n\n\n\n\n\n    \n    \n    \n        Zoom in\n        Reset\n        Zoom out\n    \n\n\n\n\n\n    \n        Info\n    \n    \n        Source\n    \n\n\n\n    \n\n        \n            File\n        \n        \n            src/app/dashboard/card-single/card-single.module.ts\n        \n\n\n\n\n        \n            \n                \n                    Declarations\n                    \n                        \n                            CardSingleComponent\n                        \n                    \n                \n                \n                    Imports\n                    \n                        \n                            SharedModule\n                        \n                    \n                \n                \n                    Exports\n                    \n                        \n                            CardSingleComponent\n                        \n                    \n                \n            \n        \n\n\n    \n\n\n    \n        import { NgModule } from '@angular/core';\nimport { CommonModule } from '@angular/common';\nimport { CardSingleComponent } from './card-single.component';\nimport { SharedModule } from 'src/app/shared/shared.module';\n\n@NgModule({\n  declarations: [CardSingleComponent],\n  imports: [CommonModule, SharedModule],\n  exports: [CardSingleComponent]\n})\nexport class CardSingleModule {}\n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n",
     },
     'components/DashboardComponent.html': {
       url: 'components/DashboardComponent.html',
       title: 'component - DashboardComponent',
       body:
-        "\n                   \n\n\n\n\n\n  Components\n  DashboardComponent\n\n\n\n        \n            Info\n        \n        \n            Source\n        \n        \n            Template\n        \n        \n            Styles\n        \n        \n            DOM Tree\n        \n\n\n\n    \n    File\n\n\n    src/app/dashboard/dashboard.component.ts\n\n\n\n\n    \n        Implements\n    \n    \n                OnInit\n    \n\n\n\n    Metadata\n    \n        \n\n\n\n\n\n\n\n\n\n\n\n            \n                selector\n                app-dashboard\n            \n\n            \n                styleUrls\n                ./dashboard.component.scss\n            \n\n\n\n            \n                templateUrl\n                ./dashboard.component.html\n            \n\n\n\n\n\n\n\n\n        \n    \n\n\n    \n    Index\n    \n        \n                \n                    \n                        Properties\n                    \n                \n                \n                    \n                        \n                            \n                                    Public\n                                query\n                            \n                        \n                    \n                \n\n                \n                    \n                        Methods\n                    \n                \n                \n                    \n                        \n                            \n                                ngOnInit\n                            \n                        \n                    \n                \n\n\n\n\n\n        \n    \n\n\n    \n    Constructor\n        \n            \n                \n                    \nconstructor(activeRoute: ActivatedRoute)\n                    \n                \n                        \n                            \n                                Defined in src/app/dashboard/dashboard.component.ts:10\n                            \n                        \n\n                \n                    \n                            \n                                    Parameters :\n                                    \n                                        \n                                            \n                                                Name\n                                                    Type\n                                                Optional\n                                            \n                                        \n                                        \n                                                \n                                                        activeRoute\n                                                  \n                                                        \n                                                                    ActivatedRoute\n                                                        \n                                                  \n                                                    \n                                                            No\n                                                    \n                                                    \n                                                \n                                        \n                                    \n                            \n                    \n                \n            \n        \n\n\n\n\n\n\n    \n    \n        \n            Methods\n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                            ngOnInit\n                            \n                            \n                        \n                    \n                \n                \n                    \nngOnInit()\n                    \n                \n\n\n                        \n                            \n                                    Defined in src/app/dashboard/dashboard.component.ts:16\n                            \n                        \n\n\n                \n                    \n\n                            \n                                Returns :     void\n\n                            \n                    \n                \n            \n        \n\n\n    \n    \n        \n            Properties\n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                                Public\n                            query\n                            \n                        \n                    \n                \n                    \n                        \n                            Type :     string\n\n                        \n                    \n                        \n                            \n                                    Defined in src/app/dashboard/dashboard.component.ts:10\n                            \n                        \n\n\n            \n        \n\n\n\n\n\n    \n        import { Component, OnInit } from '@angular/core';\nimport { ActivatedRoute } from '@angular/router';\n\n@Component({\n  selector: 'app-dashboard',\n  templateUrl: './dashboard.component.html',\n  styleUrls: ['./dashboard.component.scss']\n})\nexport class DashboardComponent implements OnInit {\n  public query: string;\n\n  constructor(private activeRoute: ActivatedRoute) {\n    this.query = null;\n  }\n\n  ngOnInit() {\n    this.activeRoute.url.subscribe(\n      () => (this.query = this.activeRoute.snapshot.params['query'])\n    );\n  }\n}\n\n    \n\n    \n        \n  Browse the cards\n  \n  search\n\n -->\n -->\n\n  \n    \n      view_module\n    \n    \n    \n      \n    \n  \n  \n    \n      dashboard\n    \n    \n    \n  \n  \n    \n      collections\n    \n    \n  \n\n\n\n  \n\n\n    \n\n    \n                \n                    ./dashboard.component.scss\n                \n                \n    \n\n    \n        \n        \n            \n                Legend\n            \n            \n                Html element\n            \n            \n                Component\n            \n            \n                Html element with directive\n            \n        \n    \n\n    \n\n\n\n\n\n\n        var COMPONENT_TEMPLATE = '  Browse the cards    search --> -->            view_module                                    dashboard                          collections            '\n    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'CardGridComponent', 'selector': 'app-card-grid'},{'name': 'CardPopupComponent', 'selector': 'app-card-popup'},{'name': 'CardSingleComponent', 'selector': 'app-card-single'},{'name': 'DashboardComponent', 'selector': 'app-dashboard'},{'name': 'SearchComponent', 'selector': 'app-search'}];\n    var DIRECTIVES = [];\n    var ACTUAL_COMPONENT = {'name': 'DashboardComponent'};\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n"
+        "\n                   \n\n\n\n\n\n  Components\n  DashboardComponent\n\n\n\n        \n            Info\n        \n        \n            Source\n        \n        \n            Template\n        \n        \n            Styles\n        \n        \n            DOM Tree\n        \n\n\n\n    \n    File\n\n\n    src/app/dashboard/dashboard.component.ts\n\n\n\n\n    \n        Implements\n    \n    \n                OnInit\n    \n\n\n\n    Metadata\n    \n        \n\n\n\n\n\n\n\n\n\n\n\n            \n                selector\n                app-dashboard\n            \n\n            \n                styleUrls\n                ./dashboard.component.scss\n            \n\n\n\n            \n                templateUrl\n                ./dashboard.component.html\n            \n\n\n\n\n\n\n\n\n        \n    \n\n\n    \n    Index\n    \n        \n                \n                    \n                        Properties\n                    \n                \n                \n                    \n                        \n                            \n                                    Public\n                                query\n                            \n                        \n                    \n                \n\n                \n                    \n                        Methods\n                    \n                \n                \n                    \n                        \n                            \n                                ngOnInit\n                            \n                        \n                    \n                \n\n\n\n\n\n        \n    \n\n\n    \n    Constructor\n        \n            \n                \n                    \nconstructor(activeRoute: ActivatedRoute)\n                    \n                \n                        \n                            \n                                Defined in src/app/dashboard/dashboard.component.ts:10\n                            \n                        \n\n                \n                    \n                            \n                                    Parameters :\n                                    \n                                        \n                                            \n                                                Name\n                                                    Type\n                                                Optional\n                                            \n                                        \n                                        \n                                                \n                                                        activeRoute\n                                                  \n                                                        \n                                                                    ActivatedRoute\n                                                        \n                                                  \n                                                    \n                                                            No\n                                                    \n                                                    \n                                                \n                                        \n                                    \n                            \n                    \n                \n            \n        \n\n\n\n\n\n\n    \n    \n        \n            Methods\n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                            ngOnInit\n                            \n                            \n                        \n                    \n                \n                \n                    \nngOnInit()\n                    \n                \n\n\n                        \n                            \n                                    Defined in src/app/dashboard/dashboard.component.ts:16\n                            \n                        \n\n\n                \n                    \n\n                            \n                                Returns :     void\n\n                            \n                    \n                \n            \n        \n\n\n    \n    \n        \n            Properties\n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                                Public\n                            query\n                            \n                        \n                    \n                \n                    \n                        \n                            Type :     string\n\n                        \n                    \n                        \n                            \n                                    Defined in src/app/dashboard/dashboard.component.ts:10\n                            \n                        \n\n\n            \n        \n\n\n\n\n\n    \n        import { Component, OnInit } from '@angular/core';\nimport { ActivatedRoute } from '@angular/router';\n\n@Component({\n  selector: 'app-dashboard',\n  templateUrl: './dashboard.component.html',\n  styleUrls: ['./dashboard.component.scss']\n})\nexport class DashboardComponent implements OnInit {\n  public query: string;\n\n  constructor(private activeRoute: ActivatedRoute) {\n    this.query = null;\n  }\n\n  ngOnInit() {\n    this.activeRoute.url.subscribe(\n      () => (this.query = this.activeRoute.snapshot.params['query'])\n    );\n  }\n}\n\n    \n\n    \n        \n  Browse the cards\n  \n  search\n\n -->\n -->\n\n  \n    \n      view_module\n    \n    \n    \n      \n    \n  \n  \n    \n      dashboard\n    \n    \n    \n  \n  \n    \n      collections\n    \n    \n  \n\n\n\n  \n\n\n    \n\n    \n                \n                    ./dashboard.component.scss\n                \n                \n    \n\n    \n        \n        \n            \n                Legend\n            \n            \n                Html element\n            \n            \n                Component\n            \n            \n                Html element with directive\n            \n        \n    \n\n    \n\n\n\n\n\n\n        var COMPONENT_TEMPLATE = '  Browse the cards    search --> -->            view_module                                    dashboard                          collections            '\n    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'CardGridComponent', 'selector': 'app-card-grid'},{'name': 'CardPopupComponent', 'selector': 'app-card-popup'},{'name': 'CardSingleComponent', 'selector': 'app-card-single'},{'name': 'DashboardComponent', 'selector': 'app-dashboard'},{'name': 'SearchComponent', 'selector': 'app-search'}];\n    var DIRECTIVES = [];\n    var ACTUAL_COMPONENT = {'name': 'DashboardComponent'};\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n",
     },
     'modules/DashboardModule.html': {
       url: 'modules/DashboardModule.html',
       title: 'module - DashboardModule',
       body:
-        "\n                   \n\n\n\n\n    Modules\n    DashboardModule\n\n\n\n    \n        \n\n\n\n\n\ndependencies\n\nLegend\n\n  Declarations\n\n  Module\n\n  Bootstrap\n\n  Providers\n\n  Exports\n\ncluster_DashboardModule\n\n\n\ncluster_DashboardModule_declarations\n\n\n\ncluster_DashboardModule_imports\n\n\n\ncluster_DashboardModule_exports\n\n\n\n\nDashboardComponent\n\nDashboardComponent\n\n\n\nDashboardModule\n\nDashboardModule\n\nDashboardModule -->\n\nDashboardComponent->DashboardModule\n\n\n\n\n\nDashboardComponent \n\nDashboardComponent \n\nDashboardComponent  -->\n\nDashboardModule->DashboardComponent \n\n\n\n\n\nCardGridModule\n\nCardGridModule\n\nDashboardModule -->\n\nCardGridModule->DashboardModule\n\n\n\n\n\nCardSingleModule\n\nCardSingleModule\n\nDashboardModule -->\n\nCardSingleModule->DashboardModule\n\n\n\n\n\nDashboardRoutingModule\n\nDashboardRoutingModule\n\nDashboardModule -->\n\nDashboardRoutingModule->DashboardModule\n\n\n\n\n\nSearchModule\n\nSearchModule\n\nDashboardModule -->\n\nSearchModule->DashboardModule\n\n\n\n\n\nSharedModule\n\nSharedModule\n\nDashboardModule -->\n\nSharedModule->DashboardModule\n\n\n\n\n\n\n    \n    \n    \n        Zoom in\n        Reset\n        Zoom out\n    \n\n\n\n\n\n    \n        Info\n    \n    \n        Source\n    \n\n\n\n    \n\n        \n            File\n        \n        \n            src/app/dashboard/dashboard.module.ts\n        \n\n\n\n\n        \n            \n                \n                    Declarations\n                    \n                        \n                            DashboardComponent\n                        \n                    \n                \n                \n                    Imports\n                    \n                        \n                            CardGridModule\n                        \n                        \n                            CardSingleModule\n                        \n                        \n                            DashboardRoutingModule\n                        \n                        \n                            SearchModule\n                        \n                        \n                            SharedModule\n                        \n                    \n                \n                \n                    Exports\n                    \n                        \n                            DashboardComponent\n                        \n                    \n                \n            \n        \n\n\n    \n\n\n    \n        import { NgModule } from '@angular/core';\nimport { CommonModule } from '@angular/common';\nimport { DashboardComponent } from './dashboard.component';\nimport { SharedModule } from '../shared/shared.module';\nimport { CardGridModule } from './card-grid/card-grid.module';\nimport { CardSingleModule } from './card-single/card-single.module';\nimport { DashboardRoutingModule } from './dashboard-routing.module';\nimport { SearchModule } from './search/search.module';\n\n@NgModule({\n  declarations: [DashboardComponent],\n  imports: [\n    CommonModule,\n    SharedModule,\n    CardGridModule,\n    CardSingleModule,\n    SearchModule,\n    DashboardRoutingModule\n  ],\n  exports: [DashboardComponent]\n})\nexport class DashboardModule {}\n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n"
+        "\n                   \n\n\n\n\n    Modules\n    DashboardModule\n\n\n\n    \n        \n\n\n\n\n\ndependencies\n\nLegend\n\n  Declarations\n\n  Module\n\n  Bootstrap\n\n  Providers\n\n  Exports\n\ncluster_DashboardModule\n\n\n\ncluster_DashboardModule_declarations\n\n\n\ncluster_DashboardModule_imports\n\n\n\ncluster_DashboardModule_exports\n\n\n\n\nDashboardComponent\n\nDashboardComponent\n\n\n\nDashboardModule\n\nDashboardModule\n\nDashboardModule -->\n\nDashboardComponent->DashboardModule\n\n\n\n\n\nDashboardComponent \n\nDashboardComponent \n\nDashboardComponent  -->\n\nDashboardModule->DashboardComponent \n\n\n\n\n\nCardGridModule\n\nCardGridModule\n\nDashboardModule -->\n\nCardGridModule->DashboardModule\n\n\n\n\n\nCardSingleModule\n\nCardSingleModule\n\nDashboardModule -->\n\nCardSingleModule->DashboardModule\n\n\n\n\n\nDashboardRoutingModule\n\nDashboardRoutingModule\n\nDashboardModule -->\n\nDashboardRoutingModule->DashboardModule\n\n\n\n\n\nSearchModule\n\nSearchModule\n\nDashboardModule -->\n\nSearchModule->DashboardModule\n\n\n\n\n\nSharedModule\n\nSharedModule\n\nDashboardModule -->\n\nSharedModule->DashboardModule\n\n\n\n\n\n\n    \n    \n    \n        Zoom in\n        Reset\n        Zoom out\n    \n\n\n\n\n\n    \n        Info\n    \n    \n        Source\n    \n\n\n\n    \n\n        \n            File\n        \n        \n            src/app/dashboard/dashboard.module.ts\n        \n\n\n\n\n        \n            \n                \n                    Declarations\n                    \n                        \n                            DashboardComponent\n                        \n                    \n                \n                \n                    Imports\n                    \n                        \n                            CardGridModule\n                        \n                        \n                            CardSingleModule\n                        \n                        \n                            DashboardRoutingModule\n                        \n                        \n                            SearchModule\n                        \n                        \n                            SharedModule\n                        \n                    \n                \n                \n                    Exports\n                    \n                        \n                            DashboardComponent\n                        \n                    \n                \n            \n        \n\n\n    \n\n\n    \n        import { NgModule } from '@angular/core';\nimport { CommonModule } from '@angular/common';\nimport { DashboardComponent } from './dashboard.component';\nimport { SharedModule } from '../shared/shared.module';\nimport { CardGridModule } from './card-grid/card-grid.module';\nimport { CardSingleModule } from './card-single/card-single.module';\nimport { DashboardRoutingModule } from './dashboard-routing.module';\nimport { SearchModule } from './search/search.module';\n\n@NgModule({\n  declarations: [DashboardComponent],\n  imports: [\n    CommonModule,\n    SharedModule,\n    CardGridModule,\n    CardSingleModule,\n    SearchModule,\n    DashboardRoutingModule\n  ],\n  exports: [DashboardComponent]\n})\nexport class DashboardModule {}\n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n",
     },
     'modules/DashboardRoutingModule.html': {
       url: 'modules/DashboardRoutingModule.html',
       title: 'module - DashboardRoutingModule',
       body:
-        "\n                   \n\n\n\n\n    Modules\n    DashboardRoutingModule\n\n\n\n\n    \n        Info\n    \n    \n        Source\n    \n\n\n\n    \n\n        \n            File\n        \n        \n            src/app/dashboard/dashboard-routing.module.ts\n        \n\n\n\n\n        \n            \n            \n        \n\n\n    \n\n\n    \n        import { NgModule } from '@angular/core';\nimport { CommonModule } from '@angular/common';\nimport { Routes, RouterModule } from '@angular/router';\nimport { DashboardComponent } from './dashboard.component';\n\nconst routes: Routes = [{ path: 'card/:query', component: DashboardComponent }];\n\n@NgModule({\n  declarations: [],\n  imports: [CommonModule, RouterModule.forRoot(routes)]\n})\nexport class DashboardRoutingModule {}\n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n"
+        "\n                   \n\n\n\n\n    Modules\n    DashboardRoutingModule\n\n\n\n\n    \n        Info\n    \n    \n        Source\n    \n\n\n\n    \n\n        \n            File\n        \n        \n            src/app/dashboard/dashboard-routing.module.ts\n        \n\n\n\n\n        \n            \n            \n        \n\n\n    \n\n\n    \n        import { NgModule } from '@angular/core';\nimport { CommonModule } from '@angular/common';\nimport { Routes, RouterModule } from '@angular/router';\nimport { DashboardComponent } from './dashboard.component';\n\nconst routes: Routes = [{ path: 'card/:query', component: DashboardComponent }];\n\n@NgModule({\n  declarations: [],\n  imports: [CommonModule, RouterModule.forRoot(routes)]\n})\nexport class DashboardRoutingModule {}\n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n",
     },
     'injectables/MagicTheGatheringService.html': {
       url: 'injectables/MagicTheGatheringService.html',
       title: 'injectable - MagicTheGatheringService',
       body:
-        "\n                   \n\n\n\n\n\n\n\n\n  Injectables\n  MagicTheGatheringService\n\n\n\n        \n            Info\n        \n        \n            Source\n        \n\n\n\n    \n        \n            File\n        \n        \n            src/app/shared/services/magic-the-gathering.service.ts\n        \n\n\n\n            \n    Index\n    \n        \n\n                \n                    \n                        Methods\n                    \n                \n                \n                    \n                        \n                            \n                                getCards\n                            \n                            \n                                getCardsById\n                            \n                            \n                                getCardsByType\n                            \n                        \n                    \n                \n\n\n\n\n\n        \n    \n\n\n            \n    Constructor\n        \n            \n                \n                    \nconstructor(http: HttpClient)\n                    \n                \n                        \n                            \n                                Defined in src/app/shared/services/magic-the-gathering.service.ts:10\n                            \n                        \n\n                \n                    \n                            \n                                    Parameters :\n                                    \n                                        \n                                            \n                                                Name\n                                                    Type\n                                                Optional\n                                            \n                                        \n                                        \n                                                \n                                                        http\n                                                  \n                                                        \n                                                                    HttpClient\n                                                        \n                                                  \n                                                    \n                                                            No\n                                                    \n                                                    \n                                                \n                                        \n                                    \n                            \n                    \n                \n            \n        \n\n\n            \n    \n        \n            Methods\n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                            getCards\n                            \n                            \n                        \n                    \n                \n                \n                    \ngetCards()\n                    \n                \n\n\n                        \n                            \n                                    Defined in src/app/shared/services/magic-the-gathering.service.ts:21\n                            \n                        \n\n\n                \n                    \n\n                            \n                                Returns :     Observable\n\n                            \n                    \n                \n            \n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                            getCardsById\n                            \n                            \n                        \n                    \n                \n                \n                    \ngetCardsById(id: string)\n                    \n                \n\n\n                        \n                            \n                                    Defined in src/app/shared/services/magic-the-gathering.service.ts:13\n                            \n                        \n\n\n                \n                    \n\n                            \n                                    Parameters :\n                                    \n                                        \n                                            \n                                                Name\n                                                    Type\n                                                Optional\n                                            \n                                        \n                                        \n                                                \n                                                        id\n                                                        \n                                                                    string\n                                                        \n                                                    \n                                                    \n                                                            No\n                                                    \n                                                    \n\n                                                \n                                        \n                                    \n                            \n                            \n                            \n                            \n                                Returns :     Observable\n\n                            \n                                \n                                    \n                                \n                    \n                \n            \n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                            getCardsByType\n                            \n                            \n                        \n                    \n                \n                \n                    \ngetCardsByType(type: string)\n                    \n                \n\n\n                        \n                            \n                                    Defined in src/app/shared/services/magic-the-gathering.service.ts:19\n                            \n                        \n\n\n                \n                    \n\n                            \n                                    Parameters :\n                                    \n                                        \n                                            \n                                                Name\n                                                    Type\n                                                Optional\n                                            \n                                        \n                                        \n                                                \n                                                        type\n                                                        \n                                                                    string\n                                                        \n                                                    \n                                                    \n                                                            No\n                                                    \n                                                    \n\n                                                \n                                        \n                                    \n                            \n                            \n                            \n                            \n                                Returns :     void\n\n                            \n                                \n                                    \n                                \n                    \n                \n            \n        \n\n\n\n    \n\n\n    \n        import { Injectable } from '@angular/core';\nimport { HttpClient } from '@angular/common/http';\nimport { Observable } from 'rxjs';\nimport { CardListModel } from '../models/magicthegathering/card-list/card-list.model';\nimport { SingleCardModel } from '../models/magicthegathering/card-list/single-card.model';\n\n@Injectable({\n  providedIn: 'root'\n})\nexport class MagicTheGatheringService {\n  constructor(private http: HttpClient) {}\n\n  getCardsById(id: string): Observable {\n    return this.http.get(\n      `https://api.magicthegathering.io/v1/cards/${id}`\n    );\n  }\n\n  getCardsByType(type: string) {}\n\n  getCards(): Observable {\n    return this.http.get(\n      'https://api.magicthegathering.io/v1/cards'\n    );\n  }\n}\n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n"
+        "\n                   \n\n\n\n\n\n\n\n\n  Injectables\n  MagicTheGatheringService\n\n\n\n        \n            Info\n        \n        \n            Source\n        \n\n\n\n    \n        \n            File\n        \n        \n            src/app/shared/services/magic-the-gathering.service.ts\n        \n\n\n\n            \n    Index\n    \n        \n\n                \n                    \n                        Methods\n                    \n                \n                \n                    \n                        \n                            \n                                getCards\n                            \n                            \n                                getCardsById\n                            \n                            \n                                getCardsByType\n                            \n                        \n                    \n                \n\n\n\n\n\n        \n    \n\n\n            \n    Constructor\n        \n            \n                \n                    \nconstructor(http: HttpClient)\n                    \n                \n                        \n                            \n                                Defined in src/app/shared/services/magic-the-gathering.service.ts:10\n                            \n                        \n\n                \n                    \n                            \n                                    Parameters :\n                                    \n                                        \n                                            \n                                                Name\n                                                    Type\n                                                Optional\n                                            \n                                        \n                                        \n                                                \n                                                        http\n                                                  \n                                                        \n                                                                    HttpClient\n                                                        \n                                                  \n                                                    \n                                                            No\n                                                    \n                                                    \n                                                \n                                        \n                                    \n                            \n                    \n                \n            \n        \n\n\n            \n    \n        \n            Methods\n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                            getCards\n                            \n                            \n                        \n                    \n                \n                \n                    \ngetCards()\n                    \n                \n\n\n                        \n                            \n                                    Defined in src/app/shared/services/magic-the-gathering.service.ts:21\n                            \n                        \n\n\n                \n                    \n\n                            \n                                Returns :     Observable\n\n                            \n                    \n                \n            \n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                            getCardsById\n                            \n                            \n                        \n                    \n                \n                \n                    \ngetCardsById(id: string)\n                    \n                \n\n\n                        \n                            \n                                    Defined in src/app/shared/services/magic-the-gathering.service.ts:13\n                            \n                        \n\n\n                \n                    \n\n                            \n                                    Parameters :\n                                    \n                                        \n                                            \n                                                Name\n                                                    Type\n                                                Optional\n                                            \n                                        \n                                        \n                                                \n                                                        id\n                                                        \n                                                                    string\n                                                        \n                                                    \n                                                    \n                                                            No\n                                                    \n                                                    \n\n                                                \n                                        \n                                    \n                            \n                            \n                            \n                            \n                                Returns :     Observable\n\n                            \n                                \n                                    \n                                \n                    \n                \n            \n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                            getCardsByType\n                            \n                            \n                        \n                    \n                \n                \n                    \ngetCardsByType(type: string)\n                    \n                \n\n\n                        \n                            \n                                    Defined in src/app/shared/services/magic-the-gathering.service.ts:19\n                            \n                        \n\n\n                \n                    \n\n                            \n                                    Parameters :\n                                    \n                                        \n                                            \n                                                Name\n                                                    Type\n                                                Optional\n                                            \n                                        \n                                        \n                                                \n                                                        type\n                                                        \n                                                                    string\n                                                        \n                                                    \n                                                    \n                                                            No\n                                                    \n                                                    \n\n                                                \n                                        \n                                    \n                            \n                            \n                            \n                            \n                                Returns :     void\n\n                            \n                                \n                                    \n                                \n                    \n                \n            \n        \n\n\n\n    \n\n\n    \n        import { Injectable } from '@angular/core';\nimport { HttpClient } from '@angular/common/http';\nimport { Observable } from 'rxjs';\nimport { CardListModel } from '../models/magicthegathering/card-list/card-list.model';\nimport { SingleCardModel } from '../models/magicthegathering/card-list/single-card.model';\n\n@Injectable({\n  providedIn: 'root'\n})\nexport class MagicTheGatheringService {\n  constructor(private http: HttpClient) {}\n\n  getCardsById(id: string): Observable {\n    return this.http.get(\n      `https://api.magicthegathering.io/v1/cards/${id}`\n    );\n  }\n\n  getCardsByType(type: string) {}\n\n  getCards(): Observable {\n    return this.http.get(\n      'https://api.magicthegathering.io/v1/cards'\n    );\n  }\n}\n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n",
     },
     'modules/MaterialModule.html': {
       url: 'modules/MaterialModule.html',
       title: 'module - MaterialModule',
       body:
-        "\n                   \n\n\n\n\n    Modules\n    MaterialModule\n\n\n\n\n    \n        Info\n    \n    \n        Source\n    \n\n\n\n    \n\n        \n            File\n        \n        \n            src/app/shared/material/material.module.ts\n        \n\n\n\n\n        \n            \n            \n        \n\n\n    \n\n\n    \n        import { NgModule } from '@angular/core';\nimport { CommonModule } from '@angular/common';\nimport {\n  MatToolbarModule,\n  MatSidenavModule,\n  MatButtonModule,\n  MatIconModule,\n  MatProgressSpinnerModule,\n  MatTabsModule,\n  MatDialogModule,\n  MatFormFieldModule,\n  MatInputModule,\n  MatCardModule,\n  MatGridListModule\n} from '@angular/material';\n\n@NgModule({\n  declarations: [],\n  imports: [\n    CommonModule,\n    MatToolbarModule,\n    MatSidenavModule,\n    MatButtonModule,\n    MatIconModule,\n    MatProgressSpinnerModule,\n    MatTabsModule,\n    MatDialogModule,\n    MatFormFieldModule,\n    MatInputModule,\n    MatCardModule,\n    MatGridListModule\n  ],\n  exports: [\n    MatSidenavModule,\n    MatToolbarModule,\n    MatButtonModule,\n    MatIconModule,\n    MatProgressSpinnerModule,\n    MatTabsModule,\n    MatDialogModule,\n    MatFormFieldModule,\n    MatInputModule,\n    MatCardModule,\n    MatGridListModule\n  ]\n})\nexport class MaterialModule {}\n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n"
+        "\n                   \n\n\n\n\n    Modules\n    MaterialModule\n\n\n\n\n    \n        Info\n    \n    \n        Source\n    \n\n\n\n    \n\n        \n            File\n        \n        \n            src/app/shared/material/material.module.ts\n        \n\n\n\n\n        \n            \n            \n        \n\n\n    \n\n\n    \n        import { NgModule } from '@angular/core';\nimport { CommonModule } from '@angular/common';\nimport {\n  MatToolbarModule,\n  MatSidenavModule,\n  MatButtonModule,\n  MatIconModule,\n  MatProgressSpinnerModule,\n  MatTabsModule,\n  MatDialogModule,\n  MatFormFieldModule,\n  MatInputModule,\n  MatCardModule,\n  MatGridListModule\n} from '@angular/material';\n\n@NgModule({\n  declarations: [],\n  imports: [\n    CommonModule,\n    MatToolbarModule,\n    MatSidenavModule,\n    MatButtonModule,\n    MatIconModule,\n    MatProgressSpinnerModule,\n    MatTabsModule,\n    MatDialogModule,\n    MatFormFieldModule,\n    MatInputModule,\n    MatCardModule,\n    MatGridListModule\n  ],\n  exports: [\n    MatSidenavModule,\n    MatToolbarModule,\n    MatButtonModule,\n    MatIconModule,\n    MatProgressSpinnerModule,\n    MatTabsModule,\n    MatDialogModule,\n    MatFormFieldModule,\n    MatInputModule,\n    MatCardModule,\n    MatGridListModule\n  ]\n})\nexport class MaterialModule {}\n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n",
     },
     'components/SearchComponent.html': {
       url: 'components/SearchComponent.html',
       title: 'component - SearchComponent',
       body:
-        "\n                   \n\n\n\n\n\n  Components\n  SearchComponent\n\n\n\n        \n            Info\n        \n        \n            Source\n        \n        \n            Template\n        \n        \n            Styles\n        \n        \n            DOM Tree\n        \n\n\n\n    \n    File\n\n\n    src/app/dashboard/search/search.component.ts\n\n\n\n\n    \n        Implements\n    \n    \n                OnInit\n    \n\n\n\n    Metadata\n    \n        \n\n\n\n\n\n\n\n\n\n\n\n            \n                selector\n                app-search\n            \n\n            \n                styleUrls\n                ./search.component.scss\n            \n\n\n\n            \n                templateUrl\n                ./search.component.html\n            \n\n\n\n\n\n\n\n\n        \n    \n\n\n    \n    Index\n    \n        \n\n                \n                    \n                        Methods\n                    \n                \n                \n                    \n                        \n                            \n                                ngOnInit\n                            \n                        \n                    \n                \n\n\n\n\n\n        \n    \n\n\n    \n    Constructor\n        \n            \n                \n                    \nconstructor()\n                    \n                \n                        \n                            \n                                Defined in src/app/dashboard/search/search.component.ts:8\n                            \n                        \n\n            \n        \n\n\n\n\n\n\n    \n    \n        \n            Methods\n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                            ngOnInit\n                            \n                            \n                        \n                    \n                \n                \n                    \nngOnInit()\n                    \n                \n\n\n                        \n                            \n                                    Defined in src/app/dashboard/search/search.component.ts:12\n                            \n                        \n\n\n                \n                    \n\n                            \n                                Returns :     void\n\n                            \n                    \n                \n            \n        \n\n\n\n\n\n\n    \n        import { Component, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'app-search',\n  templateUrl: './search.component.html',\n  styleUrls: ['./search.component.scss']\n})\nexport class SearchComponent implements OnInit {\n\n  constructor() { }\n\n  ngOnInit() {\n  }\n\n}\n\n    \n\n    \n        \n  \n    \n      Test\n    \n  \n  \n    \n      Test\n    \n  \n  \n    \n      Test\n    \n  \n  \n    \n      Test\n    \n  \n  \n    \n      Test\n    \n  \n  \n    \n      Test\n    \n  \n\n\n    \n\n    \n                \n                    ./search.component.scss\n                \n                // :host {\n//   display: flex;\n//   flex-flow: row wrap;\n//   justify-content: space-around;\n//   box-sizing: border-box;\n// }\n\n    \n\n    \n        \n        \n            \n                Legend\n            \n            \n                Html element\n            \n            \n                Component\n            \n            \n                Html element with directive\n            \n        \n    \n\n    \n\n\n\n\n\n\n        var COMPONENT_TEMPLATE = '            Test                  Test                  Test                  Test                  Test                  Test      '\n    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'CardGridComponent', 'selector': 'app-card-grid'},{'name': 'CardPopupComponent', 'selector': 'app-card-popup'},{'name': 'CardSingleComponent', 'selector': 'app-card-single'},{'name': 'DashboardComponent', 'selector': 'app-dashboard'},{'name': 'SearchComponent', 'selector': 'app-search'}];\n    var DIRECTIVES = [];\n    var ACTUAL_COMPONENT = {'name': 'SearchComponent'};\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n"
+        "\n                   \n\n\n\n\n\n  Components\n  SearchComponent\n\n\n\n        \n            Info\n        \n        \n            Source\n        \n        \n            Template\n        \n        \n            Styles\n        \n        \n            DOM Tree\n        \n\n\n\n    \n    File\n\n\n    src/app/dashboard/search/search.component.ts\n\n\n\n\n    \n        Implements\n    \n    \n                OnInit\n    \n\n\n\n    Metadata\n    \n        \n\n\n\n\n\n\n\n\n\n\n\n            \n                selector\n                app-search\n            \n\n            \n                styleUrls\n                ./search.component.scss\n            \n\n\n\n            \n                templateUrl\n                ./search.component.html\n            \n\n\n\n\n\n\n\n\n        \n    \n\n\n    \n    Index\n    \n        \n\n                \n                    \n                        Methods\n                    \n                \n                \n                    \n                        \n                            \n                                ngOnInit\n                            \n                        \n                    \n                \n\n\n\n\n\n        \n    \n\n\n    \n    Constructor\n        \n            \n                \n                    \nconstructor()\n                    \n                \n                        \n                            \n                                Defined in src/app/dashboard/search/search.component.ts:8\n                            \n                        \n\n            \n        \n\n\n\n\n\n\n    \n    \n        \n            Methods\n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                            ngOnInit\n                            \n                            \n                        \n                    \n                \n                \n                    \nngOnInit()\n                    \n                \n\n\n                        \n                            \n                                    Defined in src/app/dashboard/search/search.component.ts:12\n                            \n                        \n\n\n                \n                    \n\n                            \n                                Returns :     void\n\n                            \n                    \n                \n            \n        \n\n\n\n\n\n\n    \n        import { Component, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'app-search',\n  templateUrl: './search.component.html',\n  styleUrls: ['./search.component.scss']\n})\nexport class SearchComponent implements OnInit {\n\n  constructor() { }\n\n  ngOnInit() {\n  }\n\n}\n\n    \n\n    \n        \n  \n    \n      Test\n    \n  \n  \n    \n      Test\n    \n  \n  \n    \n      Test\n    \n  \n  \n    \n      Test\n    \n  \n  \n    \n      Test\n    \n  \n  \n    \n      Test\n    \n  \n\n\n    \n\n    \n                \n                    ./search.component.scss\n                \n                // :host {\n//   display: flex;\n//   flex-flow: row wrap;\n//   justify-content: space-around;\n//   box-sizing: border-box;\n// }\n\n    \n\n    \n        \n        \n            \n                Legend\n            \n            \n                Html element\n            \n            \n                Component\n            \n            \n                Html element with directive\n            \n        \n    \n\n    \n\n\n\n\n\n\n        var COMPONENT_TEMPLATE = '            Test                  Test                  Test                  Test                  Test                  Test      '\n    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'CardGridComponent', 'selector': 'app-card-grid'},{'name': 'CardPopupComponent', 'selector': 'app-card-popup'},{'name': 'CardSingleComponent', 'selector': 'app-card-single'},{'name': 'DashboardComponent', 'selector': 'app-dashboard'},{'name': 'SearchComponent', 'selector': 'app-search'}];\n    var DIRECTIVES = [];\n    var ACTUAL_COMPONENT = {'name': 'SearchComponent'};\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n",
     },
     'modules/SearchModule.html': {
       url: 'modules/SearchModule.html',
       title: 'module - SearchModule',
       body:
-        "\n                   \n\n\n\n\n    Modules\n    SearchModule\n\n\n\n    \n        \n\n\n\n\n\ndependencies\n\nLegend\n\n  Declarations\n\n  Module\n\n  Bootstrap\n\n  Providers\n\n  Exports\n\ncluster_SearchModule\n\n\n\ncluster_SearchModule_declarations\n\n\n\ncluster_SearchModule_imports\n\n\n\ncluster_SearchModule_exports\n\n\n\n\nSearchComponent\n\nSearchComponent\n\n\n\nSearchModule\n\nSearchModule\n\nSearchModule -->\n\nSearchComponent->SearchModule\n\n\n\n\n\nSearchComponent \n\nSearchComponent \n\nSearchComponent  -->\n\nSearchModule->SearchComponent \n\n\n\n\n\nSharedModule\n\nSharedModule\n\nSearchModule -->\n\nSharedModule->SearchModule\n\n\n\n\n\n\n    \n    \n    \n        Zoom in\n        Reset\n        Zoom out\n    \n\n\n\n\n\n    \n        Info\n    \n    \n        Source\n    \n\n\n\n    \n\n        \n            File\n        \n        \n            src/app/dashboard/search/search.module.ts\n        \n\n\n\n\n        \n            \n                \n                    Declarations\n                    \n                        \n                            SearchComponent\n                        \n                    \n                \n                \n                    Imports\n                    \n                        \n                            SharedModule\n                        \n                    \n                \n                \n                    Exports\n                    \n                        \n                            SearchComponent\n                        \n                    \n                \n            \n        \n\n\n    \n\n\n    \n        import { NgModule } from '@angular/core';\nimport { CommonModule } from '@angular/common';\nimport { SearchComponent } from './search.component';\nimport { SharedModule } from 'src/app/shared/shared.module';\n\n@NgModule({\n  declarations: [SearchComponent],\n  imports: [CommonModule, SharedModule],\n  exports: [SearchComponent]\n})\nexport class SearchModule {}\n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n"
+        "\n                   \n\n\n\n\n    Modules\n    SearchModule\n\n\n\n    \n        \n\n\n\n\n\ndependencies\n\nLegend\n\n  Declarations\n\n  Module\n\n  Bootstrap\n\n  Providers\n\n  Exports\n\ncluster_SearchModule\n\n\n\ncluster_SearchModule_declarations\n\n\n\ncluster_SearchModule_imports\n\n\n\ncluster_SearchModule_exports\n\n\n\n\nSearchComponent\n\nSearchComponent\n\n\n\nSearchModule\n\nSearchModule\n\nSearchModule -->\n\nSearchComponent->SearchModule\n\n\n\n\n\nSearchComponent \n\nSearchComponent \n\nSearchComponent  -->\n\nSearchModule->SearchComponent \n\n\n\n\n\nSharedModule\n\nSharedModule\n\nSearchModule -->\n\nSharedModule->SearchModule\n\n\n\n\n\n\n    \n    \n    \n        Zoom in\n        Reset\n        Zoom out\n    \n\n\n\n\n\n    \n        Info\n    \n    \n        Source\n    \n\n\n\n    \n\n        \n            File\n        \n        \n            src/app/dashboard/search/search.module.ts\n        \n\n\n\n\n        \n            \n                \n                    Declarations\n                    \n                        \n                            SearchComponent\n                        \n                    \n                \n                \n                    Imports\n                    \n                        \n                            SharedModule\n                        \n                    \n                \n                \n                    Exports\n                    \n                        \n                            SearchComponent\n                        \n                    \n                \n            \n        \n\n\n    \n\n\n    \n        import { NgModule } from '@angular/core';\nimport { CommonModule } from '@angular/common';\nimport { SearchComponent } from './search.component';\nimport { SharedModule } from 'src/app/shared/shared.module';\n\n@NgModule({\n  declarations: [SearchComponent],\n  imports: [CommonModule, SharedModule],\n  exports: [SearchComponent]\n})\nexport class SearchModule {}\n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n",
     },
     'modules/SharedModule.html': {
       url: 'modules/SharedModule.html',
       title: 'module - SharedModule',
       body:
-        "\n                   \n\n\n\n\n    Modules\n    SharedModule\n\n\n\n    \n        \n\n\n\n\n\ndependencies\n\nLegend\n\n  Declarations\n\n  Module\n\n  Bootstrap\n\n  Providers\n\n  Exports\n\ncluster_SharedModule\n\n\n\ncluster_SharedModule_imports\n\n\n\ncluster_SharedModule_exports\n\n\n\n\nMaterialModule\n\nMaterialModule\n\n\n\nSharedModule\n\nSharedModule\n\nSharedModule -->\n\nMaterialModule->SharedModule\n\n\n\n\n\nMaterialModule \n\nMaterialModule \n\nMaterialModule  -->\n\nSharedModule->MaterialModule \n\n\n\n\n\n\n    \n    \n    \n        Zoom in\n        Reset\n        Zoom out\n    \n\n\n\n\n\n    \n        Info\n    \n    \n        Source\n    \n\n\n\n    \n\n        \n            File\n        \n        \n            src/app/shared/shared.module.ts\n        \n\n\n\n\n        \n            \n                \n                    Imports\n                    \n                        \n                            MaterialModule\n                        \n                    \n                \n                \n                    Exports\n                    \n                        \n                            MaterialModule\n                        \n                    \n                \n            \n        \n\n\n    \n\n\n    \n        import { NgModule } from '@angular/core';\nimport { CommonModule } from '@angular/common';\nimport { MaterialModule } from './material/material.module';\nimport { HttpClientModule } from '@angular/common/http';\nimport { RouterModule } from '@angular/router';\n\n@NgModule({\n  declarations: [],\n  imports: [CommonModule, MaterialModule, HttpClientModule, RouterModule],\n  exports: [MaterialModule, HttpClientModule, RouterModule]\n})\nexport class SharedModule {}\n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n"
+        "\n                   \n\n\n\n\n    Modules\n    SharedModule\n\n\n\n    \n        \n\n\n\n\n\ndependencies\n\nLegend\n\n  Declarations\n\n  Module\n\n  Bootstrap\n\n  Providers\n\n  Exports\n\ncluster_SharedModule\n\n\n\ncluster_SharedModule_imports\n\n\n\ncluster_SharedModule_exports\n\n\n\n\nMaterialModule\n\nMaterialModule\n\n\n\nSharedModule\n\nSharedModule\n\nSharedModule -->\n\nMaterialModule->SharedModule\n\n\n\n\n\nMaterialModule \n\nMaterialModule \n\nMaterialModule  -->\n\nSharedModule->MaterialModule \n\n\n\n\n\n\n    \n    \n    \n        Zoom in\n        Reset\n        Zoom out\n    \n\n\n\n\n\n    \n        Info\n    \n    \n        Source\n    \n\n\n\n    \n\n        \n            File\n        \n        \n            src/app/shared/shared.module.ts\n        \n\n\n\n\n        \n            \n                \n                    Imports\n                    \n                        \n                            MaterialModule\n                        \n                    \n                \n                \n                    Exports\n                    \n                        \n                            MaterialModule\n                        \n                    \n                \n            \n        \n\n\n    \n\n\n    \n        import { NgModule } from '@angular/core';\nimport { CommonModule } from '@angular/common';\nimport { MaterialModule } from './material/material.module';\nimport { HttpClientModule } from '@angular/common/http';\nimport { RouterModule } from '@angular/router';\n\n@NgModule({\n  declarations: [],\n  imports: [CommonModule, MaterialModule, HttpClientModule, RouterModule],\n  exports: [MaterialModule, HttpClientModule, RouterModule]\n})\nexport class SharedModule {}\n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n",
     },
     'classes/SingleCardModel.html': {
       url: 'classes/SingleCardModel.html',
       title: 'class - SingleCardModel',
       body:
-        '\n                   \n\n\n\n\n\n\n\n\n\n\n\n\n  Classes\n  SingleCardModel\n\n\n\n        \n            Info\n        \n        \n            Source\n        \n\n\n\n    \n        \n            File\n        \n        \n            src/app/shared/models/magicthegathering/card-list/single-card.model.ts\n        \n\n\n\n\n\n            \n    Index\n    \n        \n                \n                    \n                        Properties\n                    \n                \n                \n                    \n                        \n                            \n                                    Public\n                                card\n                            \n                        \n                    \n                \n\n\n\n\n\n\n        \n    \n\n\n\n            \n    \n        \n            Properties\n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                                Public\n                            card\n                            \n                        \n                    \n                \n                    \n                        \n                            Type :     CardModel\n\n                        \n                    \n                        \n                            \n                                    Defined in src/app/shared/models/magicthegathering/card-list/single-card.model.ts:4\n                            \n                        \n\n\n            \n        \n\n\n\n\n\n\n\n\n    \n\n\n    \n        import { CardModel } from \'./card.model\';\n\nexport class SingleCardModel {\n  public card: CardModel;\n}\n\n    \n\n\n\n\n\n\n\n\n                   \n    \n         result-matching ""\n        \n    \n    \n        No results matching ""\n    \n\n'
+        '\n                   \n\n\n\n\n\n\n\n\n\n\n\n\n  Classes\n  SingleCardModel\n\n\n\n        \n            Info\n        \n        \n            Source\n        \n\n\n\n    \n        \n            File\n        \n        \n            src/app/shared/models/magicthegathering/card-list/single-card.model.ts\n        \n\n\n\n\n\n            \n    Index\n    \n        \n                \n                    \n                        Properties\n                    \n                \n                \n                    \n                        \n                            \n                                    Public\n                                card\n                            \n                        \n                    \n                \n\n\n\n\n\n\n        \n    \n\n\n\n            \n    \n        \n            Properties\n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                                Public\n                            card\n                            \n                        \n                    \n                \n                    \n                        \n                            Type :     CardModel\n\n                        \n                    \n                        \n                            \n                                    Defined in src/app/shared/models/magicthegathering/card-list/single-card.model.ts:4\n                            \n                        \n\n\n            \n        \n\n\n\n\n\n\n\n\n    \n\n\n    \n        import { CardModel } from \'./card.model\';\n\nexport class SingleCardModel {\n  public card: CardModel;\n}\n\n    \n\n\n\n\n\n\n\n\n                   \n    \n         result-matching ""\n        \n    \n    \n        No results matching ""\n    \n\n',
     },
     'coverage.html': {
       url: 'coverage.html',
       title: 'coverage - coverage',
       body:
-        '\n                   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    Documentation coverage\n\n\n\n    \n\n\n\n    \n        \n            File\n            Type\n            Identifier\n            Statements\n        \n    \n    \n        \n            \n                \n                e2e/src/app.po.ts\n            \n            class\n            AppPage\n            \n                0 %\n                (0/3)\n            \n        \n        \n            \n                \n                src/app/app.component.ts\n            \n            component\n            AppComponent\n            \n                0 %\n                (0/2)\n            \n        \n        \n            \n                \n                src/app/dashboard/card-grid/card-grid.component.ts\n            \n            component\n            CardGridComponent\n            \n                0 %\n                (0/5)\n            \n        \n        \n            \n                \n                src/app/dashboard/card-grid/card-popup/card-popup.component.ts\n            \n            component\n            CardPopupComponent\n            \n                0 %\n                (0/4)\n            \n        \n        \n            \n                \n                src/app/dashboard/card-single/card-single.component.ts\n            \n            component\n            CardSingleComponent\n            \n                0 %\n                (0/6)\n            \n        \n        \n            \n                \n                src/app/dashboard/dashboard.component.ts\n            \n            component\n            DashboardComponent\n            \n                0 %\n                (0/4)\n            \n        \n        \n            \n                \n                src/app/dashboard/search/search.component.ts\n            \n            component\n            SearchComponent\n            \n                0 %\n                (0/3)\n            \n        \n        \n            \n                \n                src/app/shared/models/magicthegathering/card-list/card-list.model.ts\n            \n            class\n            CardListModel\n            \n                0 %\n                (0/2)\n            \n        \n        \n            \n                \n                src/app/shared/models/magicthegathering/card-list/card.model.ts\n            \n            class\n            CardModel\n            \n                0 %\n                (0/4)\n            \n        \n        \n            \n                \n                src/app/shared/models/magicthegathering/card-list/single-card.model.ts\n            \n            class\n            SingleCardModel\n            \n                0 %\n                (0/2)\n            \n        \n        \n            \n                \n                src/app/shared/services/magic-the-gathering.service.ts\n            \n            injectable\n            MagicTheGatheringService\n            \n                0 %\n                (0/5)\n            \n        \n        \n            \n                \n                src/environments/environment.prod.ts\n            \n            variable\n            environment\n            \n                0 %\n                (0/1)\n            \n        \n        \n            \n                \n                src/environments/environment.ts\n            \n            variable\n            environment\n            \n                0 %\n                (0/1)\n            \n        \n        \n            \n                \n                src/test.ts\n            \n            variable\n            context\n            \n                0 %\n                (0/1)\n            \n        \n        \n            \n                \n                src/test.ts\n            \n            variable\n            require\n            \n                0 %\n                (0/1)\n            \n        \n    \n\n\n\n\n\n    new Tablesort(document.getElementById(\'coverage-table\'));\n\n\n                   \n    \n         result-matching ""\n        \n    \n    \n        No results matching ""\n    \n\n'
+        '\n                   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    Documentation coverage\n\n\n\n    \n\n\n\n    \n        \n            File\n            Type\n            Identifier\n            Statements\n        \n    \n    \n        \n            \n                \n                e2e/src/app.po.ts\n            \n            class\n            AppPage\n            \n                0 %\n                (0/3)\n            \n        \n        \n            \n                \n                src/app/app.component.ts\n            \n            component\n            AppComponent\n            \n                0 %\n                (0/2)\n            \n        \n        \n            \n                \n                src/app/dashboard/card-grid/card-grid.component.ts\n            \n            component\n            CardGridComponent\n            \n                0 %\n                (0/5)\n            \n        \n        \n            \n                \n                src/app/dashboard/card-grid/card-popup/card-popup.component.ts\n            \n            component\n            CardPopupComponent\n            \n                0 %\n                (0/4)\n            \n        \n        \n            \n                \n                src/app/dashboard/card-single/card-single.component.ts\n            \n            component\n            CardSingleComponent\n            \n                0 %\n                (0/6)\n            \n        \n        \n            \n                \n                src/app/dashboard/dashboard.component.ts\n            \n            component\n            DashboardComponent\n            \n                0 %\n                (0/4)\n            \n        \n        \n            \n                \n                src/app/dashboard/search/search.component.ts\n            \n            component\n            SearchComponent\n            \n                0 %\n                (0/3)\n            \n        \n        \n            \n                \n                src/app/shared/models/magicthegathering/card-list/card-list.model.ts\n            \n            class\n            CardListModel\n            \n                0 %\n                (0/2)\n            \n        \n        \n            \n                \n                src/app/shared/models/magicthegathering/card-list/card.model.ts\n            \n            class\n            CardModel\n            \n                0 %\n                (0/4)\n            \n        \n        \n            \n                \n                src/app/shared/models/magicthegathering/card-list/single-card.model.ts\n            \n            class\n            SingleCardModel\n            \n                0 %\n                (0/2)\n            \n        \n        \n            \n                \n                src/app/shared/services/magic-the-gathering.service.ts\n            \n            injectable\n            MagicTheGatheringService\n            \n                0 %\n                (0/5)\n            \n        \n        \n            \n                \n                src/environments/environment.prod.ts\n            \n            variable\n            environment\n            \n                0 %\n                (0/1)\n            \n        \n        \n            \n                \n                src/environments/environment.ts\n            \n            variable\n            environment\n            \n                0 %\n                (0/1)\n            \n        \n        \n            \n                \n                src/test.ts\n            \n            variable\n            context\n            \n                0 %\n                (0/1)\n            \n        \n        \n            \n                \n                src/test.ts\n            \n            variable\n            require\n            \n                0 %\n                (0/1)\n            \n        \n    \n\n\n\n\n\n    new Tablesort(document.getElementById(\'coverage-table\'));\n\n\n                   \n    \n         result-matching ""\n        \n    \n    \n        No results matching ""\n    \n\n',
     },
     'dependencies.html': {
       url: 'dependencies.html',
       title: 'package-dependencies - dependencies',
       body:
-        '\n                   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    \n        Dependencies\n    \n    \n        \n            @angular/animations : ^7.2.4\n        \n            @angular/cdk : ^7.3.2\n        \n            @angular/common : ~7.2.0\n        \n            @angular/compiler : ~7.2.0\n        \n            @angular/core : ~7.2.0\n        \n            @angular/forms : ~7.2.0\n        \n            @angular/material : ^7.3.2\n        \n            @angular/platform-browser : ~7.2.0\n        \n            @angular/platform-browser-dynamic : ~7.2.0\n        \n            @angular/router : ~7.2.0\n        \n            core-js : ^2.5.4\n        \n            hammerjs : ^2.0.8\n        \n            material-design-icons : ^3.0.1\n        \n            normalize.css : ^8.0.1\n        \n            roboto-fontface : ^0.10.0\n        \n            rxjs : ~6.3.3\n        \n            tslib : ^1.9.0\n        \n            zone.js : ~0.8.26\n    \n\n\n\n\n\n                   \n    \n         result-matching ""\n        \n    \n    \n        No results matching ""\n    \n\n'
+        '\n                   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    \n        Dependencies\n    \n    \n        \n            @angular/animations : ^7.2.4\n        \n            @angular/cdk : ^7.3.2\n        \n            @angular/common : ~7.2.0\n        \n            @angular/compiler : ~7.2.0\n        \n            @angular/core : ~7.2.0\n        \n            @angular/forms : ~7.2.0\n        \n            @angular/material : ^7.3.2\n        \n            @angular/platform-browser : ~7.2.0\n        \n            @angular/platform-browser-dynamic : ~7.2.0\n        \n            @angular/router : ~7.2.0\n        \n            core-js : ^2.5.4\n        \n            hammerjs : ^2.0.8\n        \n            material-design-icons : ^3.0.1\n        \n            normalize.css : ^8.0.1\n        \n            roboto-fontface : ^0.10.0\n        \n            rxjs : ~6.3.3\n        \n            tslib : ^1.9.0\n        \n            zone.js : ~0.8.26\n    \n\n\n\n\n\n                   \n    \n         result-matching ""\n        \n    \n    \n        No results matching ""\n    \n\n',
     },
     'index.html': {
       url: 'index.html',
       title: 'getting-started - index',
       body:
-        '\n                   \n\nMagicBrowse\nThis project was generated with Angular CLI version 7.3.1.\nDevelopment server\nRun ng serve for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.\nCode scaffolding\nRun ng generate component component-name to generate a new component. You can also use ng generate directive|pipe|service|class|guard|interface|enum|module.\nBuild\nRun ng build to build the project. The build artifacts will be stored in the dist/ directory. Use the --prod flag for a production build.\nRunning unit tests\nRun ng test to execute the unit tests via Karma.\nRunning end-to-end tests\nRun ng e2e to execute the end-to-end tests via Protractor.\nFurther help\nTo get more help on the Angular CLI use ng help or go check out the Angular CLI README.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                   \n    \n         result-matching ""\n        \n    \n    \n        No results matching ""\n    \n\n'
+        '\n                   \n\nMagicBrowse\nThis project was generated with Angular CLI version 7.3.1.\nDevelopment server\nRun ng serve for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.\nCode scaffolding\nRun ng generate component component-name to generate a new component. You can also use ng generate directive|pipe|service|class|guard|interface|enum|module.\nBuild\nRun ng build to build the project. The build artifacts will be stored in the dist/ directory. Use the --prod flag for a production build.\nRunning unit tests\nRun ng test to execute the unit tests via Karma.\nRunning end-to-end tests\nRun ng e2e to execute the end-to-end tests via Protractor.\nFurther help\nTo get more help on the Angular CLI use ng help or go check out the Angular CLI README.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                   \n    \n         result-matching ""\n        \n    \n    \n        No results matching ""\n    \n\n',
     },
     'modules.html': {
       url: 'modules.html',
       title: 'modules - modules',
       body:
-        '\n                   \n\n\n\n\n    Modules\n\n\n    \n            \n                \n                    \n                        AppModule\n                    \n                    \n                                \n                                    \n                                        Your browser does not support SVG\n                                    \n                                \n                        \n                            Browse\n                        \n                    \n                \n            \n            \n                \n                    \n                        AppRoutingModule\n                    \n                    \n                                \n                                    \n                                        Your browser does not support SVG\n                                    \n                                \n                        \n                            Browse\n                        \n                    \n                \n            \n            \n                \n                    \n                        CardGridModule\n                    \n                    \n                                \n                                    \n                                        Your browser does not support SVG\n                                    \n                                \n                        \n                            Browse\n                        \n                    \n                \n            \n            \n                \n                    \n                        CardPopupModule\n                    \n                    \n                                \n                                    \n                                        Your browser does not support SVG\n                                    \n                                \n                        \n                            Browse\n                        \n                    \n                \n            \n            \n                \n                    \n                        CardSingleModule\n                    \n                    \n                                \n                                    \n                                        Your browser does not support SVG\n                                    \n                                \n                        \n                            Browse\n                        \n                    \n                \n            \n            \n                \n                    \n                        DashboardModule\n                    \n                    \n                                \n                                    \n                                        Your browser does not support SVG\n                                    \n                                \n                        \n                            Browse\n                        \n                    \n                \n            \n            \n                \n                    \n                        DashboardRoutingModule\n                    \n                    \n                                \n                                    No graph available.\n                                \n                        \n                            Browse\n                        \n                    \n                \n            \n            \n                \n                    \n                        MaterialModule\n                    \n                    \n                                \n                                    No graph available.\n                                \n                        \n                            Browse\n                        \n                    \n                \n            \n            \n                \n                    \n                        SearchModule\n                    \n                    \n                                \n                                    \n                                        Your browser does not support SVG\n                                    \n                                \n                        \n                            Browse\n                        \n                    \n                \n            \n            \n                \n                    \n                        SharedModule\n                    \n                    \n                                \n                                    \n                                        Your browser does not support SVG\n                                    \n                                \n                        \n                            Browse\n                        \n                    \n                \n            \n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                   \n    \n         result-matching ""\n        \n    \n    \n        No results matching ""\n    \n\n'
+        '\n                   \n\n\n\n\n    Modules\n\n\n    \n            \n                \n                    \n                        AppModule\n                    \n                    \n                                \n                                    \n                                        Your browser does not support SVG\n                                    \n                                \n                        \n                            Browse\n                        \n                    \n                \n            \n            \n                \n                    \n                        AppRoutingModule\n                    \n                    \n                                \n                                    \n                                        Your browser does not support SVG\n                                    \n                                \n                        \n                            Browse\n                        \n                    \n                \n            \n            \n                \n                    \n                        CardGridModule\n                    \n                    \n                                \n                                    \n                                        Your browser does not support SVG\n                                    \n                                \n                        \n                            Browse\n                        \n                    \n                \n            \n            \n                \n                    \n                        CardPopupModule\n                    \n                    \n                                \n                                    \n                                        Your browser does not support SVG\n                                    \n                                \n                        \n                            Browse\n                        \n                    \n                \n            \n            \n                \n                    \n                        CardSingleModule\n                    \n                    \n                                \n                                    \n                                        Your browser does not support SVG\n                                    \n                                \n                        \n                            Browse\n                        \n                    \n                \n            \n            \n                \n                    \n                        DashboardModule\n                    \n                    \n                                \n                                    \n                                        Your browser does not support SVG\n                                    \n                                \n                        \n                            Browse\n                        \n                    \n                \n            \n            \n                \n                    \n                        DashboardRoutingModule\n                    \n                    \n                                \n                                    No graph available.\n                                \n                        \n                            Browse\n                        \n                    \n                \n            \n            \n                \n                    \n                        MaterialModule\n                    \n                    \n                                \n                                    No graph available.\n                                \n                        \n                            Browse\n                        \n                    \n                \n            \n            \n                \n                    \n                        SearchModule\n                    \n                    \n                                \n                                    \n                                        Your browser does not support SVG\n                                    \n                                \n                        \n                            Browse\n                        \n                    \n                \n            \n            \n                \n                    \n                        SharedModule\n                    \n                    \n                                \n                                    \n                                        Your browser does not support SVG\n                                    \n                                \n                        \n                            Browse\n                        \n                    \n                \n            \n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                   \n    \n         result-matching ""\n        \n    \n    \n        No results matching ""\n    \n\n',
     },
     'overview.html': {
       url: 'overview.html',
       title: 'overview - overview',
       body:
-        '\n                   \n\n\n\n    Overview\n\n  \n\n    \n        \n\n\n\n\n\ndependencies\n\nLegend\n\n  Declarations\n\n  Module\n\n  Bootstrap\n\n  Providers\n\n  Exports\n\ncluster_AppModule\n\n\n\ncluster_AppModule_declarations\n\n\n\ncluster_AppModule_imports\n\n\n\ncluster_AppModule_bootstrap\n\n\n\ncluster_CardGridModule\n\n\n\ncluster_CardGridModule_declarations\n\n\n\ncluster_CardGridModule_imports\n\n\n\ncluster_CardGridModule_exports\n\n\n\ncluster_CardPopupModule\n\n\n\ncluster_CardPopupModule_declarations\n\n\n\ncluster_CardSingleModule\n\n\n\ncluster_CardSingleModule_declarations\n\n\n\ncluster_CardSingleModule_exports\n\n\n\ncluster_DashboardModule\n\n\n\ncluster_DashboardModule_declarations\n\n\n\ncluster_DashboardModule_imports\n\n\n\ncluster_DashboardModule_exports\n\n\n\ncluster_SearchModule\n\n\n\ncluster_SearchModule_declarations\n\n\n\ncluster_SearchModule_exports\n\n\n\ncluster_SharedModule\n\n\n\ncluster_SharedModule_imports\n\n\n\ncluster_SharedModule_exports\n\n\n\n\nAppComponent\n\nAppComponent\n\n\n\nAppModule\n\nAppModule\n\nAppModule -->\n\nAppComponent->AppModule\n\n\n\n\n\nAppComponent \n\nAppComponent \n\nAppComponent  -->\n\nAppModule->AppComponent \n\n\n\n\n\nAppRoutingModule\n\nAppRoutingModule\n\nAppModule -->\n\nAppRoutingModule->AppModule\n\n\n\n\n\nCardSingleModule\n\nCardSingleModule\n\nAppModule -->\n\nCardSingleModule->AppModule\n\n\n\n\n\nDashboardModule\n\nDashboardModule\n\nDashboardModule -->\n\nCardSingleModule->DashboardModule\n\n\n\n\n\nCardPopupModule\n\nCardPopupModule\n\nCardPopupModule -->\n\nCardSingleModule->CardPopupModule\n\n\n\n\n\nCardSingleComponent \n\nCardSingleComponent \n\nCardSingleComponent  -->\n\nCardSingleModule->CardSingleComponent \n\n\n\nAppModule -->\n\nDashboardModule->AppModule\n\n\n\nAppRoutingModule -->\n\nDashboardModule->AppRoutingModule\n\n\n\n\n\nDashboardComponent \n\nDashboardComponent \n\nDashboardComponent  -->\n\nDashboardModule->DashboardComponent \n\n\n\n\n\nSharedModule\n\nSharedModule\n\nAppModule -->\n\nSharedModule->AppModule\n\n\n\nCardSingleModule -->\n\nSharedModule->CardSingleModule\n\n\n\nDashboardModule -->\n\nSharedModule->DashboardModule\n\n\n\n\n\nCardGridModule\n\nCardGridModule\n\nCardGridModule -->\n\nSharedModule->CardGridModule\n\n\n\n\n\nSearchModule\n\nSearchModule\n\nSearchModule -->\n\nSharedModule->SearchModule\n\n\n\n\n\nMaterialModule \n\nMaterialModule \n\nMaterialModule  -->\n\nSharedModule->MaterialModule \n\n\n\n\n\nCardGridComponent\n\nCardGridComponent\n\nCardGridModule -->\n\nCardGridComponent->CardGridModule\n\n\n\nDashboardModule -->\n\nCardGridModule->DashboardModule\n\n\n\n\n\nCardGridComponent \n\nCardGridComponent \n\nCardGridComponent  -->\n\nCardGridModule->CardGridComponent \n\n\n\nCardGridModule -->\n\nCardPopupModule->CardGridModule\n\n\n\n\n\nCardPopupComponent\n\nCardPopupComponent\n\nCardPopupModule -->\n\nCardPopupComponent->CardPopupModule\n\n\n\n\n\nCardSingleComponent\n\nCardSingleComponent\n\nCardSingleModule -->\n\nCardSingleComponent->CardSingleModule\n\n\n\n\n\nDashboardComponent\n\nDashboardComponent\n\nDashboardModule -->\n\nDashboardComponent->DashboardModule\n\n\n\n\n\nDashboardRoutingModule\n\nDashboardRoutingModule\n\nDashboardModule -->\n\nDashboardRoutingModule->DashboardModule\n\n\n\nDashboardModule -->\n\nSearchModule->DashboardModule\n\n\n\n\n\nSearchComponent \n\nSearchComponent \n\nSearchComponent  -->\n\nSearchModule->SearchComponent \n\n\n\n\n\nSearchComponent\n\nSearchComponent\n\nSearchModule -->\n\nSearchComponent->SearchModule\n\n\n\n\n\nMaterialModule\n\nMaterialModule\n\nSharedModule -->\n\nMaterialModule->SharedModule\n\n\n\n\n\n\n    \n    \n    \n        Zoom in\n        Reset\n        Zoom out\n    \n\n  \n\n    \n        \n            \n                \n                    \n                    \n                        10 Modules\n                    \n                \n            \n        \n        \n            \n                \n                    \n                    6 Components\n                \n            \n        \n        \n            \n                \n                    \n                    1 Injectable\n                \n            \n        \n        \n            \n                \n                    \n                    4 Classes\n                \n            \n        \n        \n            \n                \n                    \n                    \n                        2 Routes\n                    \n                \n            \n        \n    \n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                   \n    \n         result-matching ""\n        \n    \n    \n        No results matching ""\n    \n\n'
+        '\n                   \n\n\n\n    Overview\n\n  \n\n    \n        \n\n\n\n\n\ndependencies\n\nLegend\n\n  Declarations\n\n  Module\n\n  Bootstrap\n\n  Providers\n\n  Exports\n\ncluster_AppModule\n\n\n\ncluster_AppModule_declarations\n\n\n\ncluster_AppModule_imports\n\n\n\ncluster_AppModule_bootstrap\n\n\n\ncluster_CardGridModule\n\n\n\ncluster_CardGridModule_declarations\n\n\n\ncluster_CardGridModule_imports\n\n\n\ncluster_CardGridModule_exports\n\n\n\ncluster_CardPopupModule\n\n\n\ncluster_CardPopupModule_declarations\n\n\n\ncluster_CardSingleModule\n\n\n\ncluster_CardSingleModule_declarations\n\n\n\ncluster_CardSingleModule_exports\n\n\n\ncluster_DashboardModule\n\n\n\ncluster_DashboardModule_declarations\n\n\n\ncluster_DashboardModule_imports\n\n\n\ncluster_DashboardModule_exports\n\n\n\ncluster_SearchModule\n\n\n\ncluster_SearchModule_declarations\n\n\n\ncluster_SearchModule_exports\n\n\n\ncluster_SharedModule\n\n\n\ncluster_SharedModule_imports\n\n\n\ncluster_SharedModule_exports\n\n\n\n\nAppComponent\n\nAppComponent\n\n\n\nAppModule\n\nAppModule\n\nAppModule -->\n\nAppComponent->AppModule\n\n\n\n\n\nAppComponent \n\nAppComponent \n\nAppComponent  -->\n\nAppModule->AppComponent \n\n\n\n\n\nAppRoutingModule\n\nAppRoutingModule\n\nAppModule -->\n\nAppRoutingModule->AppModule\n\n\n\n\n\nCardSingleModule\n\nCardSingleModule\n\nAppModule -->\n\nCardSingleModule->AppModule\n\n\n\n\n\nDashboardModule\n\nDashboardModule\n\nDashboardModule -->\n\nCardSingleModule->DashboardModule\n\n\n\n\n\nCardPopupModule\n\nCardPopupModule\n\nCardPopupModule -->\n\nCardSingleModule->CardPopupModule\n\n\n\n\n\nCardSingleComponent \n\nCardSingleComponent \n\nCardSingleComponent  -->\n\nCardSingleModule->CardSingleComponent \n\n\n\nAppModule -->\n\nDashboardModule->AppModule\n\n\n\nAppRoutingModule -->\n\nDashboardModule->AppRoutingModule\n\n\n\n\n\nDashboardComponent \n\nDashboardComponent \n\nDashboardComponent  -->\n\nDashboardModule->DashboardComponent \n\n\n\n\n\nSharedModule\n\nSharedModule\n\nAppModule -->\n\nSharedModule->AppModule\n\n\n\nCardSingleModule -->\n\nSharedModule->CardSingleModule\n\n\n\nDashboardModule -->\n\nSharedModule->DashboardModule\n\n\n\n\n\nCardGridModule\n\nCardGridModule\n\nCardGridModule -->\n\nSharedModule->CardGridModule\n\n\n\n\n\nSearchModule\n\nSearchModule\n\nSearchModule -->\n\nSharedModule->SearchModule\n\n\n\n\n\nMaterialModule \n\nMaterialModule \n\nMaterialModule  -->\n\nSharedModule->MaterialModule \n\n\n\n\n\nCardGridComponent\n\nCardGridComponent\n\nCardGridModule -->\n\nCardGridComponent->CardGridModule\n\n\n\nDashboardModule -->\n\nCardGridModule->DashboardModule\n\n\n\n\n\nCardGridComponent \n\nCardGridComponent \n\nCardGridComponent  -->\n\nCardGridModule->CardGridComponent \n\n\n\nCardGridModule -->\n\nCardPopupModule->CardGridModule\n\n\n\n\n\nCardPopupComponent\n\nCardPopupComponent\n\nCardPopupModule -->\n\nCardPopupComponent->CardPopupModule\n\n\n\n\n\nCardSingleComponent\n\nCardSingleComponent\n\nCardSingleModule -->\n\nCardSingleComponent->CardSingleModule\n\n\n\n\n\nDashboardComponent\n\nDashboardComponent\n\nDashboardModule -->\n\nDashboardComponent->DashboardModule\n\n\n\n\n\nDashboardRoutingModule\n\nDashboardRoutingModule\n\nDashboardModule -->\n\nDashboardRoutingModule->DashboardModule\n\n\n\nDashboardModule -->\n\nSearchModule->DashboardModule\n\n\n\n\n\nSearchComponent \n\nSearchComponent \n\nSearchComponent  -->\n\nSearchModule->SearchComponent \n\n\n\n\n\nSearchComponent\n\nSearchComponent\n\nSearchModule -->\n\nSearchComponent->SearchModule\n\n\n\n\n\nMaterialModule\n\nMaterialModule\n\nSharedModule -->\n\nMaterialModule->SharedModule\n\n\n\n\n\n\n    \n    \n    \n        Zoom in\n        Reset\n        Zoom out\n    \n\n  \n\n    \n        \n            \n                \n                    \n                    \n                        10 Modules\n                    \n                \n            \n        \n        \n            \n                \n                    \n                    6 Components\n                \n            \n        \n        \n            \n                \n                    \n                    1 Injectable\n                \n            \n        \n        \n            \n                \n                    \n                    4 Classes\n                \n            \n        \n        \n            \n                \n                    \n                    \n                        2 Routes\n                    \n                \n            \n        \n    \n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                   \n    \n         result-matching ""\n        \n    \n    \n        No results matching ""\n    \n\n',
     },
     'routes.html': {
       url: 'routes.html',
       title: 'routes - routes',
       body:
-        '\n                   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    Routes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                   \n    \n         result-matching ""\n        \n    \n    \n        No results matching ""\n    \n\n'
+        '\n                   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    Routes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                   \n    \n         result-matching ""\n        \n    \n    \n        No results matching ""\n    \n\n',
     },
     'miscellaneous/variables.html': {
       url: 'miscellaneous/variables.html',
       title: 'miscellaneous-variables - variables',
       body:
-        '\n                   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  Miscellaneous\n  Variables\n\n\n\n    Index\n    \n        \n            \n                \n                    \n                        \n                            context   (src/.../test.ts)\n                        \n                        \n                            environment   (src/.../environment.prod.ts)\n                        \n                        \n                            environment   (src/.../environment.ts)\n                        \n                        \n                            require   (src/.../test.ts)\n                        \n                    \n                \n            \n        \n    \n\n\n    src/test.ts\n    \n            \n            \n                \n                    \n                        \n                        \n                            \n                            context\n                            \n                        \n                    \n                \n                    \n                        \n                            Default value : require.context(\'./\', true, /\\.spec\\.ts$/)\n                        \n                    \n\n\n            \n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                            require\n                            \n                        \n                    \n                \n                    \n                        \n                            Type :     any\n\n                        \n                    \n\n\n            \n        \n\n    src/environments/environment.prod.ts\n    \n            \n            \n                \n                    \n                        \n                        \n                            \n                            environment\n                            \n                        \n                    \n                \n                    \n                        \n                            Type :     object\n\n                        \n                    \n                    \n                        \n                            Default value : {\n  production: true\n}\n                        \n                    \n\n\n            \n        \n\n    src/environments/environment.ts\n    \n            \n            \n                \n                    \n                        \n                        \n                            \n                            environment\n                            \n                        \n                    \n                \n                    \n                        \n                            Type :     object\n\n                        \n                    \n                    \n                        \n                            Default value : {\n  production: false\n}\n                        \n                    \n\n\n            \n        \n\n\n\n\n                   \n    \n         result-matching ""\n        \n    \n    \n        No results matching ""\n    \n\n'
-    }
-  }
+        '\n                   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  Miscellaneous\n  Variables\n\n\n\n    Index\n    \n        \n            \n                \n                    \n                        \n                            context   (src/.../test.ts)\n                        \n                        \n                            environment   (src/.../environment.prod.ts)\n                        \n                        \n                            environment   (src/.../environment.ts)\n                        \n                        \n                            require   (src/.../test.ts)\n                        \n                    \n                \n            \n        \n    \n\n\n    src/test.ts\n    \n            \n            \n                \n                    \n                        \n                        \n                            \n                            context\n                            \n                        \n                    \n                \n                    \n                        \n                            Default value : require.context(\'./\', true, /\\.spec\\.ts$/)\n                        \n                    \n\n\n            \n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                            require\n                            \n                        \n                    \n                \n                    \n                        \n                            Type :     any\n\n                        \n                    \n\n\n            \n        \n\n    src/environments/environment.prod.ts\n    \n            \n            \n                \n                    \n                        \n                        \n                            \n                            environment\n                            \n                        \n                    \n                \n                    \n                        \n                            Type :     object\n\n                        \n                    \n                    \n                        \n                            Default value : {\n  production: true\n}\n                        \n                    \n\n\n            \n        \n\n    src/environments/environment.ts\n    \n            \n            \n                \n                    \n                        \n                        \n                            \n                            environment\n                            \n                        \n                    \n                \n                    \n                        \n                            Type :     object\n\n                        \n                    \n                    \n                        \n                            Default value : {\n  production: false\n}\n                        \n                    \n\n\n            \n        \n\n\n\n\n                   \n    \n         result-matching ""\n        \n    \n    \n        No results matching ""\n    \n\n',
+    },
+  },
 };

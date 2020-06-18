@@ -9,6 +9,6 @@ const routes: Routes = [{ path: '**', component: DashboardComponent }];
 @NgModule({
   declarations: [],
   imports: [CommonModule, RouterModule.forRoot(routes), DashboardModule],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
 export class AppRoutingModule {}

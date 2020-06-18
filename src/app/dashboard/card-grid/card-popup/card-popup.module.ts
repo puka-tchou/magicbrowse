@@ -5,6 +5,6 @@ import { CardSingleModule } from '../../card-single/card-single.module';
 
 @NgModule({
   declarations: [CardPopupComponent],
-  imports: [CommonModule, CardSingleModule]
+  imports: [CommonModule, CardSingleModule],
 })
 export class CardPopupModule {}

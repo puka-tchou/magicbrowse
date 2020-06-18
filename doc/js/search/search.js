@@ -1,4 +1,4 @@
-(function(compodoc) {
+(function (compodoc) {
   var MAX_RESULTS = 15,
     MAX_DESCRIPTION_SIZE = 500,
     usePushState = typeof history.pushState !== 'undefined',
@@ -17,11 +17,11 @@
   function throttle(fn, wait) {
     var timeout;
 
-    return function() {
+    return function () {
       var ctx = this,
         args = arguments;
       if (!timeout) {
-        timeout = setTimeout(function() {
+        timeout = setTimeout(function () {
           timeout = undefined;
           fn.apply(ctx, args);
         }, wait);
@@ -42,11 +42,11 @@
     $searchQuery.text(res.query);
 
     // Group result by context
-    res.results.forEach(function(res) {
+    res.results.forEach(function (res) {
       var context = res.title.split(' - ')[0];
       if (typeof groups[context] === 'undefined') {
         groups[context] = {
-          results: [res]
+          results: [res],
         };
       } else {
         groups[context].results.push(res);
@@ -59,7 +59,7 @@
       var property = sortedGroups[i];
 
       var $li = $('<li>', {
-        class: 'search-results-group'
+        class: 'search-results-group',
       });
       var finalPropertyLabel = '';
       var propertyLabels = property.split('-');
@@ -90,18 +90,18 @@
           ')';
       }
       var $groupTitle = $('<h3>', {
-        text: finalPropertyLabel
+        text: finalPropertyLabel,
       });
       $groupTitle.appendTo($li);
 
       var $ulResults = $('<ul>', {
-        class: 'search-results-list'
+        class: 'search-results-list',
       });
 
-      groups[property].results.forEach(function(res) {
+      groups[property].results.forEach(function (res) {
         var link = '';
         var $liResult = $('<li>', {
-          class: 'search-results-item'
+          class: 'search-results-item',
         });
         switch (COMPODOC_CURRENT_PAGE_DEPTH) {
           case 0:
@@ -116,13 +116,11 @@
             break;
         }
         var finalResLabel =
-          res.title
-            .split(' - ')[1]
-            .charAt(0)
-            .toUpperCase() + res.title.split(' - ')[1].substring(1);
+          res.title.split(' - ')[1].charAt(0).toUpperCase() +
+          res.title.split(' - ')[1].substring(1);
         var $link = $('<a>', {
           href: link + res.url,
-          text: finalResLabel
+          text: finalResLabel,
         });
         $link.appendTo($liResult);
         $liResult.appendTo($ulResults);
@@ -142,7 +140,7 @@
     }
 
     throttle(
-      compodoc.search.query(q, 0, MAX_RESULTS).then(function(results) {
+      compodoc.search.query(q, 0, MAX_RESULTS).then(function (results) {
         displayResults(results);
       }),
       1000
@@ -158,13 +156,13 @@
   }
 
   function bindMenuButton() {
-    document.getElementById('btn-menu').addEventListener('click', function() {
+    document.getElementById('btn-menu').addEventListener('click', function () {
       if ($xsMenu.css('display') === 'none') {
         $body.removeClass('with-search');
         $mainContainer.css('height', 'calc(100% - 50px)');
         $mainContainer.css('margin-top', '50px');
       }
-      $.each($searchInputs, function(index, item) {
+      $.each($searchInputs, function (index, item) {
         var item = $(item);
         item.val('');
       });
@@ -201,10 +199,10 @@
     // Detect true content change in search input
     var propertyChangeUnbound = false;
 
-    $.each($searchInputs, function(index, item) {
+    $.each($searchInputs, function (index, item) {
       var item = $(item);
       // HTML5 (IE9 & others)
-      item.on('input', function(e) {
+      item.on('input', function (e) {
         // Unbind propertychange event for IE9+
         if (!propertyChangeUnbound) {
           $(this).unbind('propertychange');
@@ -214,13 +212,13 @@
         handleUpdate($(this));
       });
       // Workaround for IE < 9
-      item.on('propertychange', function(e) {
+      item.on('propertychange', function (e) {
         if (e.originalEvent.propertyName == 'value') {
           handleUpdate($(this));
         }
       });
       // Push to history on blur
-      item.on('blur', function(e) {
+      item.on('blur', function (e) {
         // Update history state
         if (usePushState) {
           var uri = updateQueryString('q', $(this).val());
@@ -236,7 +234,7 @@
     var q = getParameterByName('q');
     if (q && q.length > 0) {
       // Update search inputs
-      $.each($searchInputs, function(index, item) {
+      $.each($searchInputs, function (index, item) {
         var item = $(item);
         item.val(q);
       });
@@ -245,7 +243,7 @@
     }
   }
 
-  compodoc.addEventListener(compodoc.EVENTS.SEARCH_READY, function(event) {
+  compodoc.addEventListener(compodoc.EVENTS.SEARCH_READY, function (event) {
     bindSearch();
 
     bindMenuButton();

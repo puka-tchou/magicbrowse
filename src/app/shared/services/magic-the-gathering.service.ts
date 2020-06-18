@@ -3,11 +3,11 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import {
   Cards,
-  CardsAutocomplete
+  CardsAutocomplete,
 } from '../models/magicthegathering/magic-the-gathering.model';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class MagicTheGatheringService {
   constructor(private http: HttpClient) {}

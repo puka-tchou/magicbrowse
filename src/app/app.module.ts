@@ -15,9 +15,9 @@ import { CardSingleModule } from './dashboard/card-single/card-single.module';
     SharedModule,
     DashboardModule,
     CardSingleModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
 export class AppModule {}

@@ -6,9 +6,9 @@
  *
  * Minor modifications by Chris Price to only polyfill when required.
  */
-!(function(e) {
+!(function (e) {
   if (e && !('innerHTML' in e.prototype)) {
-    var t = function(e, r) {
+    var t = function (e, r) {
       var i = e.nodeType;
       if (3 == i)
         r.push(
@@ -35,11 +35,11 @@
       }
     };
     Object.defineProperty(e.prototype, 'innerHTML', {
-      get: function() {
+      get: function () {
         for (var e = [], r = this.firstChild; r; ) t(r, e), (r = r.nextSibling);
         return e.join('');
       },
-      set: function(e) {
+      set: function (e) {
         for (; this.firstChild; ) this.removeChild(this.firstChild);
         try {
           var t = new DOMParser();
@@ -56,7 +56,7 @@
         } catch (e) {
           throw new Error('Error parsing XML string');
         }
-      }
+      },
     });
   }
 })((0, eval)('this').SVGElement);

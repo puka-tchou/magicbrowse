@@ -8,7 +8,7 @@ describe('CardPopupComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [CardPopupComponent]
+      declarations: [CardPopupComponent],
     }).compileComponents();
   }));
 

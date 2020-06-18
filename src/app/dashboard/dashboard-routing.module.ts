@@ -7,6 +7,6 @@ const routes: Routes = [{ path: 'card/:query', component: DashboardComponent }];
 
 @NgModule({
   declarations: [],
-  imports: [CommonModule, RouterModule.forRoot(routes)]
+  imports: [CommonModule, RouterModule.forRoot(routes)],
 })
 export class DashboardRoutingModule {}

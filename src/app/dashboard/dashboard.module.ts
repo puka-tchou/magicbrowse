@@ -15,8 +15,8 @@ import { SearchModule } from './search/search.module';
     CardGridModule,
     CardSingleModule,
     SearchModule,
-    DashboardRoutingModule
+    DashboardRoutingModule,
   ],
-  exports: [DashboardComponent]
+  exports: [DashboardComponent],
 })
 export class DashboardModule {}

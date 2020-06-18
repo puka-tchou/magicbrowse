@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
   var $tabSource = document.querySelector('#source-tab'),
     $tabInfo = document.querySelector('#info-tab'),
     $tabReadme = document.querySelector('#readme-tab'),
@@ -20,18 +20,18 @@ document.addEventListener('DOMContentLoaded', function() {
       event.preventDefault();
 
       $prismPre.setAttribute('data-line', targetLine);
-      Prism.highlightElement($prismCode, function() {});
+      Prism.highlightElement($prismCode, function () {});
 
       $tabSource.click();
 
-      setTimeout(function() {
+      setTimeout(function () {
         var $prismHighlightLine = document.querySelector('.line-highlight'),
           top = parseInt(getComputedStyle($prismHighlightLine)['top']);
         $content.scrollTop = top;
       }, 500);
     }
 
-    window.onhashchange = function(event) {
+    window.onhashchange = function (event) {
       switch (window.location.hash) {
         case '':
         case '#info':
