@@ -67,7 +67,7 @@ export class CardSingleComponent implements OnInit, OnChanges, AfterViewInit {
     const geometryFront = new PlaneGeometry(0.715668161, 1);
     const geometryBack = new PlaneGeometry(0.715668161, 1);
     // Rotate backside 180deg
-    geometryBack.applyMatrix(new Matrix4().makeRotationY(Math.PI));
+    geometryBack.applyMatrix4(new Matrix4().makeRotationY(Math.PI));
     // Define front and back texture
     const textureFront = new TextureLoader().load(image);
     const textureBack = new TextureLoader().load('assets/back.png');
